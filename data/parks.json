@@ -1,0 +1,1735 @@
+{
+ "generated_at": "2026-11-12",
+ "facility_labels": {
+  "playground": "遊具",
+  "toilet": "トイレ",
+  "parking": "駐車場",
+  "shade": "日陰",
+  "pet": "ペット可",
+  "nursing_room": "授乳室",
+  "barrier_free": "バリアフリー"
+ },
+ "parks": [
+  {
+   "id": "osakajo",
+   "name": "大阪城公園",
+   "kana": "おおさかじょうこうえん",
+   "ward": "中央区",
+   "address": "大阪市中央区大阪城1-1外",
+   "lat": 34.6872376900003,
+   "lng": 135.5260371,
+   "park_type": "歴史公園",
+   "area_m2": 1055589,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": true,
+    "shade": true,
+    "pet": null,
+    "nursing_room": true,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "playground": "大型の複合遊具あり（市の資料で確認）",
+    "toilet": "バリアフリートイレが園内各所にある",
+    "parking": "有料。大阪城公園駅前駐車場（約170台）・森ノ宮駐車場（約140台）。料金は公式で確認",
+    "shade": "市民の森などの樹林と屋内の休憩所あり。夏の木陰の程度は現地確認",
+    "nursing_room": "JO-TERRACE OSAKA 1Fとミライザ大阪城に授乳室",
+    "barrier_free": "バリアフリールート・多機能トイレあり（公式のバリアフリーマップ）"
+   },
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "nagai",
+   "name": "長居公園",
+   "kana": "ながいこうえん",
+   "ward": "東住吉区",
+   "address": "大阪市東住吉区長居公園1-1",
+   "lat": 34.6128683500003,
+   "lng": 135.5224437,
+   "park_type": "運動公園",
+   "area_m2": 661132,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": null,
+    "toilet": true,
+    "parking": true,
+    "shade": true,
+    "pet": true,
+    "nursing_room": true,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "playground": "公式ガイドに「こども広場」が4か所あるが、遊具の内容は書かれていない（現地確認）",
+    "toilet": "公衆トイレが園内に複数。一部にベビーベッド",
+    "parking": "有料（スタジアム前・地下・植物園前など）。工事等で一部休止の時期あり",
+    "shade": "郷土の森・おもいでの森などの樹林あり。木陰の程度は現地確認",
+    "pet": "リード着用・フンは持ち帰り",
+    "nursing_room": "花と緑の情報センター、自然史博物館、長居プールなどの施設内",
+    "barrier_free": "各駐車場に障がい者用スペースあり。多目的トイレは公式に記載なし"
+   },
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "tsurumi-ryokuchi",
+   "name": "花博記念公園鶴見緑地",
+   "kana": "はなはくきねんこうえんつるみりょくち",
+   "ward": "鶴見区",
+   "address": "大阪市鶴見区緑地公園2外",
+   "lat": 34.7133239300002,
+   "lng": 135.57708,
+   "park_type": "広域公園",
+   "area_m2": 1226698,
+   "area_note": "開設面積（守口市域を含む）。うち大阪市域 686,768㎡",
+   "operator": "大阪市",
+   "facilities": {
+    "playground": null,
+    "toilet": true,
+    "parking": true,
+    "shade": null,
+    "pet": true,
+    "nursing_room": true,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "playground": "公式サイトでは遊具の記載を確認できず（報道・紹介記事では遊具広場ありとされる。現地確認）",
+    "toilet": "園内のトイレにトイレットペーパーあり（多目的トイレの記載なし）",
+    "parking": "園内に有料駐車場6か所。障がい者手帳提示で割引あり",
+    "pet": "リード着用・フンは持ち帰り。花壇と一部の有料施設は不可",
+    "nursing_room": "園内の授乳室は咲くやこの花館の中だけ（休館日あり）",
+    "barrier_free": "各駐車場に身障者用スペースあり"
+   },
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、表示名を「花博記念公園鶴見緑地」とした（元データの名称は「鶴見緑地（市内）」）、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "tennoji",
+   "name": "天王寺公園",
+   "kana": "てんのうじこうえん",
+   "ward": "天王寺区",
+   "address": "大阪市天王寺区茶臼山町1外",
+   "lat": 34.6507980400003,
+   "lng": 135.5100192,
+   "park_type": "動植物公園",
+   "area_m2": 261821,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": null,
+    "toilet": true,
+    "parking": true,
+    "shade": null,
+    "pet": true,
+    "nursing_room": true,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "playground": "てんしばに有料の子どもの遊び場あり。無料の屋外遊具は未確認",
+    "toilet": "てんしば内にバリアフリートイレ（オストメイト・おむつ交換台）",
+    "parking": "隣接の有料駐車場（てんしば公式で案内、約70台）",
+    "pet": "リード着用で散歩可。芝生広場には入れない",
+    "nursing_room": "てんしば i:na 内に1室（てんしばの屋外にはなし）",
+    "barrier_free": "バリアフリートイレ2か所、地下からのエレベーターあり"
+   },
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "utsubo",
+   "name": "靱公園",
+   "kana": "うつぼこうえん",
+   "ward": "西区",
+   "address": "大阪市西区靱本町1-9ほか",
+   "lat": 34.6846903,
+   "lng": 135.4926965,
+   "park_type": "総合公園",
+   "area_m2": 96723,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": null,
+    "toilet": true,
+    "parking": true,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "toilet": "4か所（2019年時点の市資料）",
+    "parking": "市営の靱駐車場（地下・有料、約250台）。2019年時点の情報、料金は公式で確認",
+    "playground": "東園に遊具ありとの紹介はあるが公式で未確認"
+   },
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "東園・西園・バラ園の3件を1公園に統合し、位置は東園と西園の中間点とした、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "nakanoshima",
+   "name": "中之島公園",
+   "kana": "なかのしまこうえん",
+   "ward": "北区",
+   "address": "大阪市北区中之島1-1外",
+   "lat": 34.6930833400003,
+   "lng": 135.504462,
+   "park_type": "風致公園",
+   "area_m2": 96275,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": null,
+    "toilet": true,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "toilet": "2か所（2019年時点の市資料）"
+   },
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "ogimachi",
+   "name": "扇町公園",
+   "kana": "おうぎまちこうえん",
+   "ward": "北区",
+   "address": "大阪市北区扇町1-1",
+   "lat": 34.7036266800003,
+   "lng": 135.5091164,
+   "park_type": "地区公園",
+   "area_m2": 73195,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": true,
+    "shade": null,
+    "pet": null,
+    "nursing_room": true,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "大型の複合遊具あり",
+    "toilet": "1か所（2019年時点の市資料）",
+    "parking": "公園駐車場（約100台）と市営の扇町駐車場（約260台）。いずれも有料、2019年時点",
+    "nursing_room": "園内の扇町プールに授乳スペース（施設の営業時間内）"
+   },
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "suminoe",
+   "name": "住之江公園",
+   "kana": "すみのえこうえん",
+   "ward": "住之江区",
+   "address": "大阪市住之江区南加賀屋1-1-117",
+   "lat": 34.60968,
+   "lng": 135.47462,
+   "park_type": "府営公園",
+   "area_m2": 151000,
+   "area_note": "開設面積 15.1ha（府営公園一覧より）",
+   "operator": "大阪府（府営公園）",
+   "facilities": {
+    "playground": true,
+    "toilet": null,
+    "parking": true,
+    "shade": null,
+    "pet": true,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "児童遊戯場（砂場・遊具・長いすべり台）",
+    "parking": "管理事務所横に約60台・24時間。数に限りあり、料金は公式で確認",
+    "pet": "府営公園のルールでリード着用・フン始末。ドッグランあり（利用登録制）"
+   },
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "大阪府営公園一覧（大阪府）",
+      "url": "https://data.bodik.jp/dataset/270008_park_list",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・面積を抽出"
+   }
+  },
+  {
+   "id": "sumiyoshi",
+   "name": "住吉公園",
+   "kana": "すみよしこうえん",
+   "ward": "住之江区",
+   "address": "大阪市住之江区浜口東1-1-13",
+   "lat": 34.61375,
+   "lng": 135.48764,
+   "park_type": "府営公園",
+   "area_m2": 80000,
+   "area_note": "開設面積 8.0ha（府営公園一覧より）",
+   "operator": "大阪府（府営公園）",
+   "facilities": {
+    "playground": true,
+    "toilet": null,
+    "parking": false,
+    "shade": null,
+    "pet": true,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "児童遊戯場（幼児向け遊具・健康遊具）",
+    "parking": "駐車場なし（府の公園一覧に明記）",
+    "pet": "府営公園のルールでリード着用・フン始末"
+   },
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "大阪府営公園一覧（大阪府）",
+      "url": "https://data.bodik.jp/dataset/270008_park_list",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・面積を抽出"
+   }
+  },
+  {
+   "id": "sakuranomiya",
+   "name": "桜之宮公園",
+   "kana": "さくらのみやこうえん",
+   "ward": "都島区",
+   "address": "大阪市都島区中野町1-10外",
+   "lat": 34.6985720100003,
+   "lng": 135.5236042,
+   "park_type": "総合公園",
+   "area_m2": 237236,
+   "area_note": "北区域 55,819㎡＋都島区域 181,417㎡の合計",
+   "operator": "大阪市",
+   "facilities": {
+    "playground": null,
+    "toilet": true,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "toilet": "10か所（2019年時点の市資料）",
+    "playground": "児童遊技場（通称パンダ公園）があるとの紹介はあるが公式で未確認"
+   },
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積を都市公園一覧表から付与（北区・都島区の2行を合算）"
+   }
+  },
+  {
+   "id": "shirokita",
+   "name": "城北公園",
+   "kana": "しろきたこうえん",
+   "ward": "旭区",
+   "address": "大阪市旭区生江3-29",
+   "lat": 34.7293049700003,
+   "lng": 135.5396445,
+   "park_type": "総合公園",
+   "area_m2": 96481,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "遊具広場あり（市資料）",
+    "toilet": "5か所（2019年時点の市資料）",
+    "parking": "公園専用駐車場はないとする紹介があるが公式で未確認"
+   },
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "nanko-chuo",
+   "name": "南港中央公園",
+   "kana": "なんこうちゅうおうこうえん",
+   "ward": "住之江区",
+   "address": "大阪市住之江区南港東8-5",
+   "lat": 34.6319450400006,
+   "lng": 135.432219900001,
+   "park_type": "総合公園",
+   "area_m2": 208820,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": null,
+    "toilet": true,
+    "parking": true,
+    "shade": null,
+    "pet": null,
+    "nursing_room": true,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "toilet": "3か所（2019年時点の市資料）",
+    "parking": "公園駐車場（約260台・有料）。2019年時点",
+    "nursing_room": "園内の南港中央野球場・庭球場に授乳スペース（施設の営業時間内）"
+   },
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "yahataya",
+   "name": "八幡屋公園",
+   "kana": "やはたやこうえん",
+   "ward": "港区",
+   "address": "大阪市港区田中3-1",
+   "lat": 34.6601760800006,
+   "lng": 135.446442200001,
+   "park_type": "総合公園",
+   "area_m2": 124811,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": true,
+    "toilet": null,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "動物モチーフの遊具あり"
+   },
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "chishima",
+   "name": "千島公園",
+   "kana": "ちしまこうえん",
+   "ward": "大正区",
+   "address": "大阪市大正区千島2-7",
+   "lat": 34.6488972900004,
+   "lng": 135.474035600001,
+   "park_type": "総合公園",
+   "area_m2": 111970,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": null,
+    "toilet": true,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "toilet": "4か所（2019年時点の市資料）",
+    "nursing_room": "園内の千島体育館はおむつ替えのみ。隣の大正区役所（平日）に授乳室"
+   },
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "nakajima",
+   "name": "中島公園",
+   "kana": "なかじまこうえん",
+   "ward": "西淀川区",
+   "address": "大阪市西淀川区中島1-22",
+   "lat": 34.6987443600006,
+   "lng": 135.426488800001,
+   "park_type": "総合公園",
+   "area_m2": 130135,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": true,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "公園南部に遊具広場（市資料）",
+    "toilet": "4か所（2019年時点の市資料）",
+    "parking": "中島公園駐車場（約90台）・第2駐車場（約55台）。有料、2019年時点"
+   },
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "kema",
+   "name": "毛馬公園",
+   "kana": "けまこうえん",
+   "ward": "北区",
+   "address": "大阪市北区長柄東1-6・2-9",
+   "lat": 34.7147780000003,
+   "lng": 135.5203062,
+   "park_type": "地区公園",
+   "area_m2": 69137,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": null,
+    "toilet": null,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {},
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "sanadayama",
+   "name": "真田山公園",
+   "kana": "さなだやまこうえん",
+   "ward": "天王寺区",
+   "address": "大阪市天王寺区真田山町5",
+   "lat": 34.6698744100003,
+   "lng": 135.5282939,
+   "park_type": "地区公園",
+   "area_m2": 54119,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": true,
+    "shade": null,
+    "pet": null,
+    "nursing_room": true,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "遊具広場あり（市資料）",
+    "toilet": "1か所（2019年時点の市資料）",
+    "parking": "公園第2駐車場（約45台・有料）ほか。2019年時点",
+    "nursing_room": "園内の天王寺スポーツセンターに授乳スペース（施設の営業時間内）"
+   },
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "umekita",
+   "name": "うめきた公園",
+   "kana": "うめきたこうえん",
+   "ward": "北区",
+   "address": "大阪市北区大深町１丁目",
+   "lat": 34.7033589300004,
+   "lng": 135.492448200001,
+   "park_type": "総合公園",
+   "area_m2": 34658,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": null,
+    "toilet": null,
+    "parking": false,
+    "shade": null,
+    "pet": true,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "parking": "公園内には駐車場なし。隣のグラングリーン大阪の北館・南館に有料駐車場",
+    "pet": "リード着用か抱っこで散歩可。ロングリード不可、植栽帯・施設内などは不可",
+    "nursing_room": "隣接する北館・南館の建物内に授乳室（公園内ではない）"
+   },
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "momogaike",
+   "name": "桃ヶ池公園",
+   "kana": "ももがいけこうえん",
+   "ward": "阿倍野区",
+   "address": "大阪市阿倍野区桃ヶ池町1-6外",
+   "lat": 34.6308200000003,
+   "lng": 135.52145,
+   "park_type": "地区公園",
+   "area_m2": 66765,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": null,
+    "toilet": null,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {},
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "uriwari-minami-yamatogawa",
+   "name": "瓜破南大和川公園",
+   "kana": "うりわりみなみやまとがわこうえん",
+   "ward": "平野区",
+   "address": "大阪市平野区瓜破南1-4",
+   "lat": 34.5975969000002,
+   "lng": 135.5495362,
+   "park_type": "地区公園",
+   "area_m2": 55438,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": null,
+    "toilet": null,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {},
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "nagaike",
+   "name": "長池公園",
+   "kana": "ながいけこうえん",
+   "ward": "阿倍野区",
+   "address": "大阪市阿倍野区長池町14外",
+   "lat": 34.6230334400003,
+   "lng": 135.5192348,
+   "park_type": "地区公園",
+   "area_m2": 46880,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": null,
+    "toilet": null,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {},
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "izuo",
+   "name": "泉尾公園",
+   "kana": "いずおこうえん",
+   "ward": "大正区",
+   "address": "大阪市大正区泉尾4-21",
+   "lat": 34.6572298200005,
+   "lng": 135.468648900001,
+   "park_type": "地区公園",
+   "area_m2": 45299,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": null,
+    "toilet": null,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {},
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "tatsumi-higashi-ryokuchi",
+   "name": "巽東緑地公園",
+   "kana": "たつみひがしりょくちこうえん",
+   "ward": "生野区",
+   "address": "大阪市生野区巽東4-10外",
+   "lat": 34.6453136500002,
+   "lng": 135.5596354,
+   "park_type": "地区公園",
+   "area_m2": 47644,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": null,
+    "toilet": null,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {},
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "shorenjigawa",
+   "name": "正蓮寺川公園",
+   "kana": "しょうれんじがわこうえん",
+   "ward": "此花区",
+   "address": "大阪市此花区朝日2",
+   "lat": 34.6865246500005,
+   "lng": 135.461800100001,
+   "park_type": "都市緑地",
+   "area_m2": 53685,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": true,
+    "toilet": null,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "遊具あり（2020年の市資料）。公園は拡張整備中",
+    "toilet": "2019年時点の市資料ではトイレなし。その後の拡張で整備計画あり（現状は現地確認）"
+   },
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "mandaiike",
+   "name": "万代池公園",
+   "kana": "ばんだいいけこうえん",
+   "ward": "住吉区",
+   "address": "大阪市住吉区万代3-7",
+   "lat": 34.6203100000004,
+   "lng": 135.50365,
+   "park_type": "地区公園",
+   "area_m2": 44116,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": null,
+    "toilet": null,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {},
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "nishinari",
+   "name": "西成公園",
+   "kana": "にしなりこうえん",
+   "ward": "西成区",
+   "address": "大阪市西成区津守1-13",
+   "lat": 34.6458291100004,
+   "lng": 135.482000300001,
+   "park_type": "地区公園",
+   "area_m2": 42376,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": null,
+    "toilet": null,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {},
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "shimofukushima",
+   "name": "下福島公園",
+   "kana": "しもふくしまこうえん",
+   "ward": "福島区",
+   "address": "大阪市福島区福島4-1",
+   "lat": 34.6906375000004,
+   "lng": 135.482765400001,
+   "park_type": "地区公園",
+   "area_m2": 41307,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": null,
+    "toilet": null,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "nursing_room": "下福島プール（福島4-1-82）に授乳スペース。公園内の施設かは未確認"
+   },
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "asahi",
+   "name": "旭公園",
+   "kana": "あさひこうえん",
+   "ward": "旭区",
+   "address": "大阪市旭区高殿5-7",
+   "lat": 34.7183600000003,
+   "lng": 135.54091,
+   "park_type": "地区公園",
+   "area_m2": 40775,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": null,
+    "toilet": null,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "nursing_room": "近くの旭スポーツセンター（高殿5-3-25）に授乳スペース。公園内かは未確認"
+   },
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "tatsumi",
+   "name": "巽公園",
+   "kana": "たつみこうえん",
+   "ward": "生野区",
+   "address": "大阪市生野区巽西1-7",
+   "lat": 34.6515200000002,
+   "lng": 135.54744,
+   "park_type": "地区公園",
+   "area_m2": 39825,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": true,
+    "toilet": null,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "石山・クライミングスライダー・ネット遊具あり",
+    "nursing_room": "近くの生野スポーツセンター（巽西1-1-3）に授乳スペース。公園内かは未確認"
+   },
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "hirano-shirasagi",
+   "name": "平野白鷺公園",
+   "kana": "ひらのしらさぎこうえん",
+   "ward": "東住吉区",
+   "address": "大阪市東住吉区今川6-7",
+   "lat": 34.6270992400003,
+   "lng": 135.5428407,
+   "park_type": "地区公園",
+   "area_m2": 37940,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": null,
+    "toilet": null,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {},
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "minamitsumori-sakura",
+   "name": "南津守さくら公園",
+   "kana": "みなみつもりさくらこうえん",
+   "ward": "西成区",
+   "address": "大阪市西成区南津守1丁目2番",
+   "lat": 34.6372139000004,
+   "lng": 135.483956100001,
+   "park_type": "地区公園",
+   "area_m2": 37516,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": null,
+    "toilet": null,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {},
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "kobayashi",
+   "name": "小林公園",
+   "kana": "こばやしこうえん",
+   "ward": "大正区",
+   "address": "大阪市大正区小林東2-12",
+   "lat": 34.6439502500004,
+   "lng": 135.475444800001,
+   "park_type": "地区公園",
+   "area_m2": 35390,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": null,
+    "toilet": null,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {},
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "matsushima",
+   "name": "松島公園",
+   "kana": "まつしまこうえん",
+   "ward": "西区",
+   "address": "大阪市西区千代崎1-3外",
+   "lat": 34.6762000000004,
+   "lng": 135.480530000001,
+   "park_type": "地区公園",
+   "area_m2": 35264,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": null,
+    "toilet": null,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {},
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "juhachijo-higashi",
+   "name": "十八条東公園",
+   "kana": "じゅうはちじょうひがしこうえん",
+   "ward": "淀川区",
+   "address": "大阪市淀川区十八条1-8",
+   "lat": 34.7476745100004,
+   "lng": 135.4954588,
+   "park_type": "地区公園",
+   "area_m2": 34802,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": null,
+    "toilet": null,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {},
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "asaka-chuo",
+   "name": "浅香中央公園",
+   "kana": "あさかちゅうおうこうえん",
+   "ward": "住吉区",
+   "address": "大阪市住吉区浅香1-6",
+   "lat": 34.5910095900003,
+   "lng": 135.5088229,
+   "park_type": "地区公園",
+   "area_m2": 34488,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": true,
+    "toilet": null,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "インクルーシブ遊具あり"
+   },
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "naniwanomiya",
+   "name": "難波宮跡公園",
+   "kana": "なにわのみやあとこうえん",
+   "ward": "中央区",
+   "address": "大阪市中央区法円坂1丁目6",
+   "lat": 34.6800860000003,
+   "lng": 135.5224392,
+   "park_type": "歴史公園",
+   "area_m2": 33504,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": null,
+    "toilet": null,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "parking": "事業者公募資料に駐車場の計画あり。台数・開業状況は未確認"
+   },
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "juso",
+   "name": "十三公園",
+   "kana": "じゅうそうこうえん",
+   "ward": "淀川区",
+   "address": "大阪市淀川区十三元今里1-1",
+   "lat": 34.7173758500004,
+   "lng": 135.477832000001,
+   "park_type": "地区公園",
+   "area_m2": 27979,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "遊具広場あり（市資料）",
+    "toilet": "2か所（2019年時点の市資料）"
+   },
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "utajima",
+   "name": "歌島公園",
+   "kana": "うたじまこうえん",
+   "ward": "西淀川区",
+   "address": "大阪市西淀川区御幣島5-7",
+   "lat": 34.7199200000005,
+   "lng": 135.457780000001,
+   "park_type": "地区公園",
+   "area_m2": 33441,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": null,
+    "toilet": null,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {},
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "nishiyodo",
+   "name": "西淀公園",
+   "kana": "にしよどこうえん",
+   "ward": "西淀川区",
+   "address": "大阪市西淀川区大和田1-1",
+   "lat": 34.7066700000005,
+   "lng": 135.451930000001,
+   "park_type": "地区公園",
+   "area_m2": 32681,
+   "area_note": null,
+   "operator": "大阪市",
+   "facilities": {
+    "playground": null,
+    "toilet": null,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {},
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     },
+     {
+      "name": "大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）",
+      "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出、面積・種別を都市公園一覧表から付与"
+   }
+  },
+  {
+   "id": "maishima-ryokuchi",
+   "name": "舞洲緑地",
+   "kana": "まいしまりょくち",
+   "ward": "此花区",
+   "address": "大阪市此花区北港緑地2-3",
+   "lat": 34.6635733700008,
+   "lng": 135.393967400001,
+   "park_type": null,
+   "area_m2": null,
+   "area_note": "都市公園一覧表に該当なし（未確認）",
+   "operator": "大阪市",
+   "facilities": {
+    "playground": null,
+    "toilet": null,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "大型遊具・トイレ・有料駐車場ありとの紹介記事はあるが公式で未確認"
+   },
+   "checked_at": "2026-11-13",
+   "check_method": "公式ページ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）",
+      "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html",
+      "license": "CC BY"
+     }
+    ],
+    "retrieved_at": "2026-11-12",
+    "processing": "名称・住所・緯度経度・公園種別を抽出"
+   }
+  }
+ ]
+}
