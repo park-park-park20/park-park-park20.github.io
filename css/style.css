@@ -110,6 +110,11 @@ img, svg { vertical-align: middle; }
 .ad-label { display: inline-block; font-size: 11px; font-weight: 700; color: #8a6a2a; border: 1px solid #d9bf86; border-radius: 4px; padding: 0 6px; margin-bottom: 4px; }
 .ad-slot p { margin: 0; font-size: 14px; }
 .ad-slot .ad-note { font-size: 12px; color: var(--ink-sub); margin-top: 4px; }
+.ad-slot .ad-title { font-weight: 700; margin-bottom: 6px; }
+.ad-links { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 8px; }
+.ad-links a { display: inline-block; font-size: 14px; padding: 4px 10px; border: 1px solid var(--ad-line); border-radius: 999px; background: var(--card); color: inherit; text-decoration: none; }
+.ad-links a:hover, .ad-links a:focus-visible { text-decoration: underline; }
+.ad-pixel { position: absolute; width: 1px; height: 1px; border: 0; opacity: 0; pointer-events: none; }
 
 /* map popup */
 .leaflet-popup-content { font-family: inherit; margin: 10px 14px; }

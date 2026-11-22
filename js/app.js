@@ -7,7 +7,48 @@
     '住吉区', '東住吉区', '平野区', '西成区'];
   var FACILITY_ORDER = ['playground', 'toilet', 'parking', 'shade', 'pet', 'nursing_room', 'barrier_free'];
   var AD_AFTER = 6; // 一覧のこの件数の後に広告枠を入れる
-  var SHOW_ADS = false; // アフィリエイト登録後、本物の広告に差し替えてから true にする
+  var SHOW_ADS = true; // false にすると広告をすべて隠す
+
+  /* ---------- 広告（もしもアフィリエイト経由の楽天市場） ---------- */
+  var MOSHIMO = 'a_id=5916582&p_id=54&pc_id=54&pl_id=616';
+  // 商品ページは売り切れで消えることがあるので、楽天市場の検索結果にリンクする
+  var SEASON_ITEMS = {
+    spring: { title: '春のおでかけグッズ', items: [['お花見用レジャーシート', 'お花見 レジャーシート'], ['ピクニックバスケット', 'ピクニック バスケット'], ['子ども用の日焼け止め', '日焼け止め 子供']] },
+    summer: { title: '夏の公園あそびグッズ', items: [['子ども用の虫よけ', '虫除け 子供'], ['ネッククーラー', 'ネッククーラー'], ['ワンタッチテント', 'ワンタッチテント']] },
+    autumn: { title: '秋のピクニックグッズ', items: [['厚手のレジャーシート', 'レジャーシート 厚手'], ['保冷ランチバッグ', '保冷バッグ ピクニック'], ['外あそびのおもちゃ', '外遊び おもちゃ']] },
+    winter: { title: '冬の公園おでかけグッズ', items: [['貼るカイロ', 'カイロ 貼る'], ['ひざ掛けブランケット', 'ブランケット 防寒 アウトドア'], ['保温できる水筒', '水筒 保温']] }
+  };
+
+  function currentSeason() {
+    var m = new Date().getMonth() + 1;
+    return m >= 3 && m <= 5 ? 'spring' : m >= 6 && m <= 8 ? 'summer' : m >= 9 && m <= 11 ? 'autumn' : 'winter';
+  }
+
+  function affUrl(keyword) {
+    var target = 'https://search.rakuten.co.jp/search/mall/' + encodeURIComponent(keyword) + '/';
+    return 'https://af.moshimo.com/af/c/click?' + MOSHIMO + '&url=' + encodeURIComponent(target);
+  }
+
+  function adLinksHtml(items) {
+    return '<ul class="ad-links">' + items.map(function (it) {
+      return '<li><a href="' + esc(affUrl(it[1])) + '" target="_blank" rel="nofollow sponsored noopener" referrerpolicy="no-referrer-when-downgrade">' +
+        esc(it[0]) + '</a></li>';
+    }).join('') + '</ul>' +
+      '<img class="ad-pixel" src="https://i.moshimo.com/af/i/impression?' + esc(MOSHIMO) + '" alt="" width="1" height="1" loading="lazy">';
+  }
+
+  // 公園の設備に合わせて、詳細画面に出すグッズを選ぶ
+  function detailAdItems(p) {
+    var f = p.facilities || {}, items = [['レジャーシート', 'レジャーシート 厚手']];
+    if (f.playground === true) items.push(['外あそびのおもちゃ', '外遊び おもちゃ']);
+    if (f.pet === true) items.push(['犬の散歩バッグ', '犬 散歩バッグ']);
+    if (f.shade !== true) items.push(['日よけテント', 'サンシェード テント']);
+    var season = SEASON_ITEMS[currentSeason()].items;
+    for (var i = 0; items.length < 3 && i < season.length; i++) {
+      if (!items.some(function (x) { return x[1] === season[i][1]; })) items.push(season[i]);
+    }
+    return items.slice(0, 3);
+  }
 
   var state = { parks: [], labels: {}, q: '', ward: '', sort: 'area', facilities: [], includeUnknown: true };
   var map, markers = {}, activeId = null, lastFocus = null;
@@ -116,10 +157,11 @@
   /* ---------- 描画 ---------- */
   function adSlotHtml() {
     if (!SHOW_ADS) return '';
+    var s = SEASON_ITEMS[currentSeason()];
     return '<li class="ad-slot" aria-label="広告">' +
       '<span class="ad-label">PR</span>' +
-      '<p>公園のおともに：レジャーシート・ワンタッチテント特集（ダミー枠）</p>' +
-      '<p class="ad-note">※ここにアフィリエイト広告が入ります（試作版のためリンクなし）</p>' +
+      '<p class="ad-title">' + esc(s.title) + '（楽天市場）</p>' +
+      adLinksHtml(s.items) +
       '</li>';
   }
 
@@ -257,8 +299,8 @@
       (p.check_method ? '（確認方法：' + esc(p.check_method) + '）' : '') +
       '<br><small>「未確認」は、設備が無いという意味ではありません。お出かけ前に公式情報をご確認ください。</small></p>' +
       (SHOW_ADS ? '<div class="ad-slot" style="margin-top:16px" aria-label="広告"><span class="ad-label">広告</span>' +
-      '<p>この公園へのおでかけに便利なグッズ（ダミー枠）</p>' +
-      '<p class="ad-note">※ここにアフィリエイト広告が入ります（試作版のためリンクなし）</p></div>' : '') +
+      '<p class="ad-title">この公園へのおでかけにあると便利（楽天市場）</p>' +
+      adLinksHtml(detailAdItems(p)) + '</div>' : '') +
       '<h3>この情報の出典</h3>' +
       '<div class="source-box">基本情報（名称・住所・位置・面積・種別）は、次のオープンデータを加工して作成しました（' +
       esc(p.source && p.source.retrieved_at) + ' 取得）。<ul>' + src + '</ul>' +
