@@ -14,6 +14,8 @@
    "id": "osakajo",
    "name": "大阪城公園",
    "kana": "おおさかじょうこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "中央区",
    "address": "大阪市中央区大阪城1-1外",
    "lat": 34.6872376900003,
@@ -62,6 +64,8 @@
    "id": "nagai",
    "name": "長居公園",
    "kana": "ながいこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "東住吉区",
    "address": "大阪市東住吉区長居公園1-1",
    "lat": 34.6128683500003,
@@ -82,13 +86,13 @@
    "facility_notes": {
     "playground": "公式ガイドに「こども広場」が4か所あるが、遊具の内容は書かれていない（現地確認）",
     "toilet": "公衆トイレが園内に複数。一部にベビーベッド",
-    "parking": "有料（スタジアム前・地下・植物園前など）。工事等で一部休止の時期あり",
+    "parking": "有料（スタジアム前・地下・植物園前など）。植物園駐車場は2026-10-04から2027年11月ごろまで利用が制限される。工事等で一部休止の時期あり",
     "shade": "郷土の森・おもいでの森などの樹林あり。木陰の程度は現地確認",
     "pet": "リード着用・フンは持ち帰り",
     "nursing_room": "花と緑の情報センター、自然史博物館、長居プールなどの施設内",
     "barrier_free": "各駐車場に障がい者用スペースあり。多目的トイレは公式に記載なし"
    },
-   "checked_at": "2026-11-13",
+   "checked_at": "2026-11-23",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -111,6 +115,8 @@
    "id": "tsurumi-ryokuchi",
    "name": "花博記念公園鶴見緑地",
    "kana": "はなはくきねんこうえんつるみりょくち",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "鶴見区",
    "address": "大阪市鶴見区緑地公園2外",
    "lat": 34.7133239300002,
@@ -159,6 +165,8 @@
    "id": "tennoji",
    "name": "天王寺公園",
    "kana": "てんのうじこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "天王寺区",
    "address": "大阪市天王寺区茶臼山町1外",
    "lat": 34.6507980400003,
@@ -207,6 +215,8 @@
    "id": "utsubo",
    "name": "靱公園",
    "kana": "うつぼこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "西区",
    "address": "大阪市西区靱本町1-9ほか",
    "lat": 34.6846903,
@@ -252,6 +262,8 @@
    "id": "nakanoshima",
    "name": "中之島公園",
    "kana": "なかのしまこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "北区",
    "address": "大阪市北区中之島1-1外",
    "lat": 34.6930833400003,
@@ -295,6 +307,8 @@
    "id": "ogimachi",
    "name": "扇町公園",
    "kana": "おうぎまちこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "北区",
    "address": "大阪市北区扇町1-1",
    "lat": 34.7036266800003,
@@ -341,6 +355,8 @@
    "id": "suminoe",
    "name": "住之江公園",
    "kana": "すみのえこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "住之江区",
    "address": "大阪市住之江区南加賀屋1-1-117",
    "lat": 34.60968,
@@ -381,6 +397,8 @@
    "id": "sumiyoshi",
    "name": "住吉公園",
    "kana": "すみよしこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "住之江区",
    "address": "大阪市住之江区浜口東1-1-13",
    "lat": 34.61375,
@@ -421,6 +439,8 @@
    "id": "sakuranomiya",
    "name": "桜之宮公園",
    "kana": "さくらのみやこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "都島区",
    "address": "大阪市都島区中野町1-10外",
    "lat": 34.6985720100003,
@@ -465,6 +485,8 @@
    "id": "shirokita",
    "name": "城北公園",
    "kana": "しろきたこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "旭区",
    "address": "大阪市旭区生江3-29",
    "lat": 34.7293049700003,
@@ -510,6 +532,8 @@
    "id": "nanko-chuo",
    "name": "南港中央公園",
    "kana": "なんこうちゅうおうこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "住之江区",
    "address": "大阪市住之江区南港東8-5",
    "lat": 34.6319450400006,
@@ -555,6 +579,8 @@
    "id": "yahataya",
    "name": "八幡屋公園",
    "kana": "やはたやこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "港区",
    "address": "大阪市港区田中3-1",
    "lat": 34.6601760800006,
@@ -598,6 +624,8 @@
    "id": "chishima",
    "name": "千島公園",
    "kana": "ちしまこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "大正区",
    "address": "大阪市大正区千島2-7",
    "lat": 34.6488972900004,
@@ -642,6 +670,8 @@
    "id": "nakajima",
    "name": "中島公園",
    "kana": "なかじまこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "西淀川区",
    "address": "大阪市西淀川区中島1-22",
    "lat": 34.6987443600006,
@@ -687,6 +717,8 @@
    "id": "kema",
    "name": "毛馬公園",
    "kana": "けまこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "北区",
    "address": "大阪市北区長柄東1-6・2-9",
    "lat": 34.7147780000003,
@@ -728,6 +760,8 @@
    "id": "sanadayama",
    "name": "真田山公園",
    "kana": "さなだやまこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "天王寺区",
    "address": "大阪市天王寺区真田山町5",
    "lat": 34.6698744100003,
@@ -774,6 +808,8 @@
    "id": "umekita",
    "name": "うめきた公園",
    "kana": "うめきたこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "北区",
    "address": "大阪市北区大深町１丁目",
    "lat": 34.7033589300004,
@@ -819,6 +855,8 @@
    "id": "momogaike",
    "name": "桃ヶ池公園",
    "kana": "ももがいけこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "阿倍野区",
    "address": "大阪市阿倍野区桃ヶ池町1-6外",
    "lat": 34.6308200000003,
@@ -860,6 +898,8 @@
    "id": "uriwari-minami-yamatogawa",
    "name": "瓜破南大和川公園",
    "kana": "うりわりみなみやまとがわこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "平野区",
    "address": "大阪市平野区瓜破南1-4",
    "lat": 34.5975969000002,
@@ -901,6 +941,8 @@
    "id": "nagaike",
    "name": "長池公園",
    "kana": "ながいけこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "阿倍野区",
    "address": "大阪市阿倍野区長池町14外",
    "lat": 34.6230334400003,
@@ -942,6 +984,8 @@
    "id": "izuo",
    "name": "泉尾公園",
    "kana": "いずおこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "大正区",
    "address": "大阪市大正区泉尾4-21",
    "lat": 34.6572298200005,
@@ -983,6 +1027,8 @@
    "id": "tatsumi-higashi-ryokuchi",
    "name": "巽東緑地公園",
    "kana": "たつみひがしりょくちこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "生野区",
    "address": "大阪市生野区巽東4-10外",
    "lat": 34.6453136500002,
@@ -1024,6 +1070,8 @@
    "id": "shorenjigawa",
    "name": "正蓮寺川公園",
    "kana": "しょうれんじがわこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "此花区",
    "address": "大阪市此花区朝日2",
    "lat": 34.6865246500005,
@@ -1068,6 +1116,8 @@
    "id": "mandaiike",
    "name": "万代池公園",
    "kana": "ばんだいいけこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "住吉区",
    "address": "大阪市住吉区万代3-7",
    "lat": 34.6203100000004,
@@ -1109,6 +1159,8 @@
    "id": "nishinari",
    "name": "西成公園",
    "kana": "にしなりこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "西成区",
    "address": "大阪市西成区津守1-13",
    "lat": 34.6458291100004,
@@ -1150,6 +1202,8 @@
    "id": "shimofukushima",
    "name": "下福島公園",
    "kana": "しもふくしまこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "福島区",
    "address": "大阪市福島区福島4-1",
    "lat": 34.6906375000004,
@@ -1193,6 +1247,8 @@
    "id": "asahi",
    "name": "旭公園",
    "kana": "あさひこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "旭区",
    "address": "大阪市旭区高殿5-7",
    "lat": 34.7183600000003,
@@ -1236,6 +1292,8 @@
    "id": "tatsumi",
    "name": "巽公園",
    "kana": "たつみこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "生野区",
    "address": "大阪市生野区巽西1-7",
    "lat": 34.6515200000002,
@@ -1280,6 +1338,8 @@
    "id": "hirano-shirasagi",
    "name": "平野白鷺公園",
    "kana": "ひらのしらさぎこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "東住吉区",
    "address": "大阪市東住吉区今川6-7",
    "lat": 34.6270992400003,
@@ -1321,6 +1381,8 @@
    "id": "minamitsumori-sakura",
    "name": "南津守さくら公園",
    "kana": "みなみつもりさくらこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "西成区",
    "address": "大阪市西成区南津守1丁目2番",
    "lat": 34.6372139000004,
@@ -1362,6 +1424,8 @@
    "id": "kobayashi",
    "name": "小林公園",
    "kana": "こばやしこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "大正区",
    "address": "大阪市大正区小林東2-12",
    "lat": 34.6439502500004,
@@ -1403,6 +1467,8 @@
    "id": "matsushima",
    "name": "松島公園",
    "kana": "まつしまこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "西区",
    "address": "大阪市西区千代崎1-3外",
    "lat": 34.6762000000004,
@@ -1444,6 +1510,8 @@
    "id": "juhachijo-higashi",
    "name": "十八条東公園",
    "kana": "じゅうはちじょうひがしこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "淀川区",
    "address": "大阪市淀川区十八条1-8",
    "lat": 34.7476745100004,
@@ -1485,6 +1553,8 @@
    "id": "asaka-chuo",
    "name": "浅香中央公園",
    "kana": "あさかちゅうおうこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "住吉区",
    "address": "大阪市住吉区浅香1-6",
    "lat": 34.5910095900003,
@@ -1528,6 +1598,8 @@
    "id": "naniwanomiya",
    "name": "難波宮跡公園",
    "kana": "なにわのみやあとこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "中央区",
    "address": "大阪市中央区法円坂1丁目6",
    "lat": 34.6800860000003,
@@ -1571,6 +1643,8 @@
    "id": "juso",
    "name": "十三公園",
    "kana": "じゅうそうこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "淀川区",
    "address": "大阪市淀川区十三元今里1-1",
    "lat": 34.7173758500004,
@@ -1615,6 +1689,8 @@
    "id": "utajima",
    "name": "歌島公園",
    "kana": "うたじまこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "西淀川区",
    "address": "大阪市西淀川区御幣島5-7",
    "lat": 34.7199200000005,
@@ -1656,6 +1732,8 @@
    "id": "nishiyodo",
    "name": "西淀公園",
    "kana": "にしよどこうえん",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "西淀川区",
    "address": "大阪市西淀川区大和田1-1",
    "lat": 34.7066700000005,
@@ -1697,6 +1775,8 @@
    "id": "maishima-ryokuchi",
    "name": "舞洲緑地",
    "kana": "まいしまりょくち",
+   "city": "大阪市",
+   "city_slug": "osaka",
    "ward": "此花区",
    "address": "大阪市此花区北港緑地2-3",
    "lat": 34.6635733700008,
@@ -1729,6 +1809,2476 @@
     ],
     "retrieved_at": "2026-11-12",
     "processing": "名称・住所・緯度経度・公園種別を抽出"
+   }
+  },
+  {
+   "id": "hattori-ryokuchi",
+   "name": "服部緑地",
+   "kana": "はっとりりょくち",
+   "city": "豊中市",
+   "city_slug": "toyonaka",
+   "ward": null,
+   "address": "豊中市服部緑地1-1",
+   "lat": 34.77241,
+   "lng": 135.48216,
+   "park_type": "府営公園",
+   "area_m2": 1263000,
+   "area_note": null,
+   "operator": "大阪府（府営公園）",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": true,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "playground": "児童遊戯場あり（府の公園一覧）。2026年11月時点で一部遊具は安全確認のため停止中",
+    "toilet": "ウォーターランド・レストハウス・野外音楽堂などにトイレ（府の公衆トイレ一覧）",
+    "parking": "駐車場あり（数に限りあり。府の公園一覧に記載）",
+    "barrier_free": "車いす対応トイレのある建物が複数（野外音楽堂はオストメイト・おむつ替えも）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "大阪府営公園一覧（大阪府）",
+      "url": "https://data.bodik.jp/dataset/270008_park_list",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所・緯度経度・開設面積（ha→㎡に換算）を抽出。画像URL先の写真は使っていない"
+   }
+  },
+  {
+   "id": "minoh",
+   "name": "箕面公園",
+   "kana": "みのおこうえん",
+   "city": "箕面市",
+   "city_slug": "minoh",
+   "ward": null,
+   "address": "箕面市箕面公園1-18",
+   "lat": 34.8435,
+   "lng": 135.47006,
+   "park_type": "府営公園",
+   "area_m2": 838000,
+   "area_note": null,
+   "operator": "大阪府（府営公園）",
+   "facilities": {
+    "playground": null,
+    "toilet": null,
+    "parking": false,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "parking": "公園の駐車場はない（府の公園一覧に明記）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "大阪府営公園一覧（大阪府）",
+      "url": "https://data.bodik.jp/dataset/270008_park_list",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所・緯度経度・開設面積（ha→㎡に換算）を抽出。画像URL先の写真は使っていない"
+   }
+  },
+  {
+   "id": "neyagawa",
+   "name": "寝屋川公園",
+   "kana": "ねやがわこうえん",
+   "city": "寝屋川市",
+   "city_slug": "neyagawa",
+   "ward": null,
+   "address": "寝屋川市寝屋川公園1707",
+   "lat": 34.76039,
+   "lng": 135.65222,
+   "park_type": "府営公園",
+   "area_m2": 324000,
+   "area_note": null,
+   "operator": "大阪府（府営公園）",
+   "facilities": {
+    "playground": true,
+    "toilet": null,
+    "parking": true,
+    "shade": null,
+    "pet": true,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "南地区に児童遊戯場（府の公園一覧）",
+    "parking": "有料駐車場あり（府営公園の管理者のQ&A）。障がい者手帳の提示で免除",
+    "pet": "リード着用・フンは持ち帰り。有料施設には入れない（府営公園の管理者のQ&A）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "大阪府営公園一覧（大阪府）",
+      "url": "https://data.bodik.jp/dataset/270008_park_list",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所・緯度経度・開設面積（ha→㎡に換算）を抽出。画像URL先の写真は使っていない"
+   }
+  },
+  {
+   "id": "yamadaike",
+   "name": "山田池公園",
+   "kana": "やまだいけこうえん",
+   "city": "枚方市",
+   "city_slug": "hirakata",
+   "ward": null,
+   "address": "枚方市山田池公園1-1",
+   "lat": 34.8245,
+   "lng": 135.68983,
+   "park_type": "府営公園",
+   "area_m2": 737000,
+   "area_note": null,
+   "operator": "大阪府（府営公園）",
+   "facilities": {
+    "playground": true,
+    "toilet": null,
+    "parking": true,
+    "shade": null,
+    "pet": true,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "自由広場に児童遊戯場（府の公園一覧）",
+    "parking": "有料駐車場あり（府営公園の管理者のQ&A）。障がい者手帳の提示で免除",
+    "pet": "リード着用・フンは持ち帰り。有料施設には入れない（府営公園の管理者のQ&A）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "大阪府営公園一覧（大阪府）",
+      "url": "https://data.bodik.jp/dataset/270008_park_list",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所・緯度経度・開設面積（ha→㎡に換算）を抽出。画像URL先の写真は使っていない"
+   }
+  },
+  {
+   "id": "fukakita-ryokuchi",
+   "name": "深北緑地",
+   "kana": "ふかきたりょくち",
+   "city": "大東市",
+   "city_slug": "daito",
+   "ward": null,
+   "address": "大東市深野北4-284",
+   "lat": 34.72735,
+   "lng": 135.62875,
+   "park_type": "府営公園",
+   "area_m2": 410000,
+   "area_note": null,
+   "operator": "大阪府（府営公園）",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": true,
+    "shade": null,
+    "pet": true,
+    "nursing_room": true,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "playground": "ロケット広場・恐竜広場・とりで広場に遊具。とりで広場の展望デッキは不具合で一部使用中止",
+    "toilet": "公式の施設一覧にバリアフリートイレ（場所は未記載）",
+    "parking": "第1・第2駐車場（24時間）。料金・台数は公式で確認",
+    "pet": "園内はリード着用（ドッグランを除く）",
+    "nursing_room": "管理事務所が「あかちゃんの駅」（授乳・おむつ替え）",
+    "barrier_free": "公式の施設一覧にバリアフリートイレ"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "大阪府営公園一覧（大阪府）",
+      "url": "https://data.bodik.jp/dataset/270008_park_list",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所・緯度経度・開設面積（ha→㎡に換算）を抽出。画像URL先の写真は使っていない"
+   }
+  },
+  {
+   "id": "kyuhoji-ryokuchi",
+   "name": "久宝寺緑地",
+   "kana": "きゅうほうじりょくち",
+   "city": "八尾市",
+   "city_slug": "yao",
+   "ward": null,
+   "address": "八尾市西久宝寺323",
+   "lat": 34.63141,
+   "lng": 135.5788,
+   "park_type": "府営公園",
+   "area_m2": 422000,
+   "area_note": null,
+   "operator": "大阪府（府営公園）",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": true,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "playground": "児童遊戯場あり（府の公園一覧）",
+    "toilet": "管理事務所・スポーツハウス・プール管理棟などにトイレ（府の公衆トイレ一覧）",
+    "parking": "駐車場あり（数に限りあり。府の公園一覧に記載）。精算機あり",
+    "barrier_free": "車いす対応トイレのある建物が複数（管理事務所はオストメイトも）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "大阪府営公園一覧（大阪府）",
+      "url": "https://data.bodik.jp/dataset/270008_park_list",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所・緯度経度・開設面積（ha→㎡に換算）を抽出。画像URL先の写真は使っていない"
+   }
+  },
+  {
+   "id": "hiraoka",
+   "name": "枚岡公園",
+   "kana": "ひらおかこうえん",
+   "city": "東大阪市",
+   "city_slug": "higashiosaka",
+   "ward": null,
+   "address": "東大阪市東豊浦町12-12",
+   "lat": 34.67479,
+   "lng": 135.65491,
+   "park_type": "府営公園",
+   "area_m2": 438000,
+   "area_note": null,
+   "operator": "大阪府（府営公園）",
+   "facilities": {
+    "playground": true,
+    "toilet": null,
+    "parking": true,
+    "shade": null,
+    "pet": true,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "児童遊戯場あり（府の公園一覧）",
+    "parking": "駐車場あり（数に限りあり。府の公園一覧に記載）",
+    "pet": "リード着用・フンは持ち帰り。有料施設には入れない（府営公園の管理者のQ&A）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "大阪府営公園一覧（大阪府）",
+      "url": "https://data.bodik.jp/dataset/270008_park_list",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所・緯度経度・開設面積（ha→㎡に換算）を抽出。画像URL先の写真は使っていない"
+   }
+  },
+  {
+   "id": "nagano",
+   "name": "長野公園",
+   "kana": "ながのこうえん",
+   "city": "河内長野市",
+   "city_slug": "kawachinagano",
+   "ward": null,
+   "address": "河内長野市末広町581-1",
+   "lat": 34.44807,
+   "lng": 135.57449,
+   "park_type": "府営公園",
+   "area_m2": 463000,
+   "area_note": null,
+   "operator": "大阪府（府営公園）",
+   "facilities": {
+    "playground": true,
+    "toilet": null,
+    "parking": false,
+    "shade": null,
+    "pet": true,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "児童遊戯場あり（府の公園一覧）。地区が分かれているので場所は公式で確認",
+    "parking": "公園の駐車場はない（府の公園一覧に明記）",
+    "pet": "リードを放さない・フンの始末（府営4公園の情報サイト）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "大阪府営公園一覧（大阪府）",
+      "url": "https://data.bodik.jp/dataset/270008_park_list",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所・緯度経度・開設面積（ha→㎡に換算）を抽出。画像URL先の写真は使っていない。複数地区からなる公園で、緯度経度は元データの代表点"
+   }
+  },
+  {
+   "id": "nishikori",
+   "name": "錦織公園",
+   "kana": "にしこりこうえん",
+   "city": "富田林市",
+   "city_slug": "tondabayashi",
+   "ward": null,
+   "address": "富田林市錦織1560",
+   "lat": 34.48347,
+   "lng": 135.57272,
+   "park_type": "府営公園",
+   "area_m2": 657000,
+   "area_note": null,
+   "operator": "大阪府（府営公園）",
+   "facilities": {
+    "playground": true,
+    "toilet": null,
+    "parking": true,
+    "shade": null,
+    "pet": true,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "児童遊戯場あり（府の公園一覧）",
+    "parking": "有料駐車場あり（府営公園の管理者のQ&A）。障がい者手帳の提示で免除（1回ごとの料金）",
+    "pet": "リード着用・フンは持ち帰り。有料施設には入れない（府営公園の管理者のQ&A）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "大阪府営公園一覧（大阪府）",
+      "url": "https://data.bodik.jp/dataset/270008_park_list",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所・緯度経度・開設面積（ha→㎡に換算）を抽出。画像URL先の写真は使っていない。住所は元データの「富田林錦織1560」に「市」を補った"
+   }
+  },
+  {
+   "id": "ishikawa-kasen",
+   "name": "石川河川公園",
+   "kana": "いしかわかせんこうえん",
+   "city": "羽曳野市",
+   "city_slug": "habikino",
+   "ward": null,
+   "address": "羽曳野市駒ヶ谷140",
+   "lat": 34.5456,
+   "lng": 135.62131,
+   "park_type": "府営公園",
+   "area_m2": 737000,
+   "area_note": null,
+   "operator": "大阪府（府営公園）",
+   "facilities": {
+    "playground": true,
+    "toilet": null,
+    "parking": true,
+    "shade": null,
+    "pet": true,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "児童遊戯場あり（府の公園一覧）。地区が分かれているので場所は公式で確認",
+    "parking": "駐車場あり（数に限りあり。府の公園一覧に記載）",
+    "pet": "リードを放さない・フンの始末（府営4公園の情報サイト）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "大阪府営公園一覧（大阪府）",
+      "url": "https://data.bodik.jp/dataset/270008_park_list",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所・緯度経度・開設面積（ha→㎡に換算）を抽出。画像URL先の写真は使っていない。河川沿いの複数地区からなる公園で、住所・緯度経度は元データの代表点（駒ヶ谷地区）"
+   }
+  },
+  {
+   "id": "oizumi-ryokuchi",
+   "name": "大泉緑地",
+   "kana": "おおいずみりょくち",
+   "city": "堺市",
+   "city_slug": "sakai",
+   "ward": "北区",
+   "address": "堺市北区金岡町128",
+   "lat": 34.56602,
+   "lng": 135.52419,
+   "park_type": "府営公園",
+   "area_m2": 1015000,
+   "area_note": null,
+   "operator": "大阪府（府営公園）",
+   "facilities": {
+    "playground": true,
+    "toilet": null,
+    "parking": true,
+    "shade": null,
+    "pet": true,
+    "nursing_room": true,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "公式サイトに「遊具で遊ぶ」施設の案内あり",
+    "parking": "有料駐車場あり（府営公園の管理者のQ&A）。障がい者手帳の提示で免除。第1〜第4駐車場、工事で閉鎖の期間あり",
+    "pet": "リード着用・フンは持ち帰り。有料施設には入れない（府営公園の管理者のQ&A）",
+    "nursing_room": "管理事務所で赤ちゃんルームを案内"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "大阪府営公園一覧（大阪府）",
+      "url": "https://data.bodik.jp/dataset/270008_park_list",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所・緯度経度・開設面積（ha→㎡に換算）を抽出。画像URL先の写真は使っていない。面積は大泉緑道（0.9ha）を含む値"
+   }
+  },
+  {
+   "id": "hamadera",
+   "name": "浜寺公園",
+   "kana": "はまでらこうえん",
+   "city": "堺市",
+   "city_slug": "sakai",
+   "ward": "西区",
+   "address": "堺市西区浜寺公園町",
+   "lat": 34.54496,
+   "lng": 135.44385,
+   "park_type": "府営公園",
+   "area_m2": 751000,
+   "area_note": null,
+   "operator": "大阪府（府営公園）",
+   "facilities": {
+    "playground": true,
+    "toilet": null,
+    "parking": true,
+    "shade": null,
+    "pet": true,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "児童遊戯場・交通遊園あり（府の公園一覧）。子供汽車は休止のお知らせあり",
+    "parking": "有料駐車場あり（府営公園の管理者のQ&A）。障がい者手帳の提示で免除",
+    "pet": "リード着用・フンは持ち帰り。有料施設には入れない（府営公園の管理者のQ&A）。ドッグランあり"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "大阪府営公園一覧（大阪府）",
+      "url": "https://data.bodik.jp/dataset/270008_park_list",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所・緯度経度・開設面積（ha→㎡に換算）を抽出。画像URL先の写真は使っていない"
+   }
+  },
+  {
+   "id": "nishikinohama",
+   "name": "二色の浜公園",
+   "kana": "にしきのはまこうえん",
+   "city": "貝塚市",
+   "city_slug": "kaizuka",
+   "ward": null,
+   "address": "貝塚市沢859-1",
+   "lat": 34.4357,
+   "lng": 135.33537,
+   "park_type": "府営公園",
+   "area_m2": 411000,
+   "area_note": null,
+   "operator": "大阪府（府営公園）",
+   "facilities": {
+    "playground": true,
+    "toilet": null,
+    "parking": true,
+    "shade": null,
+    "pet": null,
+    "nursing_room": true,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "児童遊戯場あり（府の公園一覧）",
+    "parking": "駐車場あり（数に限りあり。府の公園一覧に記載）",
+    "nursing_room": "園内に授乳室（管理事務所の開いている時間。おむつ替えも可）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "大阪府営公園一覧（大阪府）",
+      "url": "https://data.bodik.jp/dataset/270008_park_list",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所・緯度経度・開設面積（ha→㎡に換算）を抽出。画像URL先の写真は使っていない"
+   }
+  },
+  {
+   "id": "tonboike",
+   "name": "蜻蛉池公園",
+   "kana": "とんぼいけこうえん",
+   "city": "岸和田市",
+   "city_slug": "kishiwada",
+   "ward": null,
+   "address": "岸和田市三ヶ山町字大池尻701",
+   "lat": 34.4331,
+   "lng": 135.42403,
+   "park_type": "府営公園",
+   "area_m2": 661000,
+   "area_note": null,
+   "operator": "大阪府（府営公園）",
+   "facilities": {
+    "playground": true,
+    "toilet": null,
+    "parking": true,
+    "shade": null,
+    "pet": true,
+    "nursing_room": true,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "遊具広場が4か所。改修工事・一部使用中止のお知らせあり",
+    "parking": "有料（第1〜第3駐車場）。料金は公式で確認",
+    "pet": "園路・広場は散歩可。伸びないリード（2m以内）・フンは持ち帰り。一部有料施設は不可",
+    "nursing_room": "公園管理事務所内に授乳室"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "大阪府営公園一覧（大阪府）",
+      "url": "https://data.bodik.jp/dataset/270008_park_list",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所・緯度経度・開設面積（ha→㎡に換算）を抽出。画像URL先の写真は使っていない"
+   }
+  },
+  {
+   "id": "rinku",
+   "name": "りんくう公園",
+   "kana": "りんくうこうえん",
+   "city": "泉佐野市",
+   "city_slug": "izumisano",
+   "ward": null,
+   "address": "泉佐野市りんくう往来北1-271",
+   "lat": 34.41192,
+   "lng": 135.29394,
+   "park_type": "府営公園",
+   "area_m2": 204000,
+   "area_note": null,
+   "operator": "大阪府（府営公園）",
+   "facilities": {
+    "playground": null,
+    "toilet": null,
+    "parking": true,
+    "shade": null,
+    "pet": true,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "parking": "有料駐車場あり（府営公園の管理者のQ&A）。障がい者手帳の提示で免除",
+    "pet": "リード着用・フンは持ち帰り。有料施設には入れない（府営公園の管理者のQ&A）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "大阪府営公園一覧（大阪府）",
+      "url": "https://data.bodik.jp/dataset/270008_park_list",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所・緯度経度・開設面積（ha→㎡に換算）を抽出。画像URL先の写真は使っていない"
+   }
+  },
+  {
+   "id": "sennan-satoumi",
+   "name": "せんなん里海公園",
+   "kana": "せんなんさとうみこうえん",
+   "city": "岬町",
+   "city_slug": "misaki",
+   "ward": null,
+   "address": "泉南郡岬町淡輪地先",
+   "lat": 34.33656,
+   "lng": 135.19203,
+   "park_type": "府営公園",
+   "area_m2": 401000,
+   "area_note": null,
+   "operator": "大阪府（府営公園）",
+   "facilities": {
+    "playground": true,
+    "toilet": null,
+    "parking": true,
+    "shade": null,
+    "pet": true,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "児童遊戯場あり（府の公園一覧）",
+    "parking": "有料駐車場あり（府営公園の管理者のQ&A）。障がい者手帳の提示で免除（1回ごとの料金）",
+    "pet": "リード着用・フンは持ち帰り。有料施設には入れない（府営公園の管理者のQ&A）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "大阪府営公園一覧（大阪府）",
+      "url": "https://data.bodik.jp/dataset/270008_park_list",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所・緯度経度・開設面積（ha→㎡に換算）を抽出。画像URL先の写真は使っていない"
+   }
+  },
+  {
+   "id": "banpaku-kinen",
+   "name": "万博記念公園",
+   "kana": "ばんぱくきねんこうえん",
+   "city": "吹田市",
+   "city_slug": "suita",
+   "ward": null,
+   "address": "吹田市千里万博公園",
+   "lat": 34.807747,
+   "lng": 135.533157,
+   "park_type": null,
+   "area_m2": null,
+   "area_note": null,
+   "operator": "大阪府",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": true,
+    "shade": null,
+    "pet": null,
+    "nursing_room": true,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "playground": "大型すべり台・アスレチック迷路などの遊び場あり",
+    "toilet": "園内各所にトイレ（府の公衆トイレ一覧）",
+    "parking": "東・南・中央・西・日本庭園前などに駐車場。料金は公式で確認",
+    "nursing_room": "自然文化園に4か所・日本庭園に1か所",
+    "barrier_free": "車いす対応トイレ多数（府の公衆トイレ一覧）。車いす・ベビーカーの無料貸出あり"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "公衆トイレ一覧（大阪府）",
+      "url": "https://data.bodik.jp/dataset/270008_barrier_free_toilet",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所は公衆トイレ一覧（大阪府）の「万博記念公園／…」の行から。緯度経度は国土地理院 住所検索APIで付与（町名レベル「千里万博公園」の代表点）。面積は商用利用できるデータで確認できず未設定。府営公園一覧には含まれない"
+   }
+  },
+  {
+   "id": "izumigaoka-ryokuchi",
+   "name": "泉ヶ丘緑地",
+   "kana": "いずみがおかりょくち",
+   "city": "堺市",
+   "city_slug": "sakai",
+   "ward": "南区",
+   "address": "堺市南区槇塚台4丁7-1他",
+   "lat": 34.482117,
+   "lng": 135.533905,
+   "park_type": "都市緑地",
+   "area_m2": 405300,
+   "area_note": null,
+   "operator": "堺市",
+   "facilities": {
+    "playground": null,
+    "toilet": null,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "緑道・緑地のため設備データなし（現地確認）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "堺市 公園一覧（堺市）",
+      "url": "https://data.bodik.jp/dataset/271403_sakai_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与（住所の一部しか一致せず、町・丁目の代表点）"
+   }
+  },
+  {
+   "id": "daisen",
+   "name": "大仙公園",
+   "kana": "だいせんこうえん",
+   "city": "堺市",
+   "city_slug": "sakai",
+   "ward": "堺区",
+   "address": "堺市堺区百舌鳥夕雲町2丁142-1",
+   "lat": 34.559212,
+   "lng": 135.488159,
+   "park_type": "総合公園",
+   "area_m2": 387500,
+   "area_note": null,
+   "operator": "堺市",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": true,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "playground": "市の「遊具のある公園」に掲載",
+    "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "parking": "第1〜第3・西駐車場（有料）。料金は市の資料で確認",
+    "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "堺市 公園一覧（堺市）",
+      "url": "https://data.bodik.jp/dataset/271403_sakai_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与"
+   }
+  },
+  {
+   "id": "komyoike-ryokuchi",
+   "name": "光明池緑地",
+   "kana": "こうみょういけりょくち",
+   "city": "堺市",
+   "city_slug": "sakai",
+   "ward": "南区",
+   "address": "堺市南区城山台4丁2-6",
+   "lat": 34.464584,
+   "lng": 135.488022,
+   "park_type": "都市緑地",
+   "area_m2": 335800,
+   "area_note": null,
+   "operator": "堺市",
+   "facilities": {
+    "playground": null,
+    "toilet": null,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {},
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "堺市 公園一覧（堺市）",
+      "url": "https://data.bodik.jp/dataset/271403_sakai_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与"
+   }
+  },
+  {
+   "id": "kanaoka",
+   "name": "金岡公園",
+   "kana": "かなおかこうえん",
+   "city": "堺市",
+   "city_slug": "sakai",
+   "ward": "北区",
+   "address": "堺市北区長曽根町1179-18",
+   "lat": 34.57233,
+   "lng": 135.504929,
+   "park_type": "運動公園",
+   "area_m2": 177100,
+   "area_note": null,
+   "operator": "堺市",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": true,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "playground": "市の「遊具のある公園」に掲載",
+    "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）。一部のトイレは使用していない",
+    "parking": "南・北駐車場（有料。北は土日祝のみ）。料金は市の資料で確認",
+    "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "堺市 公園一覧（堺市）",
+      "url": "https://data.bodik.jp/dataset/271403_sakai_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与"
+   }
+  },
+  {
+   "id": "kozen",
+   "name": "荒山公園",
+   "kana": "こうぜんこうえん",
+   "city": "堺市",
+   "city_slug": "sakai",
+   "ward": "南区",
+   "address": "堺市南区宮山台2丁3-1",
+   "lat": 34.502922,
+   "lng": 135.496719,
+   "park_type": "総合公園",
+   "area_m2": 173500,
+   "area_note": null,
+   "operator": "堺市",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": true,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "playground": "市の「遊具のある公園」に掲載",
+    "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "parking": "P1〜P3と臨時駐車場（梅・桜の時期は有料）。料金は市の資料で確認",
+    "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "堺市 公園一覧（堺市）",
+      "url": "https://data.bodik.jp/dataset/271403_sakai_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与"
+   }
+  },
+  {
+   "id": "sakai-shizen-fureai-no-mori",
+   "name": "堺自然ふれあいの森",
+   "kana": "さかいしぜんふれあいのもり",
+   "city": "堺市",
+   "city_slug": "sakai",
+   "ward": "南区",
+   "address": "堺市南区富蔵640",
+   "lat": 34.474457,
+   "lng": 135.516647,
+   "park_type": "都市林",
+   "area_m2": 171900,
+   "area_note": null,
+   "operator": "堺市",
+   "facilities": {
+    "playground": null,
+    "toilet": true,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "堺市 公園一覧（堺市）",
+      "url": "https://data.bodik.jp/dataset/271403_sakai_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与（住所の一部しか一致せず、町・丁目の代表点）"
+   }
+  },
+  {
+   "id": "ohama",
+   "name": "大浜公園",
+   "kana": "おおはまこうえん",
+   "city": "堺市",
+   "city_slug": "sakai",
+   "ward": "堺区",
+   "address": "堺市堺区大浜北町4丁77-1",
+   "lat": 34.580608,
+   "lng": 135.461578,
+   "park_type": "総合公園",
+   "area_m2": 163000,
+   "area_note": null,
+   "operator": "堺市",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": true,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "playground": "市の「遊具のある公園」に掲載",
+    "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "parking": "公園駐車場・野球場駐車場（有料。野球場は土日祝のみ）。料金は市の資料で確認",
+    "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "堺市 公園一覧（堺市）",
+      "url": "https://data.bodik.jp/dataset/271403_sakai_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与（住所の一部しか一致せず、町・丁目の代表点）"
+   }
+  },
+  {
+   "id": "ohasu",
+   "name": "大蓮公園",
+   "kana": "おおはすこうえん",
+   "city": "堺市",
+   "city_slug": "sakai",
+   "ward": "南区",
+   "address": "堺市南区若松台1丁1-9",
+   "lat": 34.49445,
+   "lng": 135.509872,
+   "park_type": "風致公園",
+   "area_m2": 154600,
+   "area_note": null,
+   "operator": "堺市",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": true,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "playground": "市の「遊具のある公園」に掲載",
+    "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "parking": "公園駐車場（有料）。料金は市の資料で確認",
+    "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "堺市 公園一覧（堺市）",
+      "url": "https://data.bodik.jp/dataset/271403_sakai_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与"
+   }
+  },
+  {
+   "id": "kamotani",
+   "name": "鴨谷公園",
+   "kana": "かもたにこうえん",
+   "city": "堺市",
+   "city_slug": "sakai",
+   "ward": "南区",
+   "address": "堺市南区鴨谷台1丁2-1",
+   "lat": 34.474567,
+   "lng": 135.480301,
+   "park_type": "総合公園",
+   "area_m2": 131200,
+   "area_note": null,
+   "operator": "堺市",
+   "facilities": {
+    "playground": null,
+    "toilet": true,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "barrier_free": "4か所のうち1か所に多目的トイレ（堺市の公園トイレ一覧）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "堺市 公園一覧（堺市）",
+      "url": "https://data.bodik.jp/dataset/271403_sakai_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与"
+   }
+  },
+  {
+   "id": "nishihara",
+   "name": "西原公園",
+   "kana": "にしはらこうえん",
+   "city": "堺市",
+   "city_slug": "sakai",
+   "ward": "南区",
+   "address": "堺市南区桃山台1丁3-3",
+   "lat": 34.489594,
+   "lng": 135.491791,
+   "park_type": "地区公園",
+   "area_m2": 126700,
+   "area_note": null,
+   "operator": "堺市",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "市の「遊具のある公園」に掲載",
+    "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "barrier_free": "多目的トイレの有無が市と府のトイレ一覧で食い違うため未確認（現地確認）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "堺市 公園一覧（堺市）",
+      "url": "https://data.bodik.jp/dataset/271403_sakai_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与"
+   }
+  },
+  {
+   "id": "shinhinoo",
+   "name": "新檜尾公園",
+   "kana": "しんひのおこうえん",
+   "city": "堺市",
+   "city_slug": "sakai",
+   "ward": "南区",
+   "address": "堺市南区新檜尾台1丁1-48",
+   "lat": 34.479076,
+   "lng": 135.479324,
+   "park_type": "風致公園",
+   "area_m2": 110600,
+   "area_note": null,
+   "operator": "堺市",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "playground": "市の「遊具のある公園」に掲載",
+    "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "堺市 公園一覧（堺市）",
+      "url": "https://data.bodik.jp/dataset/271403_sakai_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与"
+   }
+  },
+  {
+   "id": "miike",
+   "name": "御池公園",
+   "kana": "みいけこうえん",
+   "city": "堺市",
+   "city_slug": "sakai",
+   "ward": "南区",
+   "address": "堺市南区御池台2丁2-9",
+   "lat": 34.466873,
+   "lng": 135.503555,
+   "park_type": "近隣公園",
+   "area_m2": 91800,
+   "area_note": null,
+   "operator": "堺市",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "playground": "市の「遊具のある公園」に掲載",
+    "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "堺市 公園一覧（堺市）",
+      "url": "https://data.bodik.jp/dataset/271403_sakai_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与"
+   }
+  },
+  {
+   "id": "shirasagi",
+   "name": "白鷺公園",
+   "kana": "しらさぎこうえん",
+   "city": "堺市",
+   "city_slug": "sakai",
+   "ward": "東区",
+   "address": "堺市東区白鷺町1丁1181-1",
+   "lat": 34.547451,
+   "lng": 135.51329,
+   "park_type": "総合公園",
+   "area_m2": 90000,
+   "area_note": null,
+   "operator": "堺市",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "playground": "市の「遊具のある公園」に掲載",
+    "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "堺市 公園一覧（堺市）",
+      "url": "https://data.bodik.jp/dataset/271403_sakai_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与（住所の一部しか一致せず、町・丁目の代表点）"
+   }
+  },
+  {
+   "id": "harayama",
+   "name": "原山公園",
+   "kana": "はらやまこうえん",
+   "city": "堺市",
+   "city_slug": "sakai",
+   "ward": "南区",
+   "address": "堺市南区原山台2丁5-1",
+   "lat": 34.482552,
+   "lng": 135.492004,
+   "park_type": "近隣公園",
+   "area_m2": 78000,
+   "area_note": null,
+   "operator": "堺市",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "市の「遊具のある公園」に掲載",
+    "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "barrier_free": "多目的トイレの有無が市と府のトイレ一覧で食い違うため未確認（現地確認）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "堺市 公園一覧（堺市）",
+      "url": "https://data.bodik.jp/dataset/271403_sakai_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与"
+   }
+  },
+  {
+   "id": "baraike",
+   "name": "原池公園",
+   "kana": "ばらいけこうえん",
+   "city": "堺市",
+   "city_slug": "sakai",
+   "ward": "中区",
+   "address": "堺市中区八田寺町320-20",
+   "lat": 34.528957,
+   "lng": 135.478668,
+   "park_type": "運動公園",
+   "area_m2": 74100,
+   "area_note": null,
+   "operator": "堺市",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": true,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "playground": "市の「遊具のある公園」に掲載",
+    "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "parking": "体育館駐車場（有料）。料金は市の資料で確認",
+    "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "堺市 公園一覧（堺市）",
+      "url": "https://data.bodik.jp/dataset/271403_sakai_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与（住所の一部しか一致せず、町・丁目の代表点）"
+   }
+  },
+  {
+   "id": "toga-ryokuchi",
+   "name": "栂緑地",
+   "kana": "とがりょくち",
+   "city": "堺市",
+   "city_slug": "sakai",
+   "ward": "南区",
+   "address": "堺市南区御池台5丁3-1",
+   "lat": 34.456673,
+   "lng": 135.50528,
+   "park_type": "都市緑地",
+   "area_m2": 70600,
+   "area_note": null,
+   "operator": "堺市",
+   "facilities": {
+    "playground": null,
+    "toilet": null,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {},
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "堺市 公園一覧（堺市）",
+      "url": "https://data.bodik.jp/dataset/271403_sakai_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与（住所の一部しか一致せず、町・丁目の代表点）"
+   }
+  },
+  {
+   "id": "niwashiro",
+   "name": "庭代公園",
+   "kana": "にわしろこうえん",
+   "city": "堺市",
+   "city_slug": "sakai",
+   "ward": "南区",
+   "address": "堺市南区庭代台2丁2-1",
+   "lat": 34.475674,
+   "lng": 135.493851,
+   "park_type": "近隣公園",
+   "area_m2": 68900,
+   "area_note": null,
+   "operator": "堺市",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "playground": "市の「遊具のある公園」に掲載",
+    "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "堺市 公園一覧（堺市）",
+      "url": "https://data.bodik.jp/dataset/271403_sakai_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与"
+   }
+  },
+  {
+   "id": "doigawa",
+   "name": "土居川公園",
+   "kana": "どいがわこうえん",
+   "city": "堺市",
+   "city_slug": "sakai",
+   "ward": "堺区",
+   "address": "堺市堺区北半町東1-1",
+   "lat": 34.591122,
+   "lng": 135.484116,
+   "park_type": "緩衝緑地",
+   "area_m2": 64300,
+   "area_note": null,
+   "operator": "堺市",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "playground": "市の「遊具のある公園」に掲載",
+    "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "堺市 公園一覧（堺市）",
+      "url": "https://data.bodik.jp/dataset/271403_sakai_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与"
+   }
+  },
+  {
+   "id": "satsukino-ryokuchi",
+   "name": "さつき野緑地",
+   "kana": "さつきのりょくち",
+   "city": "堺市",
+   "city_slug": "sakai",
+   "ward": "美原区",
+   "address": "堺市美原区さつき野西3丁目21",
+   "lat": 34.529682,
+   "lng": 135.578308,
+   "park_type": "都市緑地",
+   "area_m2": 62100,
+   "area_note": null,
+   "operator": "堺市",
+   "facilities": {
+    "playground": null,
+    "toilet": null,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {},
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "堺市 公園一覧（堺市）",
+      "url": "https://data.bodik.jp/dataset/271403_sakai_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与（住所の一部しか一致せず、町・丁目の代表点）"
+   }
+  },
+  {
+   "id": "harumi",
+   "name": "晴美公園",
+   "kana": "はるみこうえん",
+   "city": "堺市",
+   "city_slug": "sakai",
+   "ward": "南区",
+   "address": "堺市南区晴美台3丁6-2",
+   "lat": 34.486813,
+   "lng": 135.531464,
+   "park_type": "近隣公園",
+   "area_m2": 59000,
+   "area_note": null,
+   "operator": "堺市",
+   "facilities": {
+    "playground": null,
+    "toilet": true,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "堺市 公園一覧（堺市）",
+      "url": "https://data.bodik.jp/dataset/271403_sakai_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与"
+   }
+  },
+  {
+   "id": "shiroyama",
+   "name": "城山公園",
+   "kana": "しろやまこうえん",
+   "city": "堺市",
+   "city_slug": "sakai",
+   "ward": "南区",
+   "address": "堺市南区城山台1丁19-1",
+   "lat": 34.470524,
+   "lng": 135.486221,
+   "park_type": "近隣公園",
+   "area_m2": 53700,
+   "area_note": null,
+   "operator": "堺市",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "playground": "市の「遊具のある公園」に掲載",
+    "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "堺市 公園一覧（堺市）",
+      "url": "https://data.bodik.jp/dataset/271403_sakai_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与"
+   }
+  },
+  {
+   "id": "chayama",
+   "name": "茶山公園",
+   "kana": "ちゃやまこうえん",
+   "city": "堺市",
+   "city_slug": "sakai",
+   "ward": "南区",
+   "address": "堺市南区茶山台3丁24-1",
+   "lat": 34.489552,
+   "lng": 135.518143,
+   "park_type": "近隣公園",
+   "area_m2": 43900,
+   "area_note": null,
+   "operator": "堺市",
+   "facilities": {
+    "playground": null,
+    "toilet": true,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "堺市 公園一覧（堺市）",
+      "url": "https://data.bodik.jp/dataset/271403_sakai_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与"
+   }
+  },
+  {
+   "id": "akasaka",
+   "name": "赤坂公園",
+   "kana": "あかさかこうえん",
+   "city": "堺市",
+   "city_slug": "sakai",
+   "ward": "南区",
+   "address": "堺市南区赤坂台2丁4-1",
+   "lat": 34.488647,
+   "lng": 135.474823,
+   "park_type": "近隣公園",
+   "area_m2": 42600,
+   "area_note": null,
+   "operator": "堺市",
+   "facilities": {
+    "playground": null,
+    "toilet": true,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "堺市 公園一覧（堺市）",
+      "url": "https://data.bodik.jp/dataset/271403_sakai_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与"
+   }
+  },
+  {
+   "id": "ebara-oike",
+   "name": "家原大池公園",
+   "kana": "えばらおおいけこうえん",
+   "city": "堺市",
+   "city_slug": "sakai",
+   "ward": "西区",
+   "address": "堺市西区家原寺町1丁133-2",
+   "lat": 34.537155,
+   "lng": 135.473618,
+   "park_type": "地区公園",
+   "area_m2": 41400,
+   "area_note": null,
+   "operator": "堺市",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": true,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "playground": "市の「遊具のある公園」に掲載",
+    "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "parking": "体育館前・公園前駐車場（有料）。料金は市の資料で確認",
+    "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "堺市 公園一覧（堺市）",
+      "url": "https://data.bodik.jp/dataset/271403_sakai_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与（住所の一部しか一致せず、町・丁目の代表点）"
+   }
+  },
+  {
+   "id": "kosobe-bosai",
+   "name": "古曽部防災公園",
+   "kana": "こそべぼうさいこうえん",
+   "city": "高槻市",
+   "city_slug": "takatsuki",
+   "ward": null,
+   "address": "高槻市古曽部町三丁目",
+   "lat": 34.862731,
+   "lng": 135.621698,
+   "park_type": null,
+   "area_m2": 45600,
+   "area_note": null,
+   "operator": "高槻市",
+   "facilities": {
+    "playground": null,
+    "toilet": true,
+    "parking": true,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "toilet": "公園内に便所（府の公衆トイレ一覧）",
+    "parking": "84台・有料（市の公園データ）",
+    "barrier_free": "車いす対応トイレあり（府の公衆トイレ一覧）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "公園（高槻市）",
+      "url": "https://data.bodik.jp/dataset/272078_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所・面積（ha→㎡に換算）・緯度経度を抽出"
+   }
+  },
+  {
+   "id": "hagitani-sogo",
+   "name": "萩谷総合公園",
+   "kana": "はぎたにそうごうこうえん",
+   "city": "高槻市",
+   "city_slug": "takatsuki",
+   "ward": null,
+   "address": "高槻市大字萩谷",
+   "lat": 34.88484,
+   "lng": 135.575387,
+   "park_type": null,
+   "area_m2": 339800,
+   "area_note": null,
+   "operator": "高槻市",
+   "facilities": {
+    "playground": null,
+    "toilet": true,
+    "parking": true,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "playground": "「わんぱく広場」はあるが遊具の内容は未確認",
+    "toilet": "屋外トイレ4か所（府の公衆トイレ一覧）",
+    "parking": "350台・有料（市の公園データ）",
+    "barrier_free": "屋外トイレ4か所とも車いす対応（府の公衆トイレ一覧）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "公園（高槻市）",
+      "url": "https://data.bodik.jp/dataset/272078_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所・面積（ha→㎡に換算）・緯度経度を抽出"
+   }
+  },
+  {
+   "id": "settsukyo",
+   "name": "摂津峡公園",
+   "kana": "せっつきょうこうえん",
+   "city": "高槻市",
+   "city_slug": "takatsuki",
+   "ward": null,
+   "address": "高槻市大字原",
+   "lat": 34.88055,
+   "lng": 135.584848,
+   "park_type": null,
+   "area_m2": 426500,
+   "area_note": null,
+   "operator": "高槻市",
+   "facilities": {
+    "playground": null,
+    "toilet": true,
+    "parking": true,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "toilet": "桜広場・白滝茶屋付近に便所（府の公衆トイレ一覧）",
+    "parking": "123台・1回ごとの料金（市の公園データ）",
+    "barrier_free": "桜広場の便所は車いす対応（白滝茶屋付近は非対応）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "公園（高槻市）",
+      "url": "https://data.bodik.jp/dataset/272078_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所・面積（ha→㎡に換算）・緯度経度を抽出"
+   }
+  },
+  {
+   "id": "akutagawa-ryokuchi",
+   "name": "芥川緑地",
+   "kana": "あくたがわりょくち",
+   "city": "高槻市",
+   "city_slug": "takatsuki",
+   "ward": null,
+   "address": "高槻市南平台五丁目",
+   "lat": 34.863658,
+   "lng": 135.591969,
+   "park_type": null,
+   "area_m2": 83000,
+   "area_note": null,
+   "operator": "高槻市",
+   "facilities": {
+    "playground": null,
+    "toilet": true,
+    "parking": true,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "playground": "健康遊具のみ市データに記載（子ども向け遊具は未確認）",
+    "toilet": "便所3か所（府の公衆トイレ一覧）",
+    "parking": "119台・有料（市の公園データ）",
+    "barrier_free": "3か所とも車いす対応、健康づくり広場はオストメイト・おむつ替えも"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "公園（高槻市）",
+      "url": "https://data.bodik.jp/dataset/272078_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所・面積（ha→㎡に換算）・緯度経度を抽出"
+   }
+  },
+  {
+   "id": "takatsuki-jo",
+   "name": "高槻城公園",
+   "kana": "たかつきじょうこうえん",
+   "city": "高槻市",
+   "city_slug": "takatsuki",
+   "ward": null,
+   "address": "高槻市城内町、高槻市野見町",
+   "lat": 34.842428,
+   "lng": 135.623077,
+   "park_type": null,
+   "area_m2": 44700,
+   "area_note": null,
+   "operator": "高槻市",
+   "facilities": {
+    "playground": true,
+    "toilet": null,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "遊戯広場ゾーン・交通遊園あり（市の公園データ）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "公園（高槻市）",
+      "url": "https://data.bodik.jp/dataset/272078_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所・面積（ha→㎡に換算）・緯度経度を抽出"
+   }
+  },
+  {
+   "id": "shimizuike",
+   "name": "清水池公園",
+   "kana": "しみずいけこうえん",
+   "city": "高槻市",
+   "city_slug": "takatsuki",
+   "ward": null,
+   "address": "高槻市川西町三丁目、高槻市津之江北町",
+   "lat": 34.844964,
+   "lng": 135.6091,
+   "park_type": null,
+   "area_m2": 21900,
+   "area_note": null,
+   "operator": "高槻市",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "playground": "遊具広場あり（市の公園データ）",
+    "toilet": "公衆便所あり（府の公衆トイレ一覧）",
+    "barrier_free": "車いす対応トイレ（府の公衆トイレ一覧）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "公園（高槻市）",
+      "url": "https://data.bodik.jp/dataset/272078_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所・面積（ha→㎡に換算）・緯度経度を抽出"
+   }
+  },
+  {
+   "id": "ama-iseki",
+   "name": "安満遺跡公園",
+   "kana": "あまいせきこうえん",
+   "city": "高槻市",
+   "city_slug": "takatsuki",
+   "ward": null,
+   "address": "高槻市八丁畷町",
+   "lat": 34.855061,
+   "lng": 135.630066,
+   "park_type": null,
+   "area_m2": null,
+   "area_note": null,
+   "operator": "高槻市",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": true,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "playground": "パークセンター内などに子どもの遊び場",
+    "toilet": "歴史拠点施設などにトイレ（府の公衆トイレ一覧）",
+    "parking": "西・東の2か所。台数・料金は公式で確認",
+    "barrier_free": "車いす対応・オストメイト・おむつ替えのあるトイレ（府の公衆トイレ一覧）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "公衆トイレ一覧（大阪府）",
+      "url": "https://data.bodik.jp/dataset/270008_barrier_free_toilet",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所は公衆トイレ一覧（大阪府）の「安満遺跡公園歴史拠点施設」の行から。緯度経度は国土地理院 住所検索APIで付与（町名レベルの代表点）。面積は商用利用できるデータで確認できず未設定"
+   }
+  },
+  {
+   "id": "senri-chuo",
+   "name": "千里中央公園",
+   "kana": "せんりちゅうおうこうえん",
+   "city": "豊中市",
+   "city_slug": "toyonaka",
+   "ward": null,
+   "address": "豊中市新千里東町3-9",
+   "lat": 34.812321,
+   "lng": 135.503952,
+   "park_type": null,
+   "area_m2": null,
+   "area_note": null,
+   "operator": "豊中市",
+   "facilities": {
+    "playground": null,
+    "toilet": true,
+    "parking": true,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "toilet": "中央部・北広場・展望台駐車場にトイレ（豊中市の公衆トイレ一覧）",
+    "parking": "展望台駐車場あり（トイレ一覧の設置場所名から）。台数・料金は未確認",
+    "barrier_free": "車いす対応トイレ（中央部・北広場はオストメイトも）。中央部・北広場は乳幼児用設備あり"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "公衆トイレ一覧（豊中市）",
+      "url": "https://data.bodik.jp/dataset/272035_public_toilet",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所は公衆トイレ一覧（豊中市）から。緯度経度は国土地理院 住所検索APIで付与（丁目レベルの代表点）。面積は未設定"
+   }
+  },
+  {
+   "id": "teshima",
+   "name": "豊島公園",
+   "kana": "てしまこうえん",
+   "city": "豊中市",
+   "city_slug": "toyonaka",
+   "ward": null,
+   "address": "豊中市曽根南町1-70",
+   "lat": 34.767139,
+   "lng": 135.469269,
+   "park_type": null,
+   "area_m2": null,
+   "area_note": null,
+   "operator": "豊中市",
+   "facilities": {
+    "playground": null,
+    "toilet": true,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "toilet": "西側と野球場にトイレ（豊中市の公衆トイレ一覧）",
+    "barrier_free": "車いす対応トイレ（西側は乳幼児用設備も）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "公衆トイレ一覧（豊中市）",
+      "url": "https://data.bodik.jp/dataset/272035_public_toilet",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所は公衆トイレ一覧（豊中市）から。緯度経度は国土地理院 住所検索APIで付与（丁目レベルの代表点）。面積は未設定"
+   }
+  },
+  {
+   "id": "hanazono-chuo",
+   "name": "花園中央公園",
+   "kana": "はなぞのちゅうおうこうえん",
+   "city": "東大阪市",
+   "city_slug": "higashiosaka",
+   "ward": null,
+   "address": "東大阪市松原南1-1",
+   "lat": 34.668728,
+   "lng": 135.626572,
+   "park_type": null,
+   "area_m2": null,
+   "area_note": null,
+   "operator": "東大阪市",
+   "facilities": {
+    "playground": null,
+    "toilet": true,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "toilet": "園内7か所（東大阪市の公衆トイレ一覧）",
+    "barrier_free": "7か所とも車いす対応。美術館前・菖蒲池前などは乳幼児用設備も"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "公衆トイレ一覧（東大阪市）",
+      "url": "https://data.bodik.jp/dataset/272272_13",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所は公衆トイレ一覧（東大阪市）から。緯度経度は国土地理院 住所検索APIで付与。面積は未設定"
+   }
+  },
+  {
+   "id": "nishigawara",
+   "name": "西河原公園",
+   "kana": "にしがわらこうえん",
+   "city": "茨木市",
+   "city_slug": "ibaraki",
+   "ward": null,
+   "address": "茨木市西河原一丁目・二丁目",
+   "lat": 34.828484,
+   "lng": 135.574951,
+   "park_type": null,
+   "area_m2": null,
+   "area_note": null,
+   "operator": "茨木市",
+   "facilities": {
+    "playground": null,
+    "toilet": true,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "toilet": "南・北のトイレ棟（府の公衆トイレ一覧）",
+    "barrier_free": "両棟とも車いす対応・オストメイト・おむつ替え"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "公衆トイレ一覧（大阪府）",
+      "url": "https://data.bodik.jp/dataset/270008_barrier_free_toilet",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所は公衆トイレ一覧（大阪府）の茨木市の行から。緯度経度は国土地理院 住所検索APIで付与（丁目レベルの代表点）。面積は未設定"
+   }
+  },
+  {
+   "id": "iwakura",
+   "name": "岩倉公園",
+   "kana": "いわくらこうえん",
+   "city": "茨木市",
+   "city_slug": "ibaraki",
+   "ward": null,
+   "address": "茨木市岩倉町",
+   "lat": 34.810768,
+   "lng": 135.561813,
+   "park_type": null,
+   "area_m2": null,
+   "area_note": null,
+   "operator": "茨木市",
+   "facilities": {
+    "playground": null,
+    "toilet": true,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "toilet": "トイレあり（府の公衆トイレ一覧）",
+    "barrier_free": "車いす対応・オストメイト・おむつ替え"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "公衆トイレ一覧（大阪府）",
+      "url": "https://data.bodik.jp/dataset/270008_barrier_free_toilet",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所は公衆トイレ一覧（大阪府）の茨木市の行から。緯度経度は国土地理院 住所検索APIで付与（町名レベルの代表点）。面積は未設定"
+   }
+  },
+  {
+   "id": "teragaike",
+   "name": "寺ケ池公園",
+   "kana": "てらがいけこうえん",
+   "city": "河内長野市",
+   "city_slug": "kawachinagano",
+   "ward": null,
+   "address": "河内長野市小山田町674-5",
+   "lat": 34.457809,
+   "lng": 135.556747,
+   "park_type": null,
+   "area_m2": null,
+   "area_note": null,
+   "operator": "河内長野市",
+   "facilities": {
+    "playground": null,
+    "toilet": true,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "toilet": "管理事務所にトイレ（府の公衆トイレ一覧）",
+    "barrier_free": "車いす対応トイレ"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "公衆トイレ一覧（大阪府）",
+      "url": "https://data.bodik.jp/dataset/270008_barrier_free_toilet",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所は公衆トイレ一覧（大阪府）の「寺ケ池公園管理事務所」の行から。緯度経度は国土地理院 住所検索APIで付与。面積は未設定"
+   }
+  },
+  {
+   "id": "wani",
+   "name": "王仁公園",
+   "kana": "わにこうえん",
+   "city": "枚方市",
+   "city_slug": "hirakata",
+   "ward": null,
+   "address": "枚方市王仁公園町1-1",
+   "lat": 34.817968,
+   "lng": 135.706976,
+   "park_type": null,
+   "area_m2": 92940,
+   "area_note": null,
+   "operator": "枚方市",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": null,
+    "shade": true,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "ブランコ・すべり台・砂場など（2021年の市データ）",
+    "toilet": "2か所（2021年の市データ）",
+    "parking": "有料施設の利用者用の駐車場のみ記載（2021年の市データ）。一般利用は未確認",
+    "shade": "あずまや5基（2021年の市データ）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "都市公園情報（枚方市）",
+      "url": "https://www.city.hirakata.osaka.jp/0000004691.html",
+      "license": "CC BY 2.1 JP"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・所在地・面積（㎡）・緯度経度を抽出（元データは2021年8月時点）"
+   }
+  },
+  {
+   "id": "kurumazuka",
+   "name": "車塚公園",
+   "kana": "くるまづかこうえん",
+   "city": "枚方市",
+   "city_slug": "hirakata",
+   "ward": null,
+   "address": "枚方市車塚1丁目・2丁目",
+   "lat": 34.833546,
+   "lng": 135.669031,
+   "park_type": null,
+   "area_m2": 50165,
+   "area_note": null,
+   "operator": "枚方市",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": true,
+    "shade": true,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "すべり台・砂場・健康遊具（2021年の市データ）",
+    "toilet": "1か所（2021年の市データ）",
+    "parking": "駐車場あり（2021年の市データ）。台数・料金は未確認",
+    "shade": "あずまや2基（2021年の市データ）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "都市公園情報（枚方市）",
+      "url": "https://www.city.hirakata.osaka.jp/0000004691.html",
+      "license": "CC BY 2.1 JP"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・所在地・面積（㎡）・緯度経度を抽出（元データは2021年8月時点）"
+   }
+  },
+  {
+   "id": "tobu",
+   "name": "東部公園",
+   "kana": "とうぶこうえん",
+   "city": "枚方市",
+   "city_slug": "hirakata",
+   "ward": null,
+   "address": "枚方市大字尊延寺2987-1",
+   "lat": 34.80133,
+   "lng": 135.745787,
+   "park_type": null,
+   "area_m2": 65175,
+   "area_note": null,
+   "operator": "枚方市",
+   "facilities": {
+    "playground": true,
+    "toilet": true,
+    "parking": null,
+    "shade": true,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": null
+   },
+   "facility_notes": {
+    "playground": "複合遊具・健康遊具（2021年の市データ）",
+    "toilet": "2か所（2021年の市データ）",
+    "parking": "有料施設の利用者用の駐車場のみ記載（2021年の市データ）。一般利用は未確認",
+    "shade": "あずまや3基（2021年の市データ）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "都市公園情報（枚方市）",
+      "url": "https://www.city.hirakata.osaka.jp/0000004691.html",
+      "license": "CC BY 2.1 JP"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・所在地・面積（㎡）・緯度経度を抽出（元データは2021年8月時点）"
+   }
+  },
+  {
+   "id": "uchiagegawa-chisui-ryokuchi",
+   "name": "打上川治水緑地",
+   "kana": "うちあげがわちすいりょくち",
+   "city": "寝屋川市",
+   "city_slug": "neyagawa",
+   "ward": null,
+   "address": "寝屋川市太秦桜が丘",
+   "lat": 34.766992,
+   "lng": 135.639699,
+   "park_type": null,
+   "area_m2": null,
+   "area_note": null,
+   "operator": "寝屋川市",
+   "facilities": {
+    "playground": null,
+    "toilet": true,
+    "parking": null,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "toilet": "公衆トイレあり（寝屋川市の公衆トイレ一覧）",
+    "barrier_free": "車いす対応トイレ"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "都市公園一覧（寝屋川市）",
+      "url": "https://data.bodik.jp/dataset/272159_city_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・住所・緯度経度を抽出（面積は元データが空欄のため未設定）"
+   }
+  },
+  {
+   "id": "mizuma",
+   "name": "水間公園",
+   "kana": "みずまこうえん",
+   "city": "貝塚市",
+   "city_slug": "kaizuka",
+   "ward": null,
+   "address": "貝塚市水間",
+   "lat": 34.397789,
+   "lng": 135.383694,
+   "park_type": "地区公園",
+   "area_m2": null,
+   "area_note": null,
+   "operator": "貝塚市",
+   "facilities": {
+    "playground": null,
+    "toilet": true,
+    "parking": true,
+    "shade": null,
+    "pet": null,
+    "nursing_room": null,
+    "barrier_free": true
+   },
+   "facility_notes": {
+    "toilet": "管理棟横にトイレ（貝塚市の公園一覧・公衆トイレ一覧）",
+    "parking": "駐車場あり（貝塚市の公園一覧）。台数・料金は未確認",
+    "barrier_free": "障害者用トイレあり（オストメイト・乳幼児用設備も）"
+   },
+   "checked_at": "2026-11-23",
+   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "source": {
+    "datasets": [
+     {
+      "name": "公園・緑地一覧（貝塚市）",
+      "url": "https://data.bodik.jp/dataset/272086_park",
+      "license": "CC BY 4.0"
+     }
+    ],
+    "retrieved_at": "2026-11-23",
+    "processing": "名称・種別（方書の「地区公園」）・緯度経度を抽出。住所は元データが空欄のため町名まで（公衆トイレ一覧の所在地から）。面積は未設定"
    }
   }
  ]

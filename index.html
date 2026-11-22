@@ -3,8 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>おおさか公園さがし｜大阪市内の公園を条件で探せる</title>
-  <meta name="description" content="大阪市内の主要な公園を、区・設備・名前で探せる非公式ガイド。公開データをもとに作成しています。">
+  <!-- BUILD:head -->
+  <title>大阪府の公園マップ｜遊具・駐車場・トイレで探せる｜おおさか公園さがし</title>
+  <meta name="description" content="大阪府の99公園を、市区・遊具・駐車場・トイレ・授乳室などで絞り込める地図つきの公園ガイド（非公式）。設備は確認日つきで掲載しています。">
+  <link rel="canonical" href="https://park-park-park20.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="おおさか公園さがし">
+  <meta property="og:title" content="大阪府の公園マップ｜遊具・駐車場・トイレで探せる｜おおさか公園さがし">
+  <meta property="og:description" content="大阪府の99公園を、市区・遊具・駐車場・トイレ・授乳室などで絞り込める地図つきの公園ガイド（非公式）。設備は確認日つきで掲載しています。">
+  <meta property="og:url" content="https://park-park-park20.github.io/">
+  <meta property="og:locale" content="ja_JP">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"おおさか公園さがし","url":"https://park-park-park20.github.io/","inLanguage":"ja","description":"大阪府の99公園を、市区・遊具・駐車場・トイレ・授乳室などで絞り込める地図つきの公園ガイド（非公式）。設備は確認日つきで掲載しています。"}</script>
+  <!-- /BUILD:head -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Ccircle cx=%2716%27 cy=%2713%27 r=%279%27 fill=%27%235fae6e%27/%3E%3Crect x=%2714.5%27 y=%2718%27 width=%273%27 height=%2710%27 rx=%271.5%27 fill=%27%237a5a3a%27/%3E%3C/svg%3E">
@@ -27,8 +38,10 @@
 
   <main class="wrap">
     <section class="intro">
-      <h1>大阪市内の公園を、条件でさがす</h1>
-      <p>区・設備・名前で絞り込めます。設備情報は<strong>運営者が事実確認したものだけ</strong>を、確認日つきで載せていく予定です。</p>
+      <!-- BUILD:intro -->
+      <h1>大阪府の公園を、条件でさがす</h1>
+      <p>市区・設備・名前で絞り込めます。設備情報は<strong>運営者が事実確認したものだけ</strong>を、確認日つきで載せています。</p>
+      <!-- /BUILD:intro -->
     </section>
 
     <section class="filters" aria-label="絞り込み">
@@ -39,14 +52,18 @@
           <input id="q" type="search" placeholder="公園名・よみで検索（例：長居、ながい）" autocomplete="off">
         </label>
         <label class="select">
+          <span class="visually-hidden">市町村で絞り込む</span>
+          <select id="city"><option value="">すべての市町村</option></select>
+        </label>
+        <label class="select">
           <span class="visually-hidden">区で絞り込む</span>
-          <select id="ward"><option value="">すべての区</option></select>
+          <select id="ward" disabled><option value="">すべての区</option></select>
         </label>
         <label class="select">
           <span class="visually-hidden">並び順</span>
           <select id="sort">
             <option value="area">広い順</option>
-            <option value="ward">区の順</option>
+            <option value="ward">地域の順</option>
           </select>
         </label>
       </div>
@@ -77,6 +94,37 @@
         <p id="empty" class="empty" hidden>条件に合う公園が見つかりませんでした。条件を減らすか、「未確認の公園も表示する」をオンにしてください。</p>
       </section>
     </div>
+
+    <!-- BUILD:areas -->
+    <section class="area-index" aria-labelledby="area-index-title">
+      <h2 id="area-index-title">市区から探す</h2>
+      <ul class="area-index-list">
+        <li><a class="city-link" href="area/osaka/">大阪市（40）</a>
+          <ul class="ward-links"><li><a href="area/osaka/kita/">北区（4）</a></li><li><a href="area/osaka/miyakojima/">都島区（1）</a></li><li><a href="area/osaka/fukushima/">福島区（1）</a></li><li><a href="area/osaka/konohana/">此花区（2）</a></li><li><a href="area/osaka/chuo/">中央区（2）</a></li><li><a href="area/osaka/nishi/">西区（2）</a></li><li><a href="area/osaka/minato/">港区（1）</a></li><li><a href="area/osaka/taisho/">大正区（3）</a></li><li><a href="area/osaka/tennoji/">天王寺区（2）</a></li><li><a href="area/osaka/nishiyodogawa/">西淀川区（3）</a></li><li><a href="area/osaka/yodogawa/">淀川区（2）</a></li><li><a href="area/osaka/ikuno/">生野区（2）</a></li><li><a href="area/osaka/asahi/">旭区（2）</a></li><li><a href="area/osaka/tsurumi/">鶴見区（1）</a></li><li><a href="area/osaka/abeno/">阿倍野区（2）</a></li><li><a href="area/osaka/suminoe/">住之江区（3）</a></li><li><a href="area/osaka/sumiyoshi/">住吉区（2）</a></li><li><a href="area/osaka/higashisumiyoshi/">東住吉区（2）</a></li><li><a href="area/osaka/hirano/">平野区（1）</a></li><li><a href="area/osaka/nishinari/">西成区（2）</a></li></ul>
+        </li>
+        <li><a class="city-link" href="area/sakai/">堺市（26）</a>
+          <ul class="ward-links"><li><a href="area/sakai/sakai/">堺区（3）</a></li><li><a href="area/sakai/naka/">中区（1）</a></li><li><a href="area/sakai/higashi/">東区（1）</a></li><li><a href="area/sakai/nishi/">西区（2）</a></li><li><a href="area/sakai/minami/">南区（16）</a></li><li><a href="area/sakai/kita/">北区（2）</a></li><li><a href="area/sakai/mihara/">美原区（1）</a></li></ul>
+        </li>
+        <li><a class="city-link" href="area/kishiwada/">岸和田市（1）</a></li>
+        <li><a class="city-link" href="area/toyonaka/">豊中市（3）</a></li>
+        <li><a class="city-link" href="area/suita/">吹田市（1）</a></li>
+        <li><a class="city-link" href="area/takatsuki/">高槻市（7）</a></li>
+        <li><a class="city-link" href="area/kaizuka/">貝塚市（2）</a></li>
+        <li><a class="city-link" href="area/hirakata/">枚方市（4）</a></li>
+        <li><a class="city-link" href="area/ibaraki/">茨木市（2）</a></li>
+        <li><a class="city-link" href="area/yao/">八尾市（1）</a></li>
+        <li><a class="city-link" href="area/izumisano/">泉佐野市（1）</a></li>
+        <li><a class="city-link" href="area/tondabayashi/">富田林市（1）</a></li>
+        <li><a class="city-link" href="area/neyagawa/">寝屋川市（2）</a></li>
+        <li><a class="city-link" href="area/kawachinagano/">河内長野市（2）</a></li>
+        <li><a class="city-link" href="area/daito/">大東市（1）</a></li>
+        <li><a class="city-link" href="area/minoh/">箕面市（1）</a></li>
+        <li><a class="city-link" href="area/habikino/">羽曳野市（1）</a></li>
+        <li><a class="city-link" href="area/higashiosaka/">東大阪市（2）</a></li>
+        <li><a class="city-link" href="area/misaki/">岬町（1）</a></li>
+      </ul>
+    </section>
+    <!-- /BUILD:areas -->
   </main>
 
   <!-- 公園詳細モーダル -->
@@ -99,18 +147,44 @@
       <div class="credit">
         <h2>データ出典</h2>
         <ul>
-          <li>「マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）」（大阪市）
+          <!-- BUILD:credit -->
+          <li>「マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）」
             <a href="https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html" target="_blank" rel="noopener">https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html</a>
-            ／ クリエイティブ・コモンズ 表示（CC BY）</li>
-          <li>「大阪市都市公園一覧表（令和8年4月1日現在）」（大阪市建設局）
+            ／ CC BY</li>
+          <li>「大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）」
             <a href="https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html" target="_blank" rel="noopener">https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html</a>
-            ／ <a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener">クリエイティブ・コモンズ 表示 4.0 国際（CC BY 4.0）</a></li>
-          <li>「大阪府営公園一覧」（大阪府）
+            ／ <a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener">CC BY 4.0</a></li>
+          <li>「大阪府営公園一覧（大阪府）」
             <a href="https://data.bodik.jp/dataset/270008_park_list" target="_blank" rel="noopener">https://data.bodik.jp/dataset/270008_park_list</a>
             ／ <a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener">CC BY 4.0</a></li>
+          <li>「公衆トイレ一覧（大阪府）」
+            <a href="https://data.bodik.jp/dataset/270008_barrier_free_toilet" target="_blank" rel="noopener">https://data.bodik.jp/dataset/270008_barrier_free_toilet</a>
+            ／ <a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener">CC BY 4.0</a></li>
+          <li>「堺市 公園一覧（堺市）」
+            <a href="https://data.bodik.jp/dataset/271403_sakai_park" target="_blank" rel="noopener">https://data.bodik.jp/dataset/271403_sakai_park</a>
+            ／ <a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener">CC BY 4.0</a></li>
+          <li>「公園（高槻市）」
+            <a href="https://data.bodik.jp/dataset/272078_park" target="_blank" rel="noopener">https://data.bodik.jp/dataset/272078_park</a>
+            ／ <a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener">CC BY 4.0</a></li>
+          <li>「公衆トイレ一覧（豊中市）」
+            <a href="https://data.bodik.jp/dataset/272035_public_toilet" target="_blank" rel="noopener">https://data.bodik.jp/dataset/272035_public_toilet</a>
+            ／ <a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener">CC BY 4.0</a></li>
+          <li>「公衆トイレ一覧（東大阪市）」
+            <a href="https://data.bodik.jp/dataset/272272_13" target="_blank" rel="noopener">https://data.bodik.jp/dataset/272272_13</a>
+            ／ <a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener">CC BY 4.0</a></li>
+          <li>「都市公園情報（枚方市）」
+            <a href="https://www.city.hirakata.osaka.jp/0000004691.html" target="_blank" rel="noopener">https://www.city.hirakata.osaka.jp/0000004691.html</a>
+            ／ <a href="https://creativecommons.org/licenses/by/2.1/jp/" target="_blank" rel="noopener">CC BY 2.1 JP</a></li>
+          <li>「都市公園一覧（寝屋川市）」
+            <a href="https://data.bodik.jp/dataset/272159_city_park" target="_blank" rel="noopener">https://data.bodik.jp/dataset/272159_city_park</a>
+            ／ <a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener">CC BY 4.0</a></li>
+          <li>「公園・緑地一覧（貝塚市）」
+            <a href="https://data.bodik.jp/dataset/272086_park" target="_blank" rel="noopener">https://data.bodik.jp/dataset/272086_park</a>
+            ／ <a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener">CC BY 4.0</a></li>
+          <!-- /BUILD:credit -->
         </ul>
-        <p>※上記データを加工して作成（名称の統合・項目の抽出、設備情報の追記など）。<br>
-          ※本サイトは大阪市・大阪府が作成・運営するものではありません。<br>
+        <p>※上記データを加工して作成（名称の統合・項目の抽出、設備情報の追記など）。加工内容は各公園のページに記載しています。<br>
+          ※本サイトは大阪府・市町村などの自治体が作成・運営するものではありません。<br>
           ※設備情報は運営者が独自に調査したものです（確認日を各公園ページに記載）。お出かけ前に公式情報をご確認ください。</p>
         <p>地図：<a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank" rel="noopener">地理院タイル（国土地理院）</a></p>
       </div>

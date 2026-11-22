@@ -2,9 +2,19 @@
 (function () {
   'use strict';
 
-  var WARD_ORDER = ['北区', '都島区', '福島区', '此花区', '中央区', '西区', '港区', '大正区', '天王寺区', '浪速区',
-    '西淀川区', '淀川区', '東淀川区', '東成区', '生野区', '旭区', '城東区', '鶴見区', '阿倍野区', '住之江区',
-    '住吉区', '東住吉区', '平野区', '西成区'];
+  // 区の並び（政令市のみ）。tools/build_pages.py の WARD_SLUGS と同じ順
+  var WARD_ORDER = {
+    osaka: ['北区', '都島区', '福島区', '此花区', '中央区', '西区', '港区', '大正区', '天王寺区', '浪速区',
+      '西淀川区', '淀川区', '東淀川区', '東成区', '生野区', '旭区', '城東区', '鶴見区', '阿倍野区', '住之江区',
+      '住吉区', '東住吉区', '平野区', '西成区'],
+    sakai: ['堺区', '中区', '東区', '西区', '南区', '北区', '美原区']
+  };
+  // 市町村の並び（全国地方公共団体コード順）。tools/build_pages.py の CITY_ORDER と同じ
+  var CITY_ORDER = ['osaka', 'sakai', 'kishiwada', 'toyonaka', 'ikeda', 'suita', 'izumiotsu', 'takatsuki', 'kaizuka',
+    'moriguchi', 'hirakata', 'ibaraki', 'yao', 'izumisano', 'tondabayashi', 'neyagawa', 'kawachinagano', 'matsubara',
+    'daito', 'izumi', 'minoh', 'mino', 'kashiwara', 'habikino', 'kadoma', 'settsu', 'takaishi', 'fujiidera',
+    'higashiosaka', 'sennan', 'shijonawate', 'katano', 'osakasayama', 'hannan', 'shimamoto', 'toyono', 'nose',
+    'tadaoka', 'kumatori', 'tajiri', 'misaki', 'taishi', 'kanan', 'chihayaakasaka'];
   var FACILITY_ORDER = ['playground', 'toilet', 'parking', 'shade', 'pet', 'nursing_room', 'barrier_free'];
   var AD_AFTER = 6; // 一覧のこの件数の後に広告枠を入れる
   var SHOW_ADS = true; // false にすると広告をすべて隠す
@@ -50,8 +60,8 @@
     return items.slice(0, 3);
   }
 
-  var state = { parks: [], labels: {}, q: '', ward: '', sort: 'area', facilities: [], includeUnknown: true };
-  var map, markers = {}, activeId = null, lastFocus = null;
+  var state = { parks: [], labels: {}, q: '', city: '', ward: '', sort: 'area', facilities: [], includeUnknown: true };
+  var map, markers = {}, activeId = null, lastFocus = null, baseTitle = document.title;
 
   var $ = function (id) { return document.getElementById(id); };
 
@@ -101,7 +111,13 @@
     return known.join('');
   }
 
-  function wardIndex(w) { var i = WARD_ORDER.indexOf(w); return i < 0 ? 99 : i; }
+  function cityIndex(slug) { var i = CITY_ORDER.indexOf(slug); return i < 0 ? 999 : i; }
+  function wardIndex(city, w) { var i = (WARD_ORDER[city] || []).indexOf(w); return i < 0 ? 99 : i; }
+  function compareCity(a, b) { return cityIndex(a) - cityIndex(b) || (a < b ? -1 : a > b ? 1 : 0); }
+
+  // 公園ページへの相対パス（トップから）
+  function parkUrl(p) { return 'parks/' + p.city_slug + '/' + p.id + '/'; }
+  function placeLabel(p) { return (p.city || '') + (p.ward || ''); }
 
   /* ---------- 検索用の正規化 ---------- */
   // 全角半角をそろえ（NFKC：半角カナ→全角、全角英数→半角）、カタカナ→ひらがな、小文字化、空白除去
@@ -120,6 +136,7 @@
 
   /* ---------- 絞り込み ---------- */
   function matches(p) {
+    if (state.city && p.city_slug !== state.city) return false;
     if (state.ward && p.ward !== state.ward) return false;
     if (state.q) {
       var q = norm(state.q);
@@ -146,7 +163,7 @@
       var d = confirmedScore(b) - confirmedScore(a);
       if (d) return d;
       if (state.sort === 'ward') {
-        d = wardIndex(a.ward) - wardIndex(b.ward);
+        d = compareCity(a.city_slug, b.city_slug) || wardIndex(a.city_slug, a.ward) - wardIndex(b.city_slug, b.ward);
         if (d) return d;
       }
       return (b.area_m2 || 0) - (a.area_m2 || 0);
@@ -169,8 +186,8 @@
     var checked = hasKnown(p) && p.checked_at ?
       '<span class="checked-mini">設備確認 ' + esc(p.checked_at) + '</span>' : '';
     return '<li class="park-card' + (p.id === activeId ? ' is-active' : '') + '" data-id="' + esc(p.id) + '">' +
-      '<h3><button type="button" data-open="' + esc(p.id) + '">' + esc(p.name) + '</button></h3>' +
-      '<p class="meta"><span class="tag">' + esc(p.ward || '区不明') + '</span>' +
+      '<h3><a href="' + esc(parkUrl(p)) + '" data-open="' + esc(p.id) + '">' + esc(p.name) + '</a></h3>' +
+      '<p class="meta"><span class="tag">' + esc(placeLabel(p) || '所在地不明') + '</span>' +
       esc(p.area_m2 ? fmtArea(p.area_m2) : '面積 未確認') + checked + '</p>' +
       '<ul class="fac-mini" aria-label="設備">' + cardFacilitiesHtml(p) + '</ul>' +
       '<div class="card-actions">' +
@@ -227,7 +244,7 @@
       });
       m.bindPopup(
         '<span class="popup-name">' + esc(p.name) + '</span>' +
-        '<span class="popup-ward">' + esc(p.ward || '') + '</span>' +
+        '<span class="popup-ward">' + esc(placeLabel(p)) + '</span>' +
         '<button type="button" class="popup-btn" data-open="' + esc(p.id) + '">詳しく見る</button>'
       );
       m.baseRadius = m.getRadius();
@@ -287,7 +304,7 @@
       (p.kana ? '<p class="kana">' + esc(p.kana) + '</p>' : '') +
       '<h3>基本情報</h3>' +
       '<table class="info-table"><tbody>' +
-      '<tr><th scope="row">区</th><td>' + esc(p.ward || '未確認') + '</td></tr>' +
+      '<tr><th scope="row">所在地</th><td>' + esc(placeLabel(p) || '未確認') + '</td></tr>' +
       '<tr><th scope="row">住所</th><td>' + esc(p.address || '未確認') + '</td></tr>' +
       '<tr><th scope="row">面積</th><td>' + esc(fmtArea(p.area_m2)) +
       (p.area_note ? '<br><small>' + esc(p.area_note) + '</small>' : '') + '</td></tr>' +
@@ -308,7 +325,8 @@
       '<br>設備情報は、運営者が独自に確認したものです（' +
       (hasKnown(p) ? '確認日・確認方法は「設備」欄に記載' : 'この公園は未確認') + '）。</div>' +
       '<div class="detail-actions">' +
-      '<button type="button" class="btn" data-locate="' + esc(p.id) + '" data-close>地図で見る</button>' +
+      '<a class="btn" href="' + esc(parkUrl(p)) + '">この公園のページを開く</a>' +
+      '<button type="button" class="btn btn-ghost" data-locate="' + esc(p.id) + '" data-close>地図で見る</button>' +
       '<a class="btn btn-ghost" href="' + esc(gsi) + '" target="_blank" rel="noopener">地理院地図で開く</a>' +
       '</div></div>';
   }
@@ -330,7 +348,7 @@
     if ($('modal').hidden) return;
     $('modal').hidden = true;
     document.body.style.overflow = '';
-    document.title = 'おおさか公園さがし｜大阪市内の公園を条件で探せる';
+    document.title = baseTitle;
     if (push !== false && location.hash) history.pushState(null, '', location.pathname + location.search);
     if (lastFocus && lastFocus.focus) lastFocus.focus();
   }
@@ -355,15 +373,34 @@
       render();
     });
 
-    var wards = {};
-    state.parks.forEach(function (p) { if (p.ward) wards[p.ward] = (wards[p.ward] || 0) + 1; });
-    Object.keys(wards).sort(function (a, b) { return wardIndex(a) - wardIndex(b); }).forEach(function (w) {
-      var o = document.createElement('option');
-      o.value = w; o.textContent = w + '（' + wards[w] + '）';
-      $('ward').appendChild(o);
+    // 市町村 → 区 の絞り込み
+    var cities = {};
+    state.parks.forEach(function (p) {
+      var c = cities[p.city_slug] || (cities[p.city_slug] = { name: p.city, n: 0, wards: {} });
+      c.n++;
+      if (p.ward) c.wards[p.ward] = (c.wards[p.ward] || 0) + 1;
     });
+    Object.keys(cities).sort(compareCity).forEach(function (slug) {
+      var o = document.createElement('option');
+      o.value = slug; o.textContent = cities[slug].name + '（' + cities[slug].n + '）';
+      $('city').appendChild(o);
+    });
+    function fillWards() {
+      var sel = $('ward'), c = cities[state.city];
+      sel.innerHTML = '<option value="">すべての区</option>';
+      var names = c ? Object.keys(c.wards) : [];
+      names.sort(function (a, b) { return wardIndex(state.city, a) - wardIndex(state.city, b); }).forEach(function (w) {
+        var o = document.createElement('option');
+        o.value = w; o.textContent = w + '（' + c.wards[w] + '）';
+        sel.appendChild(o);
+      });
+      sel.disabled = names.length === 0;
+      state.ward = '';
+    }
+    fillWards();
 
     $('q').addEventListener('input', function (e) { state.q = e.target.value.trim(); render(); });
+    $('city').addEventListener('change', function (e) { state.city = e.target.value; fillWards(); render(); });
     $('ward').addEventListener('change', function (e) { state.ward = e.target.value; render(); });
     $('sort').addEventListener('change', function (e) { state.sort = e.target.value; render(); });
     $('include-unknown').addEventListener('change', function (e) { state.includeUnknown = e.target.checked; render(); });
@@ -376,7 +413,13 @@
         return;
       }
       var op = e.target.closest('[data-open]');
-      if (op) { openModal(op.getAttribute('data-open')); return; }
+      if (op) {
+        // 公園名のリンク：新しいタブで開く操作（Ctrl/⌘/Shift/中クリック）はそのまま公園ページへ
+        if (op.tagName === 'A' && (e.ctrlKey || e.metaKey || e.shiftKey || e.altKey || e.button !== 0)) return;
+        e.preventDefault();
+        openModal(op.getAttribute('data-open'));
+        return;
+      }
       if (e.target.closest('[data-close]')) closeModal();
     });
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeModal(); });

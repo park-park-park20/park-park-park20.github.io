@@ -4,6 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>このサイトについて｜おおさか公園さがし</title>
+  <meta name="description" content="おおさか公園さがし（非公式）の運営者情報、掲載データの出典・ライセンス、設備情報の確認方針、広告についての説明です。">
+  <link rel="canonical" href="https://park-park-park20.github.io/about.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="おおさか公園さがし">
+  <meta property="og:title" content="このサイトについて｜おおさか公園さがし">
+  <meta property="og:description" content="おおさか公園さがし（非公式）の運営者情報、掲載データの出典・ライセンス、設備情報の確認方針、広告についての説明です。">
+  <meta property="og:url" content="https://park-park-park20.github.io/about.html">
+  <meta property="og:locale" content="ja_JP">
+  <meta name="twitter:card" content="summary">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Ccircle cx=%2716%27 cy=%2713%27 r=%279%27 fill=%27%235fae6e%27/%3E%3Crect x=%2714.5%27 y=%2718%27 width=%273%27 height=%2710%27 rx=%271.5%27 fill=%27%237a5a3a%27/%3E%3C/svg%3E">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -21,7 +30,9 @@
   <main class="wrap">
     <article class="page">
       <h1>このサイトについて</h1>
-      <p>「おおさか公園さがし」は、大阪市内の主要な公園を、区や設備などの条件で探せる<strong>非公式</strong>のガイドサイトです。大阪市・大阪府が作成・運営するものではありません。</p>
+      <!-- BUILD:about-intro -->
+      <p>「おおさか公園さがし」は、大阪府内の主要な公園を、市区や設備などの条件で探せる<strong>非公式</strong>のガイドサイトです。大阪府・市町村などの自治体が作成・運営するものではありません。</p>
+      <!-- /BUILD:about-intro -->
 
       <h2>運営者情報</h2>
       <table class="info-table"><tbody>
@@ -33,7 +44,7 @@
 
       <h2>掲載情報について</h2>
       <ul>
-        <li>公園の名称・住所・位置・面積・種別は、大阪市・大阪府が公開しているオープンデータを加工して作成しています。</li>
+        <li>公園の名称・住所・位置・面積・種別は、大阪府・府内の市町村などが公開しているオープンデータを加工して作成しています。</li>
         <li>設備情報（遊具・トイレ・駐車場など）は、運営者が独自に確認したものだけを、確認日つきで掲載します。「未確認」は、設備が無いという意味ではありません。</li>
         <li>情報は確認日時点のものです。施設や料金、利用ルールは変わることがあります。お出かけ前に各公園の公式情報をご確認ください。</li>
         <li>掲載情報の利用によって生じた損害について、運営者は責任を負いかねます。</li>
@@ -42,17 +53,43 @@
 
       <h2 id="data">データについて（出典・ライセンス）</h2>
       <ul>
-        <li>「マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）」（大阪市）<br>
+        <!-- BUILD:credit -->
+        <li>「マップナビおおさか オープンデータ 施設情報ポイントデータ（公園・スポーツ）（大阪市）」<br>
           <a href="https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html" target="_blank" rel="noopener">https://www.city.osaka.lg.jp/toshikeikaku/page/0000250227.html</a><br>
-          クリエイティブ・コモンズ 表示（CC BY）</li>
-        <li>「大阪市都市公園一覧表（令和8年4月1日現在）」（大阪市建設局）<br>
+          CC BY</li>
+        <li>「大阪市都市公園一覧表（令和8年4月1日現在）（大阪市建設局）」<br>
           <a href="https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html" target="_blank" rel="noopener">https://www.city.osaka.lg.jp/kensetsu/page/0000372135.html</a><br>
-          <a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener">クリエイティブ・コモンズ 表示 4.0 国際（CC BY 4.0）</a></li>
-        <li>「大阪府営公園一覧」（大阪府）<br>
+          <a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener">CC BY 4.0</a></li>
+        <li>「大阪府営公園一覧（大阪府）」<br>
           <a href="https://data.bodik.jp/dataset/270008_park_list" target="_blank" rel="noopener">https://data.bodik.jp/dataset/270008_park_list</a><br>
           <a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener">CC BY 4.0</a></li>
+        <li>「公衆トイレ一覧（大阪府）」<br>
+          <a href="https://data.bodik.jp/dataset/270008_barrier_free_toilet" target="_blank" rel="noopener">https://data.bodik.jp/dataset/270008_barrier_free_toilet</a><br>
+          <a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener">CC BY 4.0</a></li>
+        <li>「堺市 公園一覧（堺市）」<br>
+          <a href="https://data.bodik.jp/dataset/271403_sakai_park" target="_blank" rel="noopener">https://data.bodik.jp/dataset/271403_sakai_park</a><br>
+          <a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener">CC BY 4.0</a></li>
+        <li>「公園（高槻市）」<br>
+          <a href="https://data.bodik.jp/dataset/272078_park" target="_blank" rel="noopener">https://data.bodik.jp/dataset/272078_park</a><br>
+          <a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener">CC BY 4.0</a></li>
+        <li>「公衆トイレ一覧（豊中市）」<br>
+          <a href="https://data.bodik.jp/dataset/272035_public_toilet" target="_blank" rel="noopener">https://data.bodik.jp/dataset/272035_public_toilet</a><br>
+          <a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener">CC BY 4.0</a></li>
+        <li>「公衆トイレ一覧（東大阪市）」<br>
+          <a href="https://data.bodik.jp/dataset/272272_13" target="_blank" rel="noopener">https://data.bodik.jp/dataset/272272_13</a><br>
+          <a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener">CC BY 4.0</a></li>
+        <li>「都市公園情報（枚方市）」<br>
+          <a href="https://www.city.hirakata.osaka.jp/0000004691.html" target="_blank" rel="noopener">https://www.city.hirakata.osaka.jp/0000004691.html</a><br>
+          <a href="https://creativecommons.org/licenses/by/2.1/jp/" target="_blank" rel="noopener">CC BY 2.1 JP</a></li>
+        <li>「都市公園一覧（寝屋川市）」<br>
+          <a href="https://data.bodik.jp/dataset/272159_city_park" target="_blank" rel="noopener">https://data.bodik.jp/dataset/272159_city_park</a><br>
+          <a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener">CC BY 4.0</a></li>
+        <li>「公園・緑地一覧（貝塚市）」<br>
+          <a href="https://data.bodik.jp/dataset/272086_park" target="_blank" rel="noopener">https://data.bodik.jp/dataset/272086_park</a><br>
+          <a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener">CC BY 4.0</a></li>
+        <!-- /BUILD:credit -->
       </ul>
-      <p>※上記データを加工して作成しています（名称の統合・項目の抽出、設備情報の追記など）。加工内容は各公園の詳細画面にも記載しています。</p>
+      <p>※上記データを加工して作成しています（名称の統合・項目の抽出、設備情報の追記など）。加工内容は各公園のページにも記載しています。</p>
       <p>地図：<a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank" rel="noopener">地理院タイル（国土地理院）</a></p>
 
       <h2>広告について</h2>
