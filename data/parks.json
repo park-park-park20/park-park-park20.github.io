@@ -2495,8 +2495,8 @@
    "city_slug": "suita",
    "ward": null,
    "address": "吹田市千里万博公園",
-   "lat": 34.807747,
-   "lng": 135.533157,
+   "lat": 34.811603,
+   "lng": 135.527745,
    "park_type": null,
    "area_m2": null,
    "area_note": null,
@@ -2525,10 +2525,15 @@
       "name": "公衆トイレ一覧（大阪府）",
       "url": "https://data.bodik.jp/dataset/270008_barrier_free_toilet",
       "license": "CC BY 4.0"
+     },
+     {
+      "name": "OpenStreetMap（© OpenStreetMap contributors）",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0"
      }
     ],
     "retrieved_at": "2026-11-23",
-    "processing": "名称・住所は公衆トイレ一覧（大阪府）の「万博記念公園／…」の行から。緯度経度は国土地理院 住所検索APIで付与（町名レベル「千里万博公園」の代表点）。面積は商用利用できるデータで確認できず未設定。府営公園一覧には含まれない"
+    "processing": "名称・住所は公衆トイレ一覧（大阪府）の「万博記念公園／…」の行から。緯度経度は国土地理院 住所検索APIで付与（町名レベル「千里万博公園」の代表点）。面積は商用利用できるデータで確認できず未設定。府営公園一覧には含まれない。緯度経度は2026-11-24にOpenStreetMapの公園の範囲（relation/10576976）の内側の点に修正（住所検索の代表点が園外だったため）"
    }
   },
   {
@@ -3124,8 +3129,8 @@
    "city_slug": "sakai",
    "ward": "中区",
    "address": "堺市中区八田寺町320-20",
-   "lat": 34.528957,
-   "lng": 135.478668,
+   "lat": 34.518122,
+   "lng": 135.494449,
    "park_type": "運動公園",
    "area_m2": 74100,
    "area_note": null,
@@ -3153,10 +3158,15 @@
       "name": "堺市 公園一覧（堺市）",
       "url": "https://data.bodik.jp/dataset/271403_sakai_park",
       "license": "CC BY 4.0"
+     },
+     {
+      "name": "OpenStreetMap（© OpenStreetMap contributors）",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0"
      }
     ],
     "retrieved_at": "2026-11-23",
-    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与（住所の一部しか一致せず、町・丁目の代表点）"
+    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与（住所の一部しか一致せず、町・丁目の代表点）。緯度経度は2026-11-24にOpenStreetMapの公園の範囲（way/480053354）の内側の点に修正（住所検索の代表点が園外だったため）"
    }
   },
   {
@@ -3492,8 +3502,8 @@
    "city_slug": "sakai",
    "ward": "西区",
    "address": "堺市西区家原寺町1丁133-2",
-   "lat": 34.537155,
-   "lng": 135.473618,
+   "lat": 34.536329,
+   "lng": 135.472216,
    "park_type": "地区公園",
    "area_m2": 41400,
    "area_note": null,
@@ -3521,10 +3531,15 @@
       "name": "堺市 公園一覧（堺市）",
       "url": "https://data.bodik.jp/dataset/271403_sakai_park",
       "license": "CC BY 4.0"
+     },
+     {
+      "name": "OpenStreetMap（© OpenStreetMap contributors）",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0"
      }
     ],
     "retrieved_at": "2026-11-23",
-    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与（住所の一部しか一致せず、町・丁目の代表点）"
+    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与（住所の一部しか一致せず、町・丁目の代表点）。緯度経度は2026-11-24にOpenStreetMapの公園の範囲（way/52557800）の内側の点に修正（住所検索の代表点が園外だったため）"
    }
   },
   {
@@ -3787,8 +3802,8 @@
    "city_slug": "takatsuki",
    "ward": null,
    "address": "高槻市八丁畷町",
-   "lat": 34.855061,
-   "lng": 135.630066,
+   "lat": 34.857054,
+   "lng": 135.633327,
    "park_type": null,
    "area_m2": null,
    "area_note": null,
@@ -3816,10 +3831,15 @@
       "name": "公衆トイレ一覧（大阪府）",
       "url": "https://data.bodik.jp/dataset/270008_barrier_free_toilet",
       "license": "CC BY 4.0"
+     },
+     {
+      "name": "OpenStreetMap（© OpenStreetMap contributors）",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0"
      }
     ],
     "retrieved_at": "2026-11-23",
-    "processing": "名称・住所は公衆トイレ一覧（大阪府）の「安満遺跡公園歴史拠点施設」の行から。緯度経度は国土地理院 住所検索APIで付与（町名レベルの代表点）。面積は商用利用できるデータで確認できず未設定"
+    "processing": "名称・住所は公衆トイレ一覧（大阪府）の「安満遺跡公園歴史拠点施設」の行から。緯度経度は国土地理院 住所検索APIで付与（町名レベルの代表点）。面積は商用利用できるデータで確認できず未設定。緯度経度は2026-11-24にOpenStreetMapの公園の範囲（relation/13010385）の内側の点に修正（住所検索の代表点が園外だったため）"
    }
   },
   {
@@ -3830,8 +3850,8 @@
    "city_slug": "toyonaka",
    "ward": null,
    "address": "豊中市新千里東町3-9",
-   "lat": 34.812321,
-   "lng": 135.503952,
+   "lat": 34.810909,
+   "lng": 135.506059,
    "park_type": null,
    "area_m2": null,
    "area_note": null,
@@ -3858,10 +3878,15 @@
       "name": "公衆トイレ一覧（豊中市）",
       "url": "https://data.bodik.jp/dataset/272035_public_toilet",
       "license": "CC BY 4.0"
+     },
+     {
+      "name": "OpenStreetMap（© OpenStreetMap contributors）",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0"
      }
     ],
     "retrieved_at": "2026-11-23",
-    "processing": "名称・住所は公衆トイレ一覧（豊中市）から。緯度経度は国土地理院 住所検索APIで付与（丁目レベルの代表点）。面積は未設定"
+    "processing": "名称・住所は公衆トイレ一覧（豊中市）から。緯度経度は国土地理院 住所検索APIで付与（丁目レベルの代表点）。面積は未設定。緯度経度は2026-11-24にOpenStreetMapの公園の範囲（way/180265483）の内側の点に修正（住所検索の代表点が園外だったため）"
    }
   },
   {
@@ -3954,8 +3979,8 @@
    "city_slug": "ibaraki",
    "ward": null,
    "address": "茨木市西河原一丁目・二丁目",
-   "lat": 34.828484,
-   "lng": 135.574951,
+   "lat": 34.835781,
+   "lng": 135.574838,
    "park_type": null,
    "area_m2": null,
    "area_note": null,
@@ -3981,10 +4006,15 @@
       "name": "公衆トイレ一覧（大阪府）",
       "url": "https://data.bodik.jp/dataset/270008_barrier_free_toilet",
       "license": "CC BY 4.0"
+     },
+     {
+      "name": "OpenStreetMap（© OpenStreetMap contributors）",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0"
      }
     ],
     "retrieved_at": "2026-11-23",
-    "processing": "名称・住所は公衆トイレ一覧（大阪府）の茨木市の行から。緯度経度は国土地理院 住所検索APIで付与（丁目レベルの代表点）。面積は未設定"
+    "processing": "名称・住所は公衆トイレ一覧（大阪府）の茨木市の行から。緯度経度は国土地理院 住所検索APIで付与（丁目レベルの代表点）。面積は未設定。緯度経度は2026-11-24にOpenStreetMapの公園の範囲（relation/8268862）の内側の点に修正（住所検索の代表点が園外だったため）"
    }
   },
   {
@@ -3995,8 +4025,8 @@
    "city_slug": "ibaraki",
    "ward": null,
    "address": "茨木市岩倉町",
-   "lat": 34.810768,
-   "lng": 135.561813,
+   "lat": 34.810659,
+   "lng": 135.562565,
    "park_type": null,
    "area_m2": null,
    "area_note": null,
@@ -4022,10 +4052,15 @@
       "name": "公衆トイレ一覧（大阪府）",
       "url": "https://data.bodik.jp/dataset/270008_barrier_free_toilet",
       "license": "CC BY 4.0"
+     },
+     {
+      "name": "OpenStreetMap（© OpenStreetMap contributors）",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0"
      }
     ],
     "retrieved_at": "2026-11-23",
-    "processing": "名称・住所は公衆トイレ一覧（大阪府）の茨木市の行から。緯度経度は国土地理院 住所検索APIで付与（町名レベルの代表点）。面積は未設定"
+    "processing": "名称・住所は公衆トイレ一覧（大阪府）の茨木市の行から。緯度経度は国土地理院 住所検索APIで付与（町名レベルの代表点）。面積は未設定。緯度経度は2026-11-24にOpenStreetMapの公園の範囲（way/498695236）の内側の点に修正（住所検索の代表点が園外だったため）"
    }
   },
   {
