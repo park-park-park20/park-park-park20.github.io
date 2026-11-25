@@ -279,12 +279,13 @@
     "shade": null,
     "pet": null,
     "nursing_room": null,
-    "barrier_free": null
+    "barrier_free": true
    },
    "facility_notes": {
-    "toilet": "2か所（2019年時点の市資料）"
+    "toilet": "2か所（2019年時点の市資料）",
+    "barrier_free": "公衆トイレ2か所とも車いす対応（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-13",
+   "checked_at": "2026-11-25",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -456,13 +457,14 @@
     "shade": null,
     "pet": null,
     "nursing_room": null,
-    "barrier_free": null
+    "barrier_free": true
    },
    "facility_notes": {
     "toilet": "10か所（2019年時点の市資料）",
-    "playground": "児童遊技場（通称パンダ公園）があるとの紹介はあるが公式で未確認"
+    "playground": "児童遊技場（通称パンダ公園）があるとの紹介はあるが公式で未確認",
+    "barrier_free": "車いす対応トイレあり（中野町1丁目の艇庫横北など。マップナビでは毛馬桜之宮公園として掲載）"
    },
-   "checked_at": "2026-11-13",
+   "checked_at": "2026-11-25",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -502,14 +504,15 @@
     "shade": null,
     "pet": null,
     "nursing_room": null,
-    "barrier_free": null
+    "barrier_free": true
    },
    "facility_notes": {
     "playground": "遊具広場あり（市資料）",
     "toilet": "5か所（2019年時点の市資料）",
-    "parking": "公園専用駐車場はないとする紹介があるが公式で未確認"
+    "parking": "公園専用駐車場はないとする紹介があるが公式で未確認",
+    "barrier_free": "公衆トイレ5か所のうち4か所が車いす対応（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-13",
+   "checked_at": "2026-11-25",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -591,17 +594,19 @@
    "operator": "大阪市",
    "facilities": {
     "playground": true,
-    "toilet": null,
+    "toilet": true,
     "parking": null,
     "shade": null,
     "pet": null,
     "nursing_room": null,
-    "barrier_free": null
+    "barrier_free": true
    },
    "facility_notes": {
-    "playground": "動物モチーフの遊具あり"
+    "playground": "動物モチーフの遊具あり",
+    "toilet": "公衆トイレ3か所（マップナビおおさか公衆トイレデータ）",
+    "barrier_free": "3か所とも車いす対応（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-13",
+   "checked_at": "2026-11-25",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -641,13 +646,14 @@
     "shade": null,
     "pet": null,
     "nursing_room": null,
-    "barrier_free": null
+    "barrier_free": true
    },
    "facility_notes": {
     "toilet": "4か所（2019年時点の市資料）",
-    "nursing_room": "園内の千島体育館はおむつ替えのみ。隣の大正区役所（平日）に授乳室"
+    "nursing_room": "園内の千島体育館はおむつ替えのみ。隣の大正区役所（平日）に授乳室",
+    "barrier_free": "公衆トイレ4か所とも車いす対応（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-13",
+   "checked_at": "2026-11-25",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -867,15 +873,18 @@
    "operator": "大阪市",
    "facilities": {
     "playground": null,
-    "toilet": null,
+    "toilet": true,
     "parking": null,
     "shade": null,
     "pet": null,
     "nursing_room": null,
-    "barrier_free": null
+    "barrier_free": true
    },
-   "facility_notes": {},
-   "checked_at": "2026-11-13",
+   "facility_notes": {
+    "toilet": "公衆トイレ1か所（マップナビおおさか公衆トイレデータ）",
+    "barrier_free": "車いす対応トイレあり（マップナビおおさか公衆トイレデータ）"
+   },
+   "checked_at": "2026-11-25",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -953,15 +962,18 @@
    "operator": "大阪市",
    "facilities": {
     "playground": null,
-    "toilet": null,
+    "toilet": true,
     "parking": null,
     "shade": null,
     "pet": null,
     "nursing_room": null,
-    "barrier_free": null
+    "barrier_free": true
    },
-   "facility_notes": {},
-   "checked_at": "2026-11-13",
+   "facility_notes": {
+    "toilet": "公衆トイレ1か所（マップナビおおさか公衆トイレデータ）",
+    "barrier_free": "車いす対応トイレあり（マップナビおおさか公衆トイレデータ）"
+   },
+   "checked_at": "2026-11-25",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -996,15 +1008,18 @@
    "operator": "大阪市",
    "facilities": {
     "playground": null,
-    "toilet": null,
+    "toilet": true,
     "parking": null,
     "shade": null,
     "pet": null,
     "nursing_room": null,
-    "barrier_free": null
+    "barrier_free": true
    },
-   "facility_notes": {},
-   "checked_at": "2026-11-13",
+   "facility_notes": {
+    "toilet": "公衆トイレ2か所（マップナビおおさか公衆トイレデータ）",
+    "barrier_free": "2か所とも車いす対応（マップナビおおさか公衆トイレデータ）"
+   },
+   "checked_at": "2026-11-25",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1039,15 +1054,18 @@
    "operator": "大阪市",
    "facilities": {
     "playground": null,
-    "toilet": null,
+    "toilet": true,
     "parking": null,
     "shade": null,
     "pet": null,
     "nursing_room": null,
-    "barrier_free": null
+    "barrier_free": true
    },
-   "facility_notes": {},
-   "checked_at": "2026-11-13",
+   "facility_notes": {
+    "toilet": "公衆トイレ1か所（マップナビおおさか公衆トイレデータ）",
+    "barrier_free": "車いす対応トイレあり（マップナビでは「巽東緑地 公衆トイレ」として掲載）"
+   },
+   "checked_at": "2026-11-25",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1082,7 +1100,7 @@
    "operator": "大阪市",
    "facilities": {
     "playground": true,
-    "toilet": null,
+    "toilet": true,
     "parking": null,
     "shade": null,
     "pet": null,
@@ -1091,9 +1109,9 @@
    },
    "facility_notes": {
     "playground": "遊具あり（2020年の市資料）。公園は拡張整備中",
-    "toilet": "2019年時点の市資料ではトイレなし。その後の拡張で整備計画あり（現状は現地確認）"
+    "toilet": "公衆トイレあり（マップナビおおさか公衆トイレデータ。車いす対応の表示はない）"
    },
-   "checked_at": "2026-11-13",
+   "checked_at": "2026-11-25",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1128,15 +1146,18 @@
    "operator": "大阪市",
    "facilities": {
     "playground": null,
-    "toilet": null,
+    "toilet": true,
     "parking": null,
     "shade": null,
     "pet": null,
     "nursing_room": null,
-    "barrier_free": null
+    "barrier_free": true
    },
-   "facility_notes": {},
-   "checked_at": "2026-11-13",
+   "facility_notes": {
+    "toilet": "公衆トイレ2か所（マップナビおおさか公衆トイレデータ）",
+    "barrier_free": "2か所とも車いす対応（マップナビおおさか公衆トイレデータ）"
+   },
+   "checked_at": "2026-11-25",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1171,15 +1192,18 @@
    "operator": "大阪市",
    "facilities": {
     "playground": null,
-    "toilet": null,
+    "toilet": true,
     "parking": null,
     "shade": null,
     "pet": null,
     "nursing_room": null,
-    "barrier_free": null
+    "barrier_free": true
    },
-   "facility_notes": {},
-   "checked_at": "2026-11-13",
+   "facility_notes": {
+    "toilet": "公衆トイレ1か所（マップナビおおさか公衆トイレデータ）",
+    "barrier_free": "車いす対応トイレあり（マップナビおおさか公衆トイレデータ）"
+   },
+   "checked_at": "2026-11-25",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1214,17 +1238,19 @@
    "operator": "大阪市",
    "facilities": {
     "playground": null,
-    "toilet": null,
+    "toilet": true,
     "parking": null,
     "shade": null,
     "pet": null,
     "nursing_room": null,
-    "barrier_free": null
+    "barrier_free": true
    },
    "facility_notes": {
-    "nursing_room": "下福島プール（福島4-1-82）に授乳スペース。公園内の施設かは未確認"
+    "nursing_room": "下福島プール（福島4-1-82）に授乳スペース。公園内の施設かは未確認",
+    "toilet": "公衆トイレ1か所（マップナビおおさか公衆トイレデータ）",
+    "barrier_free": "車いす対応トイレあり（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-13",
+   "checked_at": "2026-11-25",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1259,17 +1285,19 @@
    "operator": "大阪市",
    "facilities": {
     "playground": null,
-    "toilet": null,
+    "toilet": true,
     "parking": null,
     "shade": null,
     "pet": null,
     "nursing_room": null,
-    "barrier_free": null
+    "barrier_free": true
    },
    "facility_notes": {
-    "nursing_room": "近くの旭スポーツセンター（高殿5-3-25）に授乳スペース。公園内かは未確認"
+    "nursing_room": "近くの旭スポーツセンター（高殿5-3-25）に授乳スペース。公園内かは未確認",
+    "toilet": "公衆トイレ3か所（マップナビおおさか公衆トイレデータ）",
+    "barrier_free": "3か所のうち2か所が車いす対応（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-13",
+   "checked_at": "2026-11-25",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1304,18 +1332,20 @@
    "operator": "大阪市",
    "facilities": {
     "playground": true,
-    "toilet": null,
+    "toilet": true,
     "parking": null,
     "shade": null,
     "pet": null,
     "nursing_room": null,
-    "barrier_free": null
+    "barrier_free": true
    },
    "facility_notes": {
     "playground": "石山・クライミングスライダー・ネット遊具あり",
-    "nursing_room": "近くの生野スポーツセンター（巽西1-1-3）に授乳スペース。公園内かは未確認"
+    "nursing_room": "近くの生野スポーツセンター（巽西1-1-3）に授乳スペース。公園内かは未確認",
+    "toilet": "公衆トイレ1か所（マップナビおおさか公衆トイレデータ）",
+    "barrier_free": "車いす対応トイレあり（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-13",
+   "checked_at": "2026-11-25",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1350,15 +1380,18 @@
    "operator": "大阪市",
    "facilities": {
     "playground": null,
-    "toilet": null,
+    "toilet": true,
     "parking": null,
     "shade": null,
     "pet": null,
     "nursing_room": null,
-    "barrier_free": null
+    "barrier_free": true
    },
-   "facility_notes": {},
-   "checked_at": "2026-11-13",
+   "facility_notes": {
+    "toilet": "公衆トイレ2か所（マップナビおおさか公衆トイレデータ）",
+    "barrier_free": "2か所とも車いす対応（マップナビおおさか公衆トイレデータ）"
+   },
+   "checked_at": "2026-11-25",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1393,15 +1426,18 @@
    "operator": "大阪市",
    "facilities": {
     "playground": null,
-    "toilet": null,
+    "toilet": true,
     "parking": null,
     "shade": null,
     "pet": null,
     "nursing_room": null,
-    "barrier_free": null
+    "barrier_free": true
    },
-   "facility_notes": {},
-   "checked_at": "2026-11-13",
+   "facility_notes": {
+    "toilet": "公衆トイレ1か所（マップナビおおさか公衆トイレデータ）",
+    "barrier_free": "車いす対応トイレあり（マップナビおおさか公衆トイレデータ）"
+   },
+   "checked_at": "2026-11-25",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1436,15 +1472,18 @@
    "operator": "大阪市",
    "facilities": {
     "playground": null,
-    "toilet": null,
+    "toilet": true,
     "parking": null,
     "shade": null,
     "pet": null,
     "nursing_room": null,
-    "barrier_free": null
+    "barrier_free": true
    },
-   "facility_notes": {},
-   "checked_at": "2026-11-13",
+   "facility_notes": {
+    "toilet": "公衆トイレ1か所（マップナビおおさか公衆トイレデータ）",
+    "barrier_free": "車いす対応トイレあり（マップナビおおさか公衆トイレデータ）"
+   },
+   "checked_at": "2026-11-25",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1479,15 +1518,18 @@
    "operator": "大阪市",
    "facilities": {
     "playground": null,
-    "toilet": null,
+    "toilet": true,
     "parking": null,
     "shade": null,
     "pet": null,
     "nursing_room": null,
-    "barrier_free": null
+    "barrier_free": true
    },
-   "facility_notes": {},
-   "checked_at": "2026-11-13",
+   "facility_notes": {
+    "toilet": "公衆トイレ2か所（マップナビおおさか公衆トイレデータ）",
+    "barrier_free": "2か所とも車いす対応（マップナビおおさか公衆トイレデータ）"
+   },
+   "checked_at": "2026-11-25",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1522,15 +1564,18 @@
    "operator": "大阪市",
    "facilities": {
     "playground": null,
-    "toilet": null,
+    "toilet": true,
     "parking": null,
     "shade": null,
     "pet": null,
     "nursing_room": null,
-    "barrier_free": null
+    "barrier_free": true
    },
-   "facility_notes": {},
-   "checked_at": "2026-11-13",
+   "facility_notes": {
+    "toilet": "公衆トイレ1か所（マップナビおおさか公衆トイレデータ）",
+    "barrier_free": "車いす対応トイレあり（マップナビおおさか公衆トイレデータ）"
+   },
+   "checked_at": "2026-11-25",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1565,17 +1610,19 @@
    "operator": "大阪市",
    "facilities": {
     "playground": true,
-    "toilet": null,
+    "toilet": true,
     "parking": null,
     "shade": null,
     "pet": null,
     "nursing_room": null,
-    "barrier_free": null
+    "barrier_free": true
    },
    "facility_notes": {
-    "playground": "インクルーシブ遊具あり"
+    "playground": "インクルーシブ遊具あり",
+    "toilet": "公衆トイレ2か所（マップナビおおさか公衆トイレデータ）",
+    "barrier_free": "2か所とも車いす対応（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-13",
+   "checked_at": "2026-11-25",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1660,13 +1707,14 @@
     "shade": null,
     "pet": null,
     "nursing_room": null,
-    "barrier_free": null
+    "barrier_free": true
    },
    "facility_notes": {
     "playground": "遊具広場あり（市資料）",
-    "toilet": "2か所（2019年時点の市資料）"
+    "toilet": "2か所（2019年時点の市資料）",
+    "barrier_free": "公衆トイレ2か所のうち1か所が車いす対応（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-13",
+   "checked_at": "2026-11-25",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1701,15 +1749,18 @@
    "operator": "大阪市",
    "facilities": {
     "playground": null,
-    "toilet": null,
+    "toilet": true,
     "parking": null,
     "shade": null,
     "pet": null,
     "nursing_room": null,
-    "barrier_free": null
+    "barrier_free": true
    },
-   "facility_notes": {},
-   "checked_at": "2026-11-13",
+   "facility_notes": {
+    "toilet": "公衆トイレ1か所（マップナビおおさか公衆トイレデータ）",
+    "barrier_free": "車いす対応トイレあり（マップナビおおさか公衆トイレデータ）"
+   },
+   "checked_at": "2026-11-25",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1744,15 +1795,18 @@
    "operator": "大阪市",
    "facilities": {
     "playground": null,
-    "toilet": null,
+    "toilet": true,
     "parking": null,
     "shade": null,
     "pet": null,
     "nursing_room": null,
-    "barrier_free": null
+    "barrier_free": true
    },
-   "facility_notes": {},
-   "checked_at": "2026-11-13",
+   "facility_notes": {
+    "toilet": "公衆トイレ1か所（マップナビおおさか公衆トイレデータ）",
+    "barrier_free": "車いす対応トイレあり（マップナビおおさか公衆トイレデータ）"
+   },
+   "checked_at": "2026-11-25",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1873,15 +1927,17 @@
     "toilet": null,
     "parking": false,
     "shade": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
-    "barrier_free": null
+    "barrier_free": true
    },
    "facility_notes": {
-    "parking": "公園の駐車場はない（府の公園一覧に明記）"
+    "parking": "公園の駐車場はない（府の公園一覧に明記）",
+    "pet": "リード着用・フンは持ち帰り。ドッグランはない（公園のよくある質問）",
+    "barrier_free": "駅からの滝道は舗装され段差なし（途中に急坂1か所）。管理事務所で電動アシスト車いすの貸出あり。滝上からの千本園路は急坂で車いす不可"
    },
-   "checked_at": "2026-11-23",
-   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "checked_at": "2026-11-25",
+   "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
      {
@@ -2420,19 +2476,22 @@
    "operator": "大阪府（府営公園）",
    "facilities": {
     "playground": null,
-    "toilet": null,
+    "toilet": true,
     "parking": true,
     "shade": null,
     "pet": true,
-    "nursing_room": null,
-    "barrier_free": null
+    "nursing_room": true,
+    "barrier_free": true
    },
    "facility_notes": {
     "parking": "有料駐車場あり（府営公園の管理者のQ&A）。障がい者手帳の提示で免除",
-    "pet": "リード着用・フンは持ち帰り。有料施設には入れない（府営公園の管理者のQ&A）"
+    "pet": "リード着用・フンは持ち帰り。有料施設には入れない（府営公園の管理者のQ&A）",
+    "toilet": "シンボル緑地・シーサイド緑地・総合休憩所・萩の休憩所にトイレ。使用禁止のお知らせが出ていることがあるので公式で確認",
+    "nursing_room": "総合休憩所に授乳室",
+    "barrier_free": "総合休憩所に車いす対応トイレとエレベーター。第1駐車場から段差なしのボードウォーク。管理事務所で車いす貸出"
    },
-   "checked_at": "2026-11-23",
-   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "checked_at": "2026-11-25",
+   "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
      {
@@ -2751,8 +2810,8 @@
    "city_slug": "sakai",
    "ward": "南区",
    "address": "堺市南区富蔵640",
-   "lat": 34.474457,
-   "lng": 135.516647,
+   "lat": 34.460038,
+   "lng": 135.52553,
    "park_type": "都市林",
    "area_m2": 171900,
    "area_note": null,
@@ -2760,7 +2819,7 @@
    "facilities": {
     "playground": null,
     "toilet": true,
-    "parking": null,
+    "parking": true,
     "shade": null,
     "pet": null,
     "nursing_room": null,
@@ -2768,10 +2827,11 @@
    },
    "facility_notes": {
     "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
-    "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
+    "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）",
+    "parking": "普通車約40台・無料（市の公園紹介）"
    },
-   "checked_at": "2026-11-23",
-   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "checked_at": "2026-11-25",
+   "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
      {
@@ -2781,7 +2841,7 @@
      }
     ],
     "retrieved_at": "2026-11-23",
-    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与（住所の一部しか一致せず、町・丁目の代表点）"
+    "processing": "名称・所在地・公園種別・開設面積（ha→㎡に換算）を抽出。緯度経度は国土地理院 住所検索APIで付与（住所の一部しか一致せず、町・丁目の代表点）。緯度経度は2026-11-25に堺市の公式地図（市の公園紹介ページ https://www.city.sakai.lg.jp/kurashi/koen/shokai/fureainomori.html から開く堺市地図情報サイトの施設位置。旧日本測地系の値を同サイトの座標変換で世界測地系に換算、変換結果の住所は堺市南区畑）の点に修正。市の紹介ページの所在地（南区畑1740・森の館）と一致。旧座標（富蔵の町の代表点）は施設位置から約1.8km離れていた"
    }
   },
   {
@@ -2887,7 +2947,7 @@
    "facilities": {
     "playground": null,
     "toilet": true,
-    "parking": null,
+    "parking": false,
     "shade": null,
     "pet": null,
     "nursing_room": null,
@@ -2895,10 +2955,11 @@
    },
    "facility_notes": {
     "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
-    "barrier_free": "4か所のうち1か所に多目的トイレ（堺市の公園トイレ一覧）"
+    "barrier_free": "4か所のうち1か所に多目的トイレ（堺市の公園トイレ一覧）",
+    "parking": "公園の駐車場はない（市の公園紹介）"
    },
-   "checked_at": "2026-11-23",
-   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "checked_at": "2026-11-25",
+   "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
      {
@@ -2928,7 +2989,7 @@
    "facilities": {
     "playground": true,
     "toilet": true,
-    "parking": null,
+    "parking": false,
     "shade": null,
     "pet": null,
     "nursing_room": null,
@@ -2937,10 +2998,11 @@
    "facility_notes": {
     "playground": "市の「遊具のある公園」に掲載",
     "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
-    "barrier_free": "多目的トイレの有無が市と府のトイレ一覧で食い違うため未確認（現地確認）"
+    "barrier_free": "多目的トイレの有無が市と府のトイレ一覧で食い違うため未確認（現地確認）",
+    "parking": "公園の駐車場はない（市の公園紹介）"
    },
-   "checked_at": "2026-11-23",
-   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "checked_at": "2026-11-25",
+   "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
      {
@@ -3096,7 +3158,7 @@
    "facilities": {
     "playground": true,
     "toilet": true,
-    "parking": null,
+    "parking": true,
     "shade": null,
     "pet": null,
     "nursing_room": null,
@@ -3105,10 +3167,11 @@
    "facility_notes": {
     "playground": "市の「遊具のある公園」に掲載",
     "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
-    "barrier_free": "多目的トイレの有無が市と府のトイレ一覧で食い違うため未確認（現地確認）"
+    "barrier_free": "多目的トイレの有無が市と府のトイレ一覧で食い違うため未確認（現地確認）",
+    "parking": "原山公園駐車場（265台・24時間・有料。最大料金あり。夏季は最大料金なし）。料金は公式で確認"
    },
-   "checked_at": "2026-11-23",
-   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "checked_at": "2026-11-25",
+   "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
      {
@@ -3346,7 +3409,7 @@
    "facilities": {
     "playground": null,
     "toilet": true,
-    "parking": null,
+    "parking": true,
     "shade": null,
     "pet": null,
     "nursing_room": null,
@@ -3354,10 +3417,11 @@
    },
    "facility_notes": {
     "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
-    "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
+    "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）",
+    "parking": "普通車20台・無料（市の公園紹介）"
    },
-   "checked_at": "2026-11-23",
-   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "checked_at": "2026-11-25",
+   "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
      {
@@ -3429,7 +3493,7 @@
    "facilities": {
     "playground": null,
     "toilet": true,
-    "parking": null,
+    "parking": false,
     "shade": null,
     "pet": null,
     "nursing_room": null,
@@ -3437,10 +3501,11 @@
    },
    "facility_notes": {
     "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
-    "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
+    "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）",
+    "parking": "公園の駐車場はない（市の公園紹介）"
    },
-   "checked_at": "2026-11-23",
-   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "checked_at": "2026-11-25",
+   "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
      {
@@ -3470,7 +3535,7 @@
    "facilities": {
     "playground": null,
     "toilet": true,
-    "parking": null,
+    "parking": false,
     "shade": null,
     "pet": null,
     "nursing_room": null,
@@ -3478,10 +3543,11 @@
    },
    "facility_notes": {
     "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
-    "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
+    "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）",
+    "parking": "公園の駐車場はない（市の公園紹介）"
    },
-   "checked_at": "2026-11-23",
-   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "checked_at": "2026-11-25",
+   "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
      {
@@ -3906,7 +3972,7 @@
    "facilities": {
     "playground": null,
     "toilet": true,
-    "parking": null,
+    "parking": true,
     "shade": null,
     "pet": null,
     "nursing_room": null,
@@ -3914,10 +3980,11 @@
    },
    "facility_notes": {
     "toilet": "西側と野球場にトイレ（豊中市の公衆トイレ一覧）",
-    "barrier_free": "車いす対応トイレ（西側は乳幼児用設備も）"
+    "barrier_free": "車いす対応トイレ（西側は乳幼児用設備も）",
+    "parking": "豊島公園自動車駐車場（約105区画、公園利用者向け）。料金は現地・公式で確認"
    },
-   "checked_at": "2026-11-23",
-   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "checked_at": "2026-11-25",
+   "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
      {
@@ -3947,7 +4014,7 @@
    "facilities": {
     "playground": null,
     "toilet": true,
-    "parking": null,
+    "parking": true,
     "shade": null,
     "pet": null,
     "nursing_room": null,
@@ -3955,10 +4022,11 @@
    },
    "facility_notes": {
     "toilet": "園内7か所（東大阪市の公衆トイレ一覧）",
-    "barrier_free": "7か所とも車いす対応。美術館前・菖蒲池前などは乳幼児用設備も"
+    "barrier_free": "7か所とも車いす対応。美術館前・菖蒲池前などは乳幼児用設備も",
+    "parking": "第1～第5駐車場あり（有料）。土日祝は第1・第2が満車になりやすい"
    },
-   "checked_at": "2026-11-23",
-   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "checked_at": "2026-11-25",
+   "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
      {
@@ -3988,7 +4056,7 @@
    "facilities": {
     "playground": null,
     "toilet": true,
-    "parking": null,
+    "parking": true,
     "shade": null,
     "pet": null,
     "nursing_room": null,
@@ -3996,10 +4064,11 @@
    },
    "facility_notes": {
     "toilet": "南・北のトイレ棟（府の公衆トイレ一覧）",
-    "barrier_free": "両棟とも車いす対応・オストメイト・おむつ替え"
+    "barrier_free": "両棟とも車いす対応・オストメイト・おむつ替え",
+    "parking": "駐車場あり（車いす使用者用区画あり）。府のバリアフリー情報（2011年更新）のため台数・料金は未確認"
    },
-   "checked_at": "2026-11-23",
-   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "checked_at": "2026-11-25",
+   "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
      {
@@ -4034,7 +4103,7 @@
    "facilities": {
     "playground": null,
     "toilet": true,
-    "parking": null,
+    "parking": false,
     "shade": null,
     "pet": null,
     "nursing_room": null,
@@ -4042,10 +4111,11 @@
    },
    "facility_notes": {
     "toilet": "トイレあり（府の公衆トイレ一覧）",
-    "barrier_free": "車いす対応・オストメイト・おむつ替え"
+    "barrier_free": "車いす対応・オストメイト・おむつ替え",
+    "parking": "公園の駐車場はない（府のバリアフリー情報、2015年更新）"
    },
-   "checked_at": "2026-11-23",
-   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "checked_at": "2026-11-25",
+   "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
      {
@@ -4080,7 +4150,7 @@
    "facilities": {
     "playground": null,
     "toilet": true,
-    "parking": null,
+    "parking": true,
     "shade": null,
     "pet": null,
     "nursing_room": null,
@@ -4088,10 +4158,11 @@
    },
    "facility_notes": {
     "toilet": "管理事務所にトイレ（府の公衆トイレ一覧）",
-    "barrier_free": "車いす対応トイレ"
+    "barrier_free": "車いす対応トイレ",
+    "parking": "無料駐車場あり（約84台、臨時駐車場を除く。市の資料 2026年5月）"
    },
-   "checked_at": "2026-11-23",
-   "check_method": "公式ページ・オープンデータ等の公開情報",
+   "checked_at": "2026-11-25",
+   "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
      {
