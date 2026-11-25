@@ -160,6 +160,12 @@ img, svg { vertical-align: middle; }
 .page a { word-break: break-all; }
 .placeholder { background: #fff6d6; padding: 0 4px; border-radius: 4px; }
 .select select:disabled { color: var(--ink-sub); background: var(--bg); }
+.near-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: 0 0 10px; }
+.near-row[hidden] { display: none; }
+.near-btn { gap: 6px; height: 44px; }
+.near-btn[aria-busy="true"] { opacity: .7; cursor: progress; }
+.near-status { font-size: 13px; color: var(--ink-sub); }
+.meta .dist { font-weight: 700; color: var(--green-dark); margin-right: 6px; }
 
 /* 市区から探す（トップ） */
 .area-index { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; margin: 18px 0 0; box-shadow: var(--shadow); }

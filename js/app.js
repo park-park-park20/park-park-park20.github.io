@@ -62,6 +62,7 @@
 
   var state = { parks: [], labels: {}, q: '', city: '', ward: '', sort: 'area', facilities: [], includeUnknown: true };
   var map, markers = {}, activeId = null, lastFocus = null, baseTitle = document.title;
+  var here = null, hereMarker = null; // 現在地（この端末の中だけで使い、送信・保存しない）
 
   var $ = function (id) { return document.getElementById(id); };
 
@@ -157,9 +158,73 @@
     return n;
   }
 
+  /* ---------- 現在地 ---------- */
+  function distM(p) {
+    if (!here || p.lat == null || p.lng == null) return Infinity;
+    var r = Math.PI / 180, la1 = here.lat * r, la2 = p.lat * r;
+    var dla = la2 - la1, dlo = (p.lng - here.lng) * r;
+    var h = Math.sin(dla / 2) * Math.sin(dla / 2) + Math.cos(la1) * Math.cos(la2) * Math.sin(dlo / 2) * Math.sin(dlo / 2);
+    return 6371000 * 2 * Math.asin(Math.min(1, Math.sqrt(h)));
+  }
+
+  function fmtDist(m) {
+    if (!isFinite(m)) return '';
+    if (m < 1000) return '約' + Math.max(100, Math.round(m / 100) * 100) + 'm';
+    return '約' + (m < 10000 ? (Math.round(m / 100) / 10).toFixed(1) : Math.round(m / 1000)) + 'km';
+  }
+
+  function nearStatus(msg) { $('near-status').textContent = msg; }
+
+  function onHere(pos) {
+    var btn = $('near-btn');
+    btn.removeAttribute('aria-busy');
+    here = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+    // 市区の絞り込みを外して、近い順に並べる
+    state.city = ''; $('city').value = '';
+    $('city').dispatchEvent(new Event('change'));
+    $('sort-near').disabled = false;
+    state.sort = 'near'; $('sort').value = 'near';
+    render();
+
+    var list = filtered();
+    var nearest = list.length ? distM(list[0]) : Infinity;
+    nearStatus(nearest > 30000 ?
+      '現在地から近い順に並べました（いちばん近い公園まで' + fmtDist(nearest) + '。大阪府の外にいるようです）' :
+      '現在地から近い順に並べました。');
+
+    if (map && window.L) {
+      if (hereMarker) map.removeLayer(hereMarker);
+      hereMarker = L.circleMarker([here.lat, here.lng], {
+        radius: 8, color: '#ffffff', weight: 3, fillColor: '#2b6cd4', fillOpacity: 1
+      }).addTo(map).bindTooltip('現在地');
+      var pts = [[here.lat, here.lng]];
+      list.slice(0, 5).forEach(function (p) { if (isFinite(distM(p))) pts.push([p.lat, p.lng]); });
+      if (nearest <= 30000) map.fitBounds(pts, { padding: [30, 30], maxZoom: 15 });
+    }
+    var first = document.querySelector('.park-card');
+    if (first && window.innerWidth < 1000 && first.scrollIntoView) first.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function onHereError(err) {
+    $('near-btn').removeAttribute('aria-busy');
+    nearStatus(err && err.code === 1 ?
+      '位置情報の利用が許可されていません。ブラウザの設定でこのサイトの位置情報を「許可」にしてください。' :
+      '現在地を取得できませんでした。電波のよい場所でもう一度お試しください。');
+  }
+
+  function findHere() {
+    var btn = $('near-btn');
+    if (btn.getAttribute('aria-busy') === 'true') return;
+    btn.setAttribute('aria-busy', 'true');
+    nearStatus('現在地を確認しています…');
+    navigator.geolocation.getCurrentPosition(onHere, onHereError,
+      { enableHighAccuracy: false, timeout: 15000, maximumAge: 300000 });
+  }
+
   function filtered() {
     var list = state.parks.filter(matches);
     list.sort(function (a, b) {
+      if (state.sort === 'near' && here) return distM(a) - distM(b);
       var d = confirmedScore(b) - confirmedScore(a);
       if (d) return d;
       if (state.sort === 'ward') {
@@ -187,7 +252,8 @@
       '<span class="checked-mini">設備確認 ' + esc(p.checked_at) + '</span>' : '';
     return '<li class="park-card' + (p.id === activeId ? ' is-active' : '') + '" data-id="' + esc(p.id) + '">' +
       '<h3><a href="' + esc(parkUrl(p)) + '" data-open="' + esc(p.id) + '">' + esc(p.name) + '</a></h3>' +
-      '<p class="meta"><span class="tag">' + esc(placeLabel(p) || '所在地不明') + '</span>' +
+      '<p class="meta">' + (here && isFinite(distM(p)) ? '<span class="dist">' + esc(fmtDist(distM(p))) + '</span>' : '') +
+      '<span class="tag">' + esc(placeLabel(p) || '所在地不明') + '</span>' +
       esc(p.area_m2 ? fmtArea(p.area_m2) : '面積 未確認') + checked + '</p>' +
       '<ul class="fac-mini" aria-label="設備">' + cardFacilitiesHtml(p) + '</ul>' +
       '<div class="card-actions">' +
@@ -404,6 +470,11 @@
     $('ward').addEventListener('change', function (e) { state.ward = e.target.value; render(); });
     $('sort').addEventListener('change', function (e) { state.sort = e.target.value; render(); });
     $('include-unknown').addEventListener('change', function (e) { state.includeUnknown = e.target.checked; render(); });
+    // 現在地から探す（位置情報が使える環境＝HTTPS 等のときだけ表示）
+    if (navigator.geolocation && window.isSecureContext !== false) {
+      $('near-row').hidden = false;
+      $('near-btn').addEventListener('click', findHere);
+    }
 
     document.addEventListener('click', function (e) {
       var loc = e.target.closest('[data-locate]');

@@ -45,6 +45,13 @@
     </section>
 
     <section class="filters" aria-label="絞り込み">
+      <div class="near-row" id="near-row" hidden>
+        <button type="button" id="near-btn" class="btn near-btn">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="currentColor"/><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 1v3M12 20v3M1 12h3M20 12h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          現在地から探す
+        </button>
+        <span id="near-status" class="near-status" role="status">位置情報はこの端末の中だけで使い、送信・保存はしません。</span>
+      </div>
       <div class="filter-row">
         <label class="search">
           <span class="visually-hidden">公園名で検索</span>
@@ -64,6 +71,7 @@
           <select id="sort">
             <option value="area">広い順</option>
             <option value="ward">地域の順</option>
+            <option value="near" id="sort-near" disabled>近い順（現在地から）</option>
           </select>
         </label>
       </div>
