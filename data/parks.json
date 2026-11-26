@@ -4095,7 +4095,7 @@
    "facilities": {
     "playground": true,
     "toilet": true,
-    "parking": null,
+    "parking": true,
     "pet": null,
     "nursing_room": null,
     "barrier_free": null
@@ -4103,9 +4103,9 @@
    "facility_notes": {
     "playground": "ブランコ・すべり台・砂場など（2021年の市データ）",
     "toilet": "2か所（2021年の市データ）",
-    "parking": "有料施設の利用者用の駐車場のみ記載（2021年の市データ）。一般利用は未確認"
+    "parking": "有料駐車場あり（2019年度に有料化。市の資料）。料金は公式で確認を"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -4177,7 +4177,7 @@
    "facilities": {
     "playground": true,
     "toilet": true,
-    "parking": null,
+    "parking": true,
     "pet": null,
     "nursing_room": null,
     "barrier_free": null
@@ -4185,9 +4185,9 @@
    "facility_notes": {
     "playground": "複合遊具・健康遊具（2021年の市データ）",
     "toilet": "2か所（2021年の市データ）",
-    "parking": "有料施設の利用者用の駐車場のみ記載（2021年の市データ）。一般利用は未確認"
+    "parking": "駐車場あり（市が2026年2月に有料駐車場化の事業者を募集。料金・運用は公式で確認を）"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
