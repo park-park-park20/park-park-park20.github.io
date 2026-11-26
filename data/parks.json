@@ -27,7 +27,7 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": true,
     "barrier_free": true
    },
@@ -35,10 +35,11 @@
     "playground": "大型の複合遊具あり（市の資料で確認）",
     "toilet": "バリアフリートイレが園内各所にある",
     "parking": "有料。大阪城公園駅前駐車場（約170台）・森ノ宮駐車場（約140台）。料金は公式で確認",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要",
     "nursing_room": "JO-TERRACE OSAKA 1Fとミライザ大阪城に授乳室",
     "barrier_free": "バリアフリールート・多機能トイレあり（公式のバリアフリーマップ）"
    },
-   "checked_at": "2026-11-13",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -83,11 +84,11 @@
     "playground": "公式ガイドに「こども広場」が4か所あるが、遊具の内容は書かれていない（現地確認）",
     "toilet": "公衆トイレが園内に複数。一部にベビーベッド",
     "parking": "有料（スタジアム前・地下・植物園前など）。植物園駐車場は2026-10-04から2027年11月ごろまで利用が制限される。工事等で一部休止の時期あり",
-    "pet": "リード着用・フンは持ち帰り",
+    "pet": "リード着用・フンは持ち帰り。長居植物園（有料）はペット入園不可（補助犬を除く）",
     "nursing_room": "花と緑の情報センター、自然史博物館、長居プールなどの施設内",
     "barrier_free": "各駐車場に障がい者用スペースあり。多目的トイレは公式に記載なし"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -222,16 +223,17 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": null
    },
    "facility_notes": {
     "toilet": "4か所（2019年時点の市資料）",
     "parking": "市営の靱駐車場（地下・有料、約250台）。2019年時点の情報、料金は公式で確認",
-    "playground": "東園に遊具ありとの紹介はあるが公式で未確認"
+    "playground": "東園に遊具ありとの紹介はあるが公式で未確認",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要"
    },
-   "checked_at": "2026-11-13",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -268,15 +270,16 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "2か所（2019年時点の市資料）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要",
     "barrier_free": "公衆トイレ2か所とも車いす対応（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -313,7 +316,7 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": true,
     "barrier_free": null
    },
@@ -321,9 +324,10 @@
     "playground": "大型の複合遊具あり",
     "toilet": "1か所（2019年時点の市資料）",
     "parking": "公園駐車場（約100台）と市営の扇町駐車場（約260台）。いずれも有料、2019年時点",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要",
     "nursing_room": "園内の扇町プールに授乳スペース（施設の営業時間内）"
    },
-   "checked_at": "2026-11-13",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -442,16 +446,17 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "10か所（2019年時点の市資料）",
     "playground": "児童遊技場（通称パンダ公園）があるとの紹介はあるが公式で未確認",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要",
     "barrier_free": "車いす対応トイレあり（中野町1丁目の艇庫横北など。マップナビでは毛馬桜之宮公園として掲載）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -488,7 +493,7 @@
     "playground": true,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
@@ -496,9 +501,10 @@
     "playground": "遊具広場あり（市資料）",
     "toilet": "5か所（2019年時点の市資料）",
     "parking": "公園専用駐車場はないとする紹介があるが公式で未確認",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要",
     "barrier_free": "公衆トイレ5か所のうち4か所が車いす対応（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -535,16 +541,17 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": true,
     "barrier_free": null
    },
    "facility_notes": {
     "toilet": "3か所（2019年時点の市資料）",
     "parking": "公園駐車場（約260台・有料）。2019年時点",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要",
     "nursing_room": "園内の南港中央野球場・庭球場に授乳スペース（施設の営業時間内）"
    },
-   "checked_at": "2026-11-13",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -581,16 +588,17 @@
     "playground": true,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "playground": "動物モチーフの遊具あり",
     "toilet": "公衆トイレ3か所（マップナビおおさか公衆トイレデータ）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要",
     "barrier_free": "3か所とも車いす対応（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -627,16 +635,17 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "4か所（2019年時点の市資料）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要",
     "nursing_room": "園内の千島体育館はおむつ替えのみ。隣の大正区役所（平日）に授乳室",
     "barrier_free": "公衆トイレ4か所とも車いす対応（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -673,16 +682,17 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": null
    },
    "facility_notes": {
     "playground": "公園南部に遊具広場（市資料）",
     "toilet": "4か所（2019年時点の市資料）",
-    "parking": "中島公園駐車場（約90台）・第2駐車場（約55台）。有料、2019年時点"
+    "parking": "中島公園駐車場（約90台）・第2駐車場（約55台）。有料、2019年時点",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要"
    },
-   "checked_at": "2026-11-13",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -719,12 +729,14 @@
     "playground": null,
     "toilet": null,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": null
    },
-   "facility_notes": {},
-   "checked_at": "2026-11-13",
+   "facility_notes": {
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要"
+   },
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -761,7 +773,7 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": true,
     "barrier_free": null
    },
@@ -769,9 +781,10 @@
     "playground": "遊具広場あり（市資料）",
     "toilet": "1か所（2019年時点の市資料）",
     "parking": "公園第2駐車場（約45台・有料）ほか。2019年時点",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要",
     "nursing_room": "園内の天王寺スポーツセンターに授乳スペース（施設の営業時間内）"
    },
-   "checked_at": "2026-11-13",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -854,15 +867,16 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "公衆トイレ1か所（マップナビおおさか公衆トイレデータ）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要",
     "barrier_free": "車いす対応トイレあり（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -899,12 +913,14 @@
     "playground": null,
     "toilet": null,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": null
    },
-   "facility_notes": {},
-   "checked_at": "2026-11-13",
+   "facility_notes": {
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要"
+   },
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -941,15 +957,16 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "公衆トイレ1か所（マップナビおおさか公衆トイレデータ）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要",
     "barrier_free": "車いす対応トイレあり（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -986,15 +1003,16 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "公衆トイレ2か所（マップナビおおさか公衆トイレデータ）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要",
     "barrier_free": "2か所とも車いす対応（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1031,15 +1049,16 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "公衆トイレ1か所（マップナビおおさか公衆トイレデータ）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要",
     "barrier_free": "車いす対応トイレあり（マップナビでは「巽東緑地 公衆トイレ」として掲載）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1076,15 +1095,16 @@
     "playground": true,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": null
    },
    "facility_notes": {
     "playground": "遊具あり（2020年の市資料）。公園は拡張整備中",
-    "toilet": "公衆トイレあり（マップナビおおさか公衆トイレデータ。車いす対応の表示はない）"
+    "toilet": "公衆トイレあり（マップナビおおさか公衆トイレデータ。車いす対応の表示はない）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1121,15 +1141,16 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "公衆トイレ2か所（マップナビおおさか公衆トイレデータ）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要",
     "barrier_free": "2か所とも車いす対応（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1166,15 +1187,16 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "公衆トイレ1か所（マップナビおおさか公衆トイレデータ）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要",
     "barrier_free": "車いす対応トイレあり（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1211,16 +1233,17 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要",
     "nursing_room": "下福島プール（福島4-1-82）に授乳スペース。公園内の施設かは未確認",
     "toilet": "公衆トイレ1か所（マップナビおおさか公衆トイレデータ）",
     "barrier_free": "車いす対応トイレあり（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1257,16 +1280,17 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要",
     "nursing_room": "近くの旭スポーツセンター（高殿5-3-25）に授乳スペース。公園内かは未確認",
     "toilet": "公衆トイレ3か所（マップナビおおさか公衆トイレデータ）",
     "barrier_free": "3か所のうち2か所が車いす対応（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1303,17 +1327,18 @@
     "playground": true,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "playground": "石山・クライミングスライダー・ネット遊具あり",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要",
     "nursing_room": "近くの生野スポーツセンター（巽西1-1-3）に授乳スペース。公園内かは未確認",
     "toilet": "公衆トイレ1か所（マップナビおおさか公衆トイレデータ）",
     "barrier_free": "車いす対応トイレあり（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1350,15 +1375,16 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "公衆トイレ2か所（マップナビおおさか公衆トイレデータ）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要",
     "barrier_free": "2か所とも車いす対応（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1395,15 +1421,16 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "公衆トイレ1か所（マップナビおおさか公衆トイレデータ）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要",
     "barrier_free": "車いす対応トイレあり（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1440,15 +1467,16 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "公衆トイレ1か所（マップナビおおさか公衆トイレデータ）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要",
     "barrier_free": "車いす対応トイレあり（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1485,15 +1513,16 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "公衆トイレ2か所（マップナビおおさか公衆トイレデータ）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要",
     "barrier_free": "2か所とも車いす対応（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1530,15 +1559,16 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "公衆トイレ1か所（マップナビおおさか公衆トイレデータ）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要",
     "barrier_free": "車いす対応トイレあり（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1575,16 +1605,17 @@
     "playground": true,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "playground": "インクルーシブ遊具あり",
     "toilet": "公衆トイレ2か所（マップナビおおさか公衆トイレデータ）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要",
     "barrier_free": "2か所とも車いす対応（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1621,14 +1652,15 @@
     "playground": null,
     "toilet": null,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": null
    },
    "facility_notes": {
-    "parking": "事業者公募資料に駐車場の計画あり。台数・開業状況は未確認"
+    "parking": "事業者公募資料に駐車場の計画あり。台数・開業状況は未確認",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要"
    },
-   "checked_at": "2026-11-13",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1665,16 +1697,17 @@
     "playground": true,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "playground": "遊具広場あり（市資料）",
     "toilet": "2か所（2019年時点の市資料）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要",
     "barrier_free": "公衆トイレ2か所のうち1か所が車いす対応（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1711,15 +1744,16 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "公衆トイレ1か所（マップナビおおさか公衆トイレデータ）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要",
     "barrier_free": "車いす対応トイレあり（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1756,15 +1790,16 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "公衆トイレ1か所（マップナビおおさか公衆トイレデータ）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要",
     "barrier_free": "車いす対応トイレあり（マップナビおおさか公衆トイレデータ）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1801,14 +1836,15 @@
     "playground": null,
     "toilet": null,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": null
    },
    "facility_notes": {
-    "playground": "大型遊具・トイレ・有料駐車場ありとの紹介記事はあるが公式で未確認"
+    "playground": "大型遊具・トイレ・有料駐車場ありとの紹介記事はあるが公式で未確認",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（大阪市の公園利用案内、2026-11-26確認）。リード着用・フンの後始末が必要"
    },
-   "checked_at": "2026-11-13",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -1840,7 +1876,7 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
@@ -1848,9 +1884,10 @@
     "playground": "児童遊戯場あり（府の公園一覧）。2026年11月時点で一部遊具は安全確認のため停止中",
     "toilet": "ウォーターランド・レストハウス・野外音楽堂などにトイレ（府の公衆トイレ一覧）",
     "parking": "駐車場あり（数に限りあり。府の公園一覧に記載）",
+    "pet": "大阪府の施設案内等に犬の同伴を禁止する記載なし（2026-11-26確認）。府の条例でリード必須・フンは持ち帰りを",
     "barrier_free": "車いす対応トイレのある建物が複数（野外音楽堂はオストメイト・おむつ替えも）"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -2049,7 +2086,7 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
@@ -2057,9 +2094,10 @@
     "playground": "児童遊戯場あり（府の公園一覧）",
     "toilet": "管理事務所・スポーツハウス・プール管理棟などにトイレ（府の公衆トイレ一覧）",
     "parking": "駐車場あり（数に限りあり。府の公園一覧に記載）。精算機あり",
+    "pet": "大阪府の案内に犬の同伴を禁止する記載なし（2026-11-26確認）。散歩は必ずリード着用（ノーリードの犬によるかみつき事故あり）",
     "barrier_free": "車いす対応トイレのある建物が複数（管理事務所はオストメイトも）"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -2338,16 +2376,17 @@
     "playground": true,
     "toilet": null,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": true,
     "barrier_free": null
    },
    "facility_notes": {
     "playground": "児童遊戯場あり（府の公園一覧）",
     "parking": "駐車場あり（数に限りあり。府の公園一覧に記載）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（2026-11-26確認）。府の条例でリード必須・フンは持ち帰りを",
     "nursing_room": "園内に授乳室（管理事務所の開いている時間。おむつ替えも可）"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -2505,7 +2544,7 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": true,
     "barrier_free": true
    },
@@ -2513,10 +2552,11 @@
     "playground": "大型すべり台・アスレチック迷路などの遊び場あり",
     "toilet": "園内各所にトイレ（府の公衆トイレ一覧）",
     "parking": "東・南・中央・西・日本庭園前などに駐車場。料金は公式で確認",
+    "pet": "自然文化園・日本庭園（有料エリア）と運動施設は犬の立ち入り禁止（補助犬を除く）。散歩できるのは有料エリア外の園路など",
     "nursing_room": "自然文化園に4か所・日本庭園に1か所",
     "barrier_free": "車いす対応トイレ多数（府の公衆トイレ一覧）。車いす・ベビーカーの無料貸出あり"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -2553,14 +2593,15 @@
     "playground": null,
     "toilet": null,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": null
    },
    "facility_notes": {
-    "playground": "緑道・緑地のため設備データなし（現地確認）"
+    "playground": "緑道・緑地のため設備データなし（現地確認）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（堺市の公園利用マナー、2026-11-26確認）。リード着用・フンは持ち帰りを"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -2592,7 +2633,7 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
@@ -2600,9 +2641,10 @@
     "playground": "市の「遊具のある公園」に掲載",
     "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
     "parking": "第1〜第3・西駐車場（有料）。料金は市の資料で確認",
+    "pet": "公式サイト等に公園への犬の同伴を禁止する記載なし（堺市の公園利用マナー）。リード着用・フンは持ち帰りを。大仙公園日本庭園（有料）はペット入園不可（補助犬を除く）",
     "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -2634,12 +2676,14 @@
     "playground": null,
     "toilet": null,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": null
    },
-   "facility_notes": {},
-   "checked_at": "2026-11-23",
+   "facility_notes": {
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（堺市の公園利用マナー、2026-11-26確認）。リード着用・フンは持ち帰りを"
+   },
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -2671,7 +2715,7 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
@@ -2679,9 +2723,10 @@
     "playground": "市の「遊具のある公園」に掲載",
     "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）。一部のトイレは使用していない",
     "parking": "南・北駐車場（有料。北は土日祝のみ）。料金は市の資料で確認",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（堺市の公園利用マナー、2026-11-26確認）。リード着用・フンは持ち帰りを",
     "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -2713,7 +2758,7 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
@@ -2721,9 +2766,10 @@
     "playground": "市の「遊具のある公園」に掲載",
     "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
     "parking": "P1〜P3と臨時駐車場（梅・桜の時期は有料）。料金は市の資料で確認",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（堺市の公園利用マナー、2026-11-26確認）。リード着用・フンは持ち帰りを",
     "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -2755,16 +2801,17 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": false,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "pet": "施設の利用案内に「ペットは同伴できない（盲導犬・介助犬を除く）」と記載",
     "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）",
     "parking": "普通車約40台・無料（市の公園紹介）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -2796,7 +2843,7 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
@@ -2804,9 +2851,10 @@
     "playground": "市の「遊具のある公園」に掲載",
     "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
     "parking": "公園駐車場・野球場駐車場（有料。野球場は土日祝のみ）。料金は市の資料で確認",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（堺市の公園利用マナー、2026-11-26確認）。リード着用・フンは持ち帰りを",
     "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -2838,7 +2886,7 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
@@ -2846,9 +2894,10 @@
     "playground": "市の「遊具のある公園」に掲載",
     "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
     "parking": "公園駐車場（有料）。料金は市の資料で確認",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（堺市の公園利用マナー、2026-11-26確認）。リード着用・フンは持ち帰りを",
     "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -2880,16 +2929,17 @@
     "playground": null,
     "toilet": true,
     "parking": false,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（堺市の公園利用マナー、2026-11-26確認）。リード着用・フンは持ち帰りを",
     "barrier_free": "4か所のうち1か所に多目的トイレ（堺市の公園トイレ一覧）",
     "parking": "公園の駐車場はない（市の公園紹介）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -2921,17 +2971,18 @@
     "playground": true,
     "toilet": true,
     "parking": false,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": null
    },
    "facility_notes": {
     "playground": "市の「遊具のある公園」に掲載",
     "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（堺市の公園利用マナー、2026-11-26確認）。リード着用・フンは持ち帰りを",
     "barrier_free": "多目的トイレの有無が市と府のトイレ一覧で食い違うため未確認（現地確認）",
     "parking": "公園の駐車場はない（市の公園紹介）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -2963,16 +3014,17 @@
     "playground": true,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "playground": "市の「遊具のある公園」に掲載",
     "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（堺市の公園利用マナー、2026-11-26確認）。リード着用・フンは持ち帰りを",
     "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -3004,16 +3056,17 @@
     "playground": true,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "playground": "市の「遊具のある公園」に掲載",
     "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（堺市の公園利用マナー、2026-11-26確認）。リード着用・フンは持ち帰りを",
     "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -3045,16 +3098,17 @@
     "playground": true,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "playground": "市の「遊具のある公園」に掲載",
     "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（堺市の公園利用マナー、2026-11-26確認）。リード着用・フンは持ち帰りを",
     "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -3086,17 +3140,18 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": null
    },
    "facility_notes": {
     "playground": "市の「遊具のある公園」に掲載",
     "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（堺市の公園利用マナー、2026-11-26確認）。リード着用・フンは持ち帰りを",
     "barrier_free": "多目的トイレの有無が市と府のトイレ一覧で食い違うため未確認（現地確認）",
     "parking": "原山公園駐車場（265台・24時間・有料。最大料金あり。夏季は最大料金なし）。料金は公式で確認"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -3128,7 +3183,7 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
@@ -3136,9 +3191,10 @@
     "playground": "市の「遊具のある公園」に掲載",
     "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
     "parking": "体育館駐車場（有料）。料金は市の資料で確認",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（堺市の公園利用マナー、2026-11-26確認）。リード着用・フンは持ち帰りを",
     "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -3175,12 +3231,14 @@
     "playground": null,
     "toilet": null,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": null
    },
-   "facility_notes": {},
-   "checked_at": "2026-11-23",
+   "facility_notes": {
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（堺市の公園利用マナー、2026-11-26確認）。リード着用・フンは持ち帰りを"
+   },
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -3212,16 +3270,17 @@
     "playground": true,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "playground": "市の「遊具のある公園」に掲載",
     "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（堺市の公園利用マナー、2026-11-26確認）。リード着用・フンは持ち帰りを",
     "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -3253,16 +3312,17 @@
     "playground": true,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "playground": "市の「遊具のある公園」に掲載",
     "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（堺市の公園利用マナー、2026-11-26確認）。リード着用・フンは持ち帰りを",
     "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -3294,12 +3354,14 @@
     "playground": null,
     "toilet": null,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": null
    },
-   "facility_notes": {},
-   "checked_at": "2026-11-23",
+   "facility_notes": {
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（堺市の公園利用マナー、2026-11-26確認）。リード着用・フンは持ち帰りを"
+   },
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -3331,16 +3393,17 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（堺市の公園利用マナー、2026-11-26確認）。リード着用・フンは持ち帰りを",
     "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）",
     "parking": "普通車20台・無料（市の公園紹介）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -3372,16 +3435,17 @@
     "playground": true,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "playground": "市の「遊具のある公園」に掲載",
     "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（堺市の公園利用マナー、2026-11-26確認）。リード着用・フンは持ち帰りを",
     "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -3413,16 +3477,17 @@
     "playground": null,
     "toilet": true,
     "parking": false,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（堺市の公園利用マナー、2026-11-26確認）。リード着用・フンは持ち帰りを",
     "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）",
     "parking": "公園の駐車場はない（市の公園紹介）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -3454,16 +3519,17 @@
     "playground": null,
     "toilet": true,
     "parking": false,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（堺市の公園利用マナー、2026-11-26確認）。リード着用・フンは持ち帰りを",
     "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）",
     "parking": "公園の駐車場はない（市の公園紹介）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -3495,7 +3561,7 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
@@ -3503,9 +3569,10 @@
     "playground": "市の「遊具のある公園」に掲載",
     "toilet": "公園トイレあり（堺市の公園トイレ一覧、2025年6月時点）",
     "parking": "体育館前・公園前駐車場（有料）。料金は市の資料で確認",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（堺市の公園利用マナー、2026-11-26確認）。リード着用・フンは持ち帰りを",
     "barrier_free": "多目的トイレあり（堺市の公園トイレ一覧）"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -3542,16 +3609,17 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "公園内に便所（府の公衆トイレ一覧）",
     "parking": "84台・有料（市の公園データ）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（高槻市の公園のルールとマナー、2026-11-26確認）。公園内はリード必須・フンは持ち帰りを",
     "barrier_free": "車いす対応トイレあり（府の公衆トイレ一覧）"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -3583,7 +3651,7 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
@@ -3591,9 +3659,10 @@
     "playground": "「わんぱく広場」はあるが遊具の内容は未確認",
     "toilet": "屋外トイレ4か所（府の公衆トイレ一覧）",
     "parking": "350台・有料（市の公園データ）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（高槻市の公園のルールとマナー、2026-11-26確認）。公園内はリード必須・フンは持ち帰りを",
     "barrier_free": "屋外トイレ4か所とも車いす対応（府の公衆トイレ一覧）"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -3625,16 +3694,17 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "桜広場・白滝茶屋付近に便所（府の公衆トイレ一覧）",
     "parking": "123台・1回ごとの料金（市の公園データ）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（高槻市の公園のルールとマナー、2026-11-26確認）。公園内はリード必須・フンは持ち帰りを",
     "barrier_free": "桜広場の便所は車いす対応（白滝茶屋付近は非対応）"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -3666,7 +3736,7 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
@@ -3674,9 +3744,10 @@
     "playground": "健康遊具のみ市データに記載（子ども向け遊具は未確認）",
     "toilet": "便所3か所（府の公衆トイレ一覧）",
     "parking": "119台・有料（市の公園データ）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（高槻市の公園のルールとマナー、2026-11-26確認）。公園内はリード必須・フンは持ち帰りを",
     "barrier_free": "3か所とも車いす対応、健康づくり広場はオストメイト・おむつ替えも"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -3708,14 +3779,15 @@
     "playground": true,
     "toilet": null,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": null
    },
    "facility_notes": {
-    "playground": "遊戯広場ゾーン・交通遊園あり（市の公園データ）"
+    "playground": "遊戯広場ゾーン・交通遊園あり（市の公園データ）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（高槻市の公園のルールとマナー、2026-11-26確認）。公園内はリード必須・フンは持ち帰りを"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -3747,16 +3819,17 @@
     "playground": true,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "playground": "遊具広場あり（市の公園データ）",
     "toilet": "公衆便所あり（府の公衆トイレ一覧）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（高槻市の公園のルールとマナー、2026-11-26確認）。公園内はリード必須・フンは持ち帰りを",
     "barrier_free": "車いす対応トイレ（府の公衆トイレ一覧）"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -3788,7 +3861,7 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
@@ -3796,9 +3869,10 @@
     "playground": "パークセンター内などに子どもの遊び場",
     "toilet": "歴史拠点施設などにトイレ（府の公衆トイレ一覧）",
     "parking": "西・東の2か所。台数・料金は公式で確認",
+    "pet": "公式サイト等に公園への犬の同伴を禁止する記載なし。芝生エリア（人工芝を含む）は犬の立ち入り禁止（夜間も不可）",
     "barrier_free": "車いす対応・オストメイト・おむつ替えのあるトイレ（府の公衆トイレ一覧）"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -3835,16 +3909,17 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "中央部・北広場・展望台駐車場にトイレ（豊中市の公衆トイレ一覧）",
     "parking": "展望台駐車場あり（トイレ一覧の設置場所名から）。台数・料金は未確認",
+    "pet": "豊中市のサイトに犬の同伴を禁止する記載なし（2026-11-26確認）。リードを付けない散歩は府の条例で禁止・フンは持ち帰りを",
     "barrier_free": "車いす対応トイレ（中央部・北広場はオストメイトも）。中央部・北広場は乳幼児用設備あり"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -3881,16 +3956,17 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "西側と野球場にトイレ（豊中市の公衆トイレ一覧）",
+    "pet": "豊中市のサイトに犬の同伴を禁止する記載なし（2026-11-26確認）。リードを付けない散歩は府の条例で禁止・フンは持ち帰りを",
     "barrier_free": "車いす対応トイレ（西側は乳幼児用設備も）",
     "parking": "豊島公園自動車駐車場（約105区画、公園利用者向け）。料金は現地・公式で確認"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -3922,16 +3998,17 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "園内7か所（東大阪市の公衆トイレ一覧）",
+    "pet": "東大阪市のサイトに犬の同伴を禁止する記載なし（2026-11-26確認）。市の公園ではリードを外して遊ばせるのは禁止・フンは持ち帰りを",
     "barrier_free": "7か所とも車いす対応。美術館前・菖蒲池前などは乳幼児用設備も",
     "parking": "第1～第5駐車場あり（有料）。土日祝は第1・第2が満車になりやすい"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -3963,16 +4040,17 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "南・北のトイレ棟（府の公衆トイレ一覧）",
+    "pet": "茨木市の都市公園条例等に犬の同伴を禁止する記載なし（2026-11-26確認）。府の条例でリード必須・フンは持ち帰りを",
     "barrier_free": "両棟とも車いす対応・オストメイト・おむつ替え",
     "parking": "駐車場あり（車いす使用者用区画あり）。府のバリアフリー情報（2011年更新）のため台数・料金は未確認"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -4009,16 +4087,17 @@
     "playground": null,
     "toilet": true,
     "parking": false,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "トイレあり（府の公衆トイレ一覧）",
+    "pet": "茨木市の都市公園条例等に犬の同伴を禁止する記載なし（2026-11-26確認）。府の条例でリード必須・フンは持ち帰りを",
     "barrier_free": "車いす対応・オストメイト・おむつ替え",
     "parking": "公園の駐車場はない（府のバリアフリー情報、2015年更新）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -4055,16 +4134,17 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "管理事務所にトイレ（府の公衆トイレ一覧）",
+    "pet": "河内長野市の公園条例等に犬の同伴を禁止する記載なし（2026-11-26確認）。府の条例でリード必須・フンの放置は市の条例で禁止",
     "barrier_free": "車いす対応トイレ",
     "parking": "無料駐車場あり（約84台、臨時駐車場を除く。市の資料 2026年5月）"
    },
-   "checked_at": "2026-11-25",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ等の公開情報",
    "source": {
     "datasets": [
@@ -4096,14 +4176,15 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": null
    },
    "facility_notes": {
     "playground": "ブランコ・すべり台・砂場など（2021年の市データ）",
     "toilet": "2か所（2021年の市データ）",
-    "parking": "有料駐車場あり（2019年度に有料化。市の資料）。料金は公式で確認を"
+    "parking": "有料駐車場あり（2019年度に有料化。市の資料）。料金は公式で確認を",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（枚方市の公園利用案内、2026-11-26確認）。必ずリード着用・フンは持ち帰りを"
    },
    "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
@@ -4137,16 +4218,17 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": null
    },
    "facility_notes": {
     "playground": "すべり台・砂場・健康遊具（2021年の市データ）",
     "toilet": "1か所（2021年の市データ）",
-    "parking": "駐車場あり（2021年の市データ）。台数・料金は未確認"
+    "parking": "駐車場あり（2021年の市データ）。台数・料金は未確認",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし（枚方市の公園利用案内、2026-11-26確認）。必ずリード着用・フンは持ち帰りを"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -4178,14 +4260,15 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": null
    },
    "facility_notes": {
     "playground": "複合遊具・健康遊具（2021年の市データ）",
     "toilet": "2か所（2021年の市データ）",
-    "parking": "駐車場あり（市が2026年2月に有料駐車場化の事業者を募集。料金・運用は公式で確認を）"
+    "parking": "駐車場あり（市が2026年2月に有料駐車場化の事業者を募集。料金・運用は公式で確認を）",
+    "pet": "公式サイト等に犬の同伴を禁止する記載なし。無料のドッグランあり（小型犬・中大型犬エリア）。ドッグランの外では必ずリード着用"
    },
    "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
@@ -4219,15 +4302,16 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "公衆トイレあり（寝屋川市の公衆トイレ一覧）",
+    "pet": "寝屋川市・大阪府のサイトに犬の同伴を禁止する記載なし（2026-11-26確認）。府の条例でリード必須・フンの放置は市の条例で禁止",
     "barrier_free": "車いす対応トイレ"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
@@ -4259,16 +4343,17 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "pet": null,
+    "pet": true,
     "nursing_room": null,
     "barrier_free": true
    },
    "facility_notes": {
     "toilet": "管理棟横にトイレ（貝塚市の公園一覧・公衆トイレ一覧）",
     "parking": "駐車場あり（貝塚市の公園一覧）。台数・料金は未確認",
+    "pet": "貝塚市のサイトに犬の同伴を禁止する記載なし（2026-11-26確認）。リード着用・フンは持ち帰り、遊具で遊ばせない",
     "barrier_free": "障害者用トイレあり（オストメイト・乳幼児用設備も）"
    },
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-26",
    "check_method": "公式ページ・オープンデータ等の公開情報",
    "source": {
     "datasets": [
