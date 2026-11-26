@@ -4,7 +4,6 @@
   "playground": "遊具",
   "toilet": "トイレ",
   "parking": "駐車場",
-  "shade": "日陰",
   "pet": "ペット可",
   "nursing_room": "授乳室",
   "barrier_free": "バリアフリー"
@@ -28,7 +27,6 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "shade": true,
     "pet": null,
     "nursing_room": true,
     "barrier_free": true
@@ -37,7 +35,6 @@
     "playground": "大型の複合遊具あり（市の資料で確認）",
     "toilet": "バリアフリートイレが園内各所にある",
     "parking": "有料。大阪城公園駅前駐車場（約170台）・森ノ宮駐車場（約140台）。料金は公式で確認",
-    "shade": "市民の森などの樹林と屋内の休憩所あり。夏の木陰の程度は現地確認",
     "nursing_room": "JO-TERRACE OSAKA 1Fとミライザ大阪城に授乳室",
     "barrier_free": "バリアフリールート・多機能トイレあり（公式のバリアフリーマップ）"
    },
@@ -78,7 +75,6 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "shade": true,
     "pet": true,
     "nursing_room": true,
     "barrier_free": true
@@ -87,7 +83,6 @@
     "playground": "公式ガイドに「こども広場」が4か所あるが、遊具の内容は書かれていない（現地確認）",
     "toilet": "公衆トイレが園内に複数。一部にベビーベッド",
     "parking": "有料（スタジアム前・地下・植物園前など）。植物園駐車場は2026-10-04から2027年11月ごろまで利用が制限される。工事等で一部休止の時期あり",
-    "shade": "郷土の森・おもいでの森などの樹林あり。木陰の程度は現地確認",
     "pet": "リード着用・フンは持ち帰り",
     "nursing_room": "花と緑の情報センター、自然史博物館、長居プールなどの施設内",
     "barrier_free": "各駐車場に障がい者用スペースあり。多目的トイレは公式に記載なし"
@@ -129,7 +124,6 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": true,
     "nursing_room": true,
     "barrier_free": true
@@ -179,7 +173,6 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": true,
     "nursing_room": true,
     "barrier_free": true
@@ -229,7 +222,6 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": null
@@ -276,7 +268,6 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -322,7 +313,6 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": true,
     "barrier_free": null
@@ -370,7 +360,6 @@
     "playground": true,
     "toilet": null,
     "parking": true,
-    "shade": null,
     "pet": true,
     "nursing_room": null,
     "barrier_free": null
@@ -412,7 +401,6 @@
     "playground": true,
     "toilet": null,
     "parking": false,
-    "shade": null,
     "pet": true,
     "nursing_room": null,
     "barrier_free": null
@@ -454,7 +442,6 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -501,7 +488,6 @@
     "playground": true,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -549,7 +535,6 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": true,
     "barrier_free": null
@@ -596,7 +581,6 @@
     "playground": true,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -643,7 +627,6 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -690,7 +673,6 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": null
@@ -737,7 +719,6 @@
     "playground": null,
     "toilet": null,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": null
@@ -780,7 +761,6 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": true,
     "barrier_free": null
@@ -828,7 +808,6 @@
     "playground": null,
     "toilet": null,
     "parking": false,
-    "shade": null,
     "pet": true,
     "nursing_room": null,
     "barrier_free": null
@@ -875,7 +854,6 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -921,7 +899,6 @@
     "playground": null,
     "toilet": null,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": null
@@ -964,7 +941,6 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -1010,7 +986,6 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -1056,7 +1031,6 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -1102,7 +1076,6 @@
     "playground": true,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": null
@@ -1148,7 +1121,6 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -1194,7 +1166,6 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -1240,7 +1211,6 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -1287,7 +1257,6 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -1334,7 +1303,6 @@
     "playground": true,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -1382,7 +1350,6 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -1428,7 +1395,6 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -1474,7 +1440,6 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -1520,7 +1485,6 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -1566,7 +1530,6 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -1612,7 +1575,6 @@
     "playground": true,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -1659,7 +1621,6 @@
     "playground": null,
     "toilet": null,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": null
@@ -1704,7 +1665,6 @@
     "playground": true,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -1751,7 +1711,6 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -1797,7 +1756,6 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -1843,7 +1801,6 @@
     "playground": null,
     "toilet": null,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": null
@@ -1883,7 +1840,6 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -1926,7 +1882,6 @@
     "playground": null,
     "toilet": null,
     "parking": false,
-    "shade": null,
     "pet": true,
     "nursing_room": null,
     "barrier_free": true
@@ -1968,7 +1923,6 @@
     "playground": true,
     "toilet": null,
     "parking": true,
-    "shade": null,
     "pet": true,
     "nursing_room": null,
     "barrier_free": null
@@ -2010,7 +1964,6 @@
     "playground": true,
     "toilet": null,
     "parking": true,
-    "shade": null,
     "pet": true,
     "nursing_room": null,
     "barrier_free": null
@@ -2052,7 +2005,6 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": true,
     "nursing_room": true,
     "barrier_free": true
@@ -2097,7 +2049,6 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -2140,7 +2091,6 @@
     "playground": true,
     "toilet": null,
     "parking": true,
-    "shade": null,
     "pet": true,
     "nursing_room": null,
     "barrier_free": null
@@ -2182,7 +2132,6 @@
     "playground": true,
     "toilet": null,
     "parking": false,
-    "shade": null,
     "pet": true,
     "nursing_room": null,
     "barrier_free": null
@@ -2224,7 +2173,6 @@
     "playground": true,
     "toilet": null,
     "parking": true,
-    "shade": null,
     "pet": true,
     "nursing_room": null,
     "barrier_free": null
@@ -2266,7 +2214,6 @@
     "playground": true,
     "toilet": null,
     "parking": true,
-    "shade": null,
     "pet": true,
     "nursing_room": null,
     "barrier_free": null
@@ -2308,7 +2255,6 @@
     "playground": true,
     "toilet": null,
     "parking": true,
-    "shade": null,
     "pet": true,
     "nursing_room": true,
     "barrier_free": null
@@ -2351,7 +2297,6 @@
     "playground": true,
     "toilet": null,
     "parking": true,
-    "shade": null,
     "pet": true,
     "nursing_room": null,
     "barrier_free": null
@@ -2393,7 +2338,6 @@
     "playground": true,
     "toilet": null,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": true,
     "barrier_free": null
@@ -2435,7 +2379,6 @@
     "playground": true,
     "toilet": null,
     "parking": true,
-    "shade": null,
     "pet": true,
     "nursing_room": true,
     "barrier_free": null
@@ -2478,7 +2421,6 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": true,
     "nursing_room": true,
     "barrier_free": true
@@ -2522,7 +2464,6 @@
     "playground": true,
     "toilet": null,
     "parking": true,
-    "shade": null,
     "pet": true,
     "nursing_room": null,
     "barrier_free": null
@@ -2564,7 +2505,6 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": true,
     "barrier_free": true
@@ -2613,7 +2553,6 @@
     "playground": null,
     "toilet": null,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": null
@@ -2653,7 +2592,6 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -2696,7 +2634,6 @@
     "playground": null,
     "toilet": null,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": null
@@ -2734,7 +2671,6 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -2777,7 +2713,6 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -2820,7 +2755,6 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -2862,7 +2796,6 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -2905,7 +2838,6 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -2948,7 +2880,6 @@
     "playground": null,
     "toilet": true,
     "parking": false,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -2990,7 +2921,6 @@
     "playground": true,
     "toilet": true,
     "parking": false,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": null
@@ -3033,7 +2963,6 @@
     "playground": true,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -3075,7 +3004,6 @@
     "playground": true,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -3117,7 +3045,6 @@
     "playground": true,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -3159,7 +3086,6 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": null
@@ -3202,7 +3128,6 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -3250,7 +3175,6 @@
     "playground": null,
     "toilet": null,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": null
@@ -3288,7 +3212,6 @@
     "playground": true,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -3330,7 +3253,6 @@
     "playground": true,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -3372,7 +3294,6 @@
     "playground": null,
     "toilet": null,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": null
@@ -3410,7 +3331,6 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -3452,7 +3372,6 @@
     "playground": true,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -3494,7 +3413,6 @@
     "playground": null,
     "toilet": true,
     "parking": false,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -3536,7 +3454,6 @@
     "playground": null,
     "toilet": true,
     "parking": false,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -3578,7 +3495,6 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -3626,7 +3542,6 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -3668,7 +3583,6 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -3711,7 +3625,6 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -3753,7 +3666,6 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -3796,7 +3708,6 @@
     "playground": true,
     "toilet": null,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": null
@@ -3836,7 +3747,6 @@
     "playground": true,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -3878,7 +3788,6 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -3926,7 +3835,6 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -3973,7 +3881,6 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -4015,7 +3922,6 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -4057,7 +3963,6 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -4104,7 +4009,6 @@
     "playground": null,
     "toilet": true,
     "parking": false,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -4151,7 +4055,6 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -4193,7 +4096,6 @@
     "playground": true,
     "toilet": true,
     "parking": null,
-    "shade": true,
     "pet": null,
     "nursing_room": null,
     "barrier_free": null
@@ -4201,8 +4103,7 @@
    "facility_notes": {
     "playground": "ブランコ・すべり台・砂場など（2021年の市データ）",
     "toilet": "2か所（2021年の市データ）",
-    "parking": "有料施設の利用者用の駐車場のみ記載（2021年の市データ）。一般利用は未確認",
-    "shade": "あずまや5基（2021年の市データ）"
+    "parking": "有料施設の利用者用の駐車場のみ記載（2021年の市データ）。一般利用は未確認"
    },
    "checked_at": "2026-11-23",
    "check_method": "公式ページ・オープンデータ等の公開情報",
@@ -4236,7 +4137,6 @@
     "playground": true,
     "toilet": true,
     "parking": true,
-    "shade": true,
     "pet": null,
     "nursing_room": null,
     "barrier_free": null
@@ -4244,8 +4144,7 @@
    "facility_notes": {
     "playground": "すべり台・砂場・健康遊具（2021年の市データ）",
     "toilet": "1か所（2021年の市データ）",
-    "parking": "駐車場あり（2021年の市データ）。台数・料金は未確認",
-    "shade": "あずまや2基（2021年の市データ）"
+    "parking": "駐車場あり（2021年の市データ）。台数・料金は未確認"
    },
    "checked_at": "2026-11-23",
    "check_method": "公式ページ・オープンデータ等の公開情報",
@@ -4279,7 +4178,6 @@
     "playground": true,
     "toilet": true,
     "parking": null,
-    "shade": true,
     "pet": null,
     "nursing_room": null,
     "barrier_free": null
@@ -4287,8 +4185,7 @@
    "facility_notes": {
     "playground": "複合遊具・健康遊具（2021年の市データ）",
     "toilet": "2か所（2021年の市データ）",
-    "parking": "有料施設の利用者用の駐車場のみ記載（2021年の市データ）。一般利用は未確認",
-    "shade": "あずまや3基（2021年の市データ）"
+    "parking": "有料施設の利用者用の駐車場のみ記載（2021年の市データ）。一般利用は未確認"
    },
    "checked_at": "2026-11-23",
    "check_method": "公式ページ・オープンデータ等の公開情報",
@@ -4322,7 +4219,6 @@
     "playground": null,
     "toilet": true,
     "parking": null,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true
@@ -4363,7 +4259,6 @@
     "playground": null,
     "toilet": true,
     "parking": true,
-    "shade": null,
     "pet": null,
     "nursing_room": null,
     "barrier_free": true

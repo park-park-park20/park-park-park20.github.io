@@ -15,7 +15,7 @@
     'daito', 'izumi', 'minoh', 'mino', 'kashiwara', 'habikino', 'kadoma', 'settsu', 'takaishi', 'fujiidera',
     'higashiosaka', 'sennan', 'shijonawate', 'katano', 'osakasayama', 'hannan', 'shimamoto', 'toyono', 'nose',
     'tadaoka', 'kumatori', 'tajiri', 'misaki', 'taishi', 'kanan', 'chihayaakasaka'];
-  var FACILITY_ORDER = ['playground', 'toilet', 'parking', 'shade', 'pet', 'nursing_room', 'barrier_free'];
+  var FACILITY_ORDER = ['playground', 'toilet', 'parking', 'pet', 'nursing_room', 'barrier_free'];
   var AD_AFTER = 6; // 一覧のこの件数の後に広告枠を入れる
   var SHOW_ADS = true; // false にすると広告をすべて隠す
 
@@ -52,7 +52,7 @@
     var f = p.facilities || {}, items = [['レジャーシート', 'レジャーシート 厚手']];
     if (f.playground === true) items.push(['外あそびのおもちゃ', '外遊び おもちゃ']);
     if (f.pet === true) items.push(['犬の散歩バッグ', '犬 散歩バッグ']);
-    if (f.shade !== true) items.push(['日よけテント', 'サンシェード テント']);
+    items.push(['日よけテント', 'サンシェード テント']);
     var season = SEASON_ITEMS[currentSeason()].items;
     for (var i = 0; items.length < 3 && i < season.length; i++) {
       if (!items.some(function (x) { return x[1] === season[i][1]; })) items.push(season[i]);
