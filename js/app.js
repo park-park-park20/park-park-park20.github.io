@@ -15,7 +15,8 @@
     'daito', 'izumi', 'minoh', 'mino', 'kashiwara', 'habikino', 'kadoma', 'settsu', 'takaishi', 'fujiidera',
     'higashiosaka', 'sennan', 'shijonawate', 'katano', 'osakasayama', 'hannan', 'shimamoto', 'toyono', 'nose',
     'tadaoka', 'kumatori', 'tajiri', 'misaki', 'taishi', 'kanan', 'chihayaakasaka'];
-  var FACILITY_ORDER = ['playground', 'toilet', 'parking', 'pet', 'nursing_room', 'barrier_free'];
+  var FACILITY_ORDER = ['playground', 'toilet', 'parking', 'pet', 'dog_run', 'nursing_room', 'barrier_free'];
+  var CHIP_LABELS = { dog_run: 'ドッグラン有' }; // 絞り込みボタンだけの表記（オーナー指定）
   var AD_AFTER = 6; // 一覧のこの件数の後に広告枠を入れる
   var SHOW_ADS = true; // false にすると広告をすべて隠す
 
@@ -428,7 +429,7 @@
   function bind() {
     var chips = $('facility-chips');
     chips.innerHTML = FACILITY_ORDER.map(function (k) {
-      return '<button type="button" class="chip" aria-pressed="false" data-fac="' + k + '">' + esc(state.labels[k] || k) + '</button>';
+      return '<button type="button" class="chip" aria-pressed="false" data-fac="' + k + '">' + esc(CHIP_LABELS[k] || state.labels[k] || k) + '</button>';
     }).join('');
     chips.addEventListener('click', function (e) {
       var b = e.target.closest('[data-fac]');
